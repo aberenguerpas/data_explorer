@@ -1,0 +1,75 @@
+{
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0
+    },
+    "mappings": {
+      "properties": {
+        "identifier": {
+          "type": "keyword"
+        },
+        "id_custom": {
+          "type": "text"
+        },
+        "img": {
+          "type": "text",
+          "index": false
+        },
+        "title": {
+          "type": "text"
+        },
+        "description": {
+          "type": "text"
+        },
+        "theme": {
+          "type": "keyword"
+        },
+        "resources": {
+          "type": "nested",
+          "properties": {
+            "name": {
+              "type": "text"
+            },
+            "downloadUrl": {
+              "type": "text",
+              "index": false
+            },
+            "mediaType": {
+              "type": "keyword"
+            },
+            "size": {
+              "type": "text"
+            }
+          }
+        },
+        "modified": {
+          "type": "text"
+        },
+        "issued": {
+          "type": "text"
+        },
+        "license": {
+          "type": "keyword",
+          "index": false
+        },
+        "source": {
+          "type": "keyword",
+          "index": false
+        },
+        "temporal": {
+          "type": "object",
+          "properties": {
+            "startDate": {
+              "type": "text"
+            },
+            "endDate": {
+              "type": "text"
+            }
+          }
+        },
+        "geo": {
+          "type": "text"
+        }
+      }
+    }
+  }

@@ -1,0 +1,5 @@
+.vscode
+/datos
+datos.zip
+/backend/indexs/
+.env/

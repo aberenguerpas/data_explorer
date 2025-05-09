@@ -13,7 +13,6 @@
             </div>
             <hr>
             <span class="m-4 text-center md:text-left" v-if="total > 0">Resultados: {{ total }}</span>
-            <a href="https://inferia.io" class="m-2 md:m-0 md:mt-2 text-sm text-sky-800 cursor-pointer text-center underline hover:text-sky-600">Únete a la lista de espera para disfrutar del producto completo</a>
 
             <div v-if="loading==false" class="mt-4">
                 <div v-if="total == 0" class="bg-white h-full rounded-2xl p-4">

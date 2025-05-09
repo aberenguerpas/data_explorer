@@ -9,7 +9,7 @@
           width="200"
         /></a>
       </div>
-        <span class="text-xs color-gray mb-8">Demo datos.gob.es - V1.0.2</span>
+        <span class="text-xs color-gray mb-8">Demo datos.gob.es - V1.0.3</span>
     </div>
     <SearchBar class="m-2 w-4/5" @keyup.enter="search"/>
   </main>

@@ -1,0 +1,64 @@
+{
+    "identifier": "a16003011-disposicion-y-uso-de-una-segunda-residencia-para-vacaciones-y-escapadas-de-la-ciudadania-vasca-de-18-y-mas-anos-por-sexo-y-edad",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Disposición y uso de una segunda residencia para vacaciones y escapadas de la ciudadanía vasca de 18 y más años por sexo y edad .",
+    "file_name": "a16003011-disposicion-y-uso-de-una-segunda-residencia-para-vacaciones-y-escapadas-de-la-ciudadania-vasca-de-18-y-mas-anos-por-sexo-y-edad-gob-Disposición_y_uso_de_una_segunda_residencia_para_vacaciones_y_escapadas_de_la_ciudadanía_vasca_de_18_y_más_años_por_sexo_y_edad_.",
+    "description": "La operación estadística ¿Hábitos turísticos y percepción sobre el turismo receptor¿ tiene como objetivo fundamental analizar, describir y monitorizar los hábitos turísticos de la población residente en la C.A. de Euskadi, así como conocer las opiniones y actitudes de la ciudadanía ante la llegada de personas visitantes, pudiendo asimismo establecer la importancia atribuida por la sociedad al valor económico que constituye la actividad turística. Más información en el https://www.euskadi.eus/sociedad-vasca/web01-a2behtur/es/\">Observatorio Turístico de Euskadi",
+    "theme": "turismo",
+    "resources": [
+        {
+            "name": "xls0023613_c",
+            "downloadUrl": "https://www.eustat.eus/elementos/xls0023613_c.csv",
+            "mediaType": "text/csv",
+            "size": 1587.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/xls0023613_c.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "iso8859-1",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "field1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "field2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "field3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "field4",
+                        "type": "string"
+                    },
+                    {
+                        "name": "field5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "field6",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "jue, 07 nov 2024 23:00:00 GMT+0000",
+    "issued": "jue, 07 nov 2024 23:00:00 GMT+0000",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "Pais Vasco"
+}

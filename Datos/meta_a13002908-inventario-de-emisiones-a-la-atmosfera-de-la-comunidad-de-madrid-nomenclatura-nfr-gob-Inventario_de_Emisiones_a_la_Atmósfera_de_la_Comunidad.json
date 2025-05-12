@@ -1,0 +1,65 @@
+{
+    "identifier": "a13002908-inventario-de-emisiones-a-la-atmosfera-de-la-comunidad-de-madrid-nomenclatura-nfr",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Inventario de Emisiones a la Atmósfera de la Comunidad de Madrid ",
+    "file_name": "a13002908-inventario-de-emisiones-a-la-atmosfera-de-la-comunidad-de-madrid-nomenclatura-nfr-gob-Inventario_de_Emisiones_a_la_Atmósfera_de_la_Comunidad_de_Madrid_",
+    "description": "Datos de emisiones a la atmósfera de las sustancias incluidas en el Inventario de Emisiones a la Atmósfera de la Comunidad de Madrid, por sectores de actividad, según la clasificación NFR (Nomenclature For Reporting). Serie histórica desde 1990. La serie completa se recalcula anualmente con la metodología más actual.Puede consultar las emisiones a la atmósfera según la clasificación SNAP en el conjunto de datos: Inventario de Emisiones a la Atmósfera de la Comunidad de Madrid (nomenclatura SNAP) https://datos.comunidad.madrid/dataset/atmosfera_inventario_emisionesLas emisiones de gases de efecto invernadero pueden consultarse en el conjunto de datos: Inventario de emisiones de gases de efecto invernadero de la Comunidad de Madrid https://datos.comunidad.madrid/dataset/atm_inventario_gei",
+    "theme": "sector-publico",
+    "resources": [
+        {
+            "name": "atm_inventario_emisiones_nfr",
+            "language": "es",
+            "downloadUrl": "https://datos.comunidad.madrid/dataset/62324fbd-4ec7-445b-8f8d-94f34b2f5c84/resource/d2798eda-2d95-4346-8198-551e81b70c18/download/atm_inventario_emisiones_nfr.csv",
+            "mediaType": "text/csv",
+            "size": 790226.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/atm_inventario_emisiones_nfr.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "iso8859-1",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "atm_inventario_año",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "atm_inventario_sector_GNFR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "atm_inventario_sector_NFR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "atm_inventario_actividad_NFR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "atm_inventario_contaminante",
+                        "type": "string"
+                    },
+                    {
+                        "name": "atm_inventario_cantidad_kt",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 15 abr 2025 13:23:32 GMT+0000",
+    "issued": "mar, 15 abr 2025 13:23:26 GMT+0000",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode.es",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "Madrid"
+}

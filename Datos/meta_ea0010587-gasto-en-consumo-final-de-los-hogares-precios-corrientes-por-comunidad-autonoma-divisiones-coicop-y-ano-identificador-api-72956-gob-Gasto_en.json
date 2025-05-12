@@ -1,0 +1,95 @@
+{
+    "identifier": "ea0010587-gasto-en-consumo-final-de-los-hogares-precios-corrientes-por-comunidad-autonoma-divisiones-coicop-y-ano-identificador-api-72956",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Gasto en Consumo Final de los Hogares  por comunidad autónoma, Divisiones COICOP y año. ",
+    "file_name": "ea0010587-gasto-en-consumo-final-de-los-hogares-precios-corrientes-por-comunidad-autonoma-divisiones-coicop-y-ano-identificador-api-72956-gob-Gasto_en_Consumo_Final_de_los_Hogares__por_comunidad_autónoma,_Divisiones_COICOP_y_año._",
+    "description": "Tabla de INEbase\nGasto en Consumo Final de los Hogares (precios corrientes) por comunidad autónoma, Divisiones COICOP y año. Contabilidad Regional de España",
+    "theme": "economia",
+    "resources": [
+        {
+            "name": "72956",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bdsc/72956.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/72956.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": "\t"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Comunidad autónoma",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Divisiones COICOP",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Año",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "72956",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bd/72956.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/72956.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": "\t"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Comunidad autónoma",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Divisiones COICOP",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Año",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "vie, 25 abr 2025 11:00:03 GMT+0000",
+    "issued": null,
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

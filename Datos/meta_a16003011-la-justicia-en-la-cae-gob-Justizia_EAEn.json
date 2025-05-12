@@ -1,0 +1,27 @@
+{
+    "identifier": "a16003011-la-justicia-en-la-cae",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "La justicia en la CAE",
+    "file_name": "a16003011-la-justicia-en-la-cae-gob-Justizia_EAEn",
+    "description": "Recopilación de datos estadísticos más relevantes en el ámbito de la Administración de Justicia en Euskadi.",
+    "theme": "legislacion-justicia",
+    "resources": [
+        {
+            "name": "Justizia EAEn",
+            "language": "eu",
+            "downloadUrl": "https://opendata.euskadi.eus/contenidos/estadistica/justicia_cae/opendata/es-data-csv.zip",
+            "mediaType": "text/csv",
+            "size": 1905.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/es-data-csv.zip"
+        }
+    ],
+    "modified": "lun, 10 feb 2025 23:00:00 GMT+0000",
+    "issued": "lun, 10 feb 2025 23:00:00 GMT+0000",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "Pais Vasco"
+}

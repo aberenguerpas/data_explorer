@@ -1,0 +1,235 @@
+{
+    "identifier": "la0010696-matriz-origen-destino-de-transporte-publico-de-la-isla-de-tenerife-de-febrero-de-2025",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Matriz Origen-Destino de transporte público de la isla de Tenerife de febrero de 2025",
+    "file_name": "la0010696-matriz-origen-destino-de-transporte-publico-de-la-isla-de-tenerife-de-febrero-de-2025-gob-Matriz_Origen-Destino_de_transporte_público_de_la_isla_de_Tenerife_de_febrero_de_2025",
+    "description": "Matriz origen-destino que muestra las relaciones entre los lugares de origen y destino de los viajes realizados por la población utilizando el transporte público en la isla de Tenerife. Es una colección estructurada de datos que registra toda la información del viaje de una persona en transporte público, desde la parada inicial hasta la final, incluyendo los trasbordos.  Los datos de esta matriz provienen del servicio de transporte público proporcionado por: Transportes Interurbanos de Tenerife - TITSA, Metropolitano de Tenerife - MTSA y Transportes La Esperanza - TLE.",
+    "theme": "transporte",
+    "resources": [
+        {
+            "name": "paradas-de-transporte-publico-en-matriz-o-d",
+            "language": "es",
+            "downloadUrl": "https://datos.tenerife.es/ckan/dataset/d30f2fb2-d27c-4e67-ab75-5e16f13c0baf/resource/d343d37f-641d-4313-ad09-9d2de9e8b614/download/paradas-de-transporte-publico-en-matriz-o-d.csv",
+            "mediaType": "text/csv",
+            "size": 842616.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/paradas-de-transporte-publico-en-matriz-o-d.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "parada_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "parada_nombre",
+                        "type": "string"
+                    },
+                    {
+                        "name": "parada_utm_x",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "parada_utm_y",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "parada_latitud",
+                        "type": "number"
+                    },
+                    {
+                        "name": "parada_longitud",
+                        "type": "number"
+                    },
+                    {
+                        "name": "parada_direccion",
+                        "type": "string"
+                    },
+                    {
+                        "name": "parada_codigo_postal",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "municipio_nombre",
+                        "type": "string"
+                    },
+                    {
+                        "name": "parada_zona",
+                        "type": "string"
+                    },
+                    {
+                        "name": "parada_comarca",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zona_telefonia_id",
+                        "type": "number"
+                    },
+                    {
+                        "name": "zona_censal_id",
+                        "type": "number"
+                    },
+                    {
+                        "name": "parada_altitud",
+                        "type": "number"
+                    },
+                    {
+                        "name": "TIPO_PARADA",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "lineas-de-transporte-publico-en-matriz-o-d-febrero-2025",
+            "language": "es",
+            "downloadUrl": "https://datos.tenerife.es/ckan/dataset/d30f2fb2-d27c-4e67-ab75-5e16f13c0baf/resource/f512be77-0cd6-493c-b15a-456b51ffbfe9/download/lineas-de-transporte-publico-en-matriz-o-d-febrero-2025.csv",
+            "mediaType": "text/csv",
+            "size": 24238.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/lineas-de-transporte-publico-en-matriz-o-d-febrero-2025.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "linea_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "linea_nombre",
+                        "type": "string"
+                    },
+                    {
+                        "name": "linea_abreviatura",
+                        "type": "string"
+                    },
+                    {
+                        "name": "linea_zona",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zona_grupo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "linea_grupo_tipologia",
+                        "type": "string"
+                    },
+                    {
+                        "name": "linea_empresa",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "titulos-de-transporte-publico-en-matriz-o-d",
+            "language": "es",
+            "downloadUrl": "https://datos.tenerife.es/ckan/dataset/d30f2fb2-d27c-4e67-ab75-5e16f13c0baf/resource/23f4cac1-ae92-411c-b15a-ec4e6fff8885/download/titulos-de-transporte-publico-en-matriz-o-d.csv",
+            "mediaType": "text/csv",
+            "size": 5598.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/titulos-de-transporte-publico-en-matriz-o-d.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "titulo_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "titulo_descripcion",
+                        "type": "string"
+                    },
+                    {
+                        "name": "titulo_grupo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "titulo_subgrupo",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "matriz-o-d-de-transporte-publico-en-dias-no-laborables",
+            "language": "es",
+            "downloadUrl": "https://datos.tenerife.es/ckan/dataset/d30f2fb2-d27c-4e67-ab75-5e16f13c0baf/resource/c649ffcc-d207-4705-9b9a-9c48609ec5ab/download/matriz-o-d-de-transporte-publico-en-dias-no-laborables.csv",
+            "mediaType": "text/csv",
+            "size": 67399846.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/matriz-o-d-de-transporte-publico-en-dias-no-laborables.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "linea_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "titulo_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "viaje_hora",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "parada_entrada_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "parada_salida_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "pasajeros_cantidad",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "tipo_dia",
+                        "type": "string"
+                    },
+                    {
+                        "name": "fechas_calculadas",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "linea_siguiente_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "linea_anterior_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "matriz_id",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 29 abr 2025 09:44:14 GMT+0000",
+    "issued": "mar, 29 abr 2025 09:11:16 GMT+0000",
+    "license": "http://www.opendefinition.org/licenses/cc-by",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": null
+}

@@ -1,0 +1,40 @@
+{
+    "identifier": "l01280796-calidad-del-aire-datos-en-tiempo-real-acumulado",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Calidad del aire. Datos en tiempo real acumulado",
+    "file_name": "l01280796-calidad-del-aire-datos-en-tiempo-real-acumulado-gob-Calidad_del_aire._Datos_en_tiempo_real_acumulado",
+    "description": "El Sistema Integral de la Calidad del Aire del Ayuntamiento de Madrid permite conocer en cada momento los niveles de contaminación atmosférica en el municipio.   En este conjunto de datos puede obtener la información actualizada en tiempo real acumulada que irá ampliándose hasta los últimos 30 días,  actualizándose estos datos cada 20 minutos, y esta actualización se realizará en los minutos 15, 35 y 55.     Importante: estos datos en tiempo real son los que salen automáticamente de las estaciones de medición y están pendientes de revisión y validación. Ver el fichero 'Interpretación de datos de calidad del aire' que se encuentra más abajo en la sección 'documentación asociada'.    En este portal tambien están disponibles otros conjuntos de datos relacionados con la calidad del aire:      Calidad del aire: Datos horarios desde 2001     Calidad del aire: Datos diarios desde 2001     Calidad del aire: Estaciones de control      Asímismo, puedes encontrar más información sobre estos datos en el  Portal de transparencia &gt; Aire .   También puede consultar los datos de calidad del aire en el   Mapa de la Red Vigilancia de la Calidad del Aire del Ayuntamiento de Madrid",
+    "theme": "medio-ambiente",
+    "resources": [
+        {
+            "name": "Calidad del aire. Tiempo real csv",
+            "language": "es",
+            "downloadUrl": "https://datos.madrid.es/egob/catalogo/300755-12751583-calidad-aire-tiempo-real-acumula.csv",
+            "mediaType": "text/csv",
+            "size": null
+        },
+        {
+            "name": "Calidad del aire. Tiempo real acumulado json",
+            "language": "es",
+            "downloadUrl": "https://datos.madrid.es/egob/catalogo/300755-12751586-calidad-aire-tiempo-real-acumula.csv",
+            "mediaType": "text/csv",
+            "size": null
+        },
+        {
+            "name": "Calidad del aire. Tiempo real xml",
+            "language": "es",
+            "downloadUrl": "https://datos.madrid.es/egob/catalogo/300755-12751591-calidad-aire-tiempo-real-acumula.csv",
+            "mediaType": "text/csv",
+            "size": null
+        }
+    ],
+    "modified": "mié, 09 abr 2025 22:00:00 GMT+0000",
+    "issued": "mié, 09 abr 2025 22:00:00 GMT+0000",
+    "license": "https://datos.madrid.es/egob/catalogo/aviso-legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "Madrid"
+}

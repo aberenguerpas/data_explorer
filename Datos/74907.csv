@@ -1,0 +1,101 @@
+﻿Sexo	Diagnóstico principal (CIE10MC)	Provincia, Comunidad y Ciudad autónoma de hospitalización	Total
+Ambos sexos	0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Sevilla	1.217.524
+Ambos sexos	0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	CANTABRIA	671.629
+Ambos sexos	0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Zamora	110.719
+Ambos sexos	0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Lleida	740.146
+Ambos sexos	0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Coruña, A	983.746
+Ambos sexos	0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Gipuzkoa	838.779
+Ambos sexos	0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	Huelva	18.519
+Ambos sexos	0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	CANARIAS	145.852
+Ambos sexos	0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	Segovia	6.269
+Ambos sexos	0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	CATALUÑA	341.719
+Ambos sexos	0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	Badajoz	20.794
+Ambos sexos	0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	PAÍS VASCO	80.265
+Ambos sexos	0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	Cádiz	3.134
+Ambos sexos	0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	Zaragoza	3.557
+Ambos sexos	0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	León	1.837
+Ambos sexos	0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	Cuenca	406
+Ambos sexos	0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	Castellón/Castelló	1.545
+Ambos sexos	0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	MADRID, COMUNIDAD DE	24.961
+Ambos sexos	0102 Infecciones intestinales mal definidas A09	TOTAL NACIONAL	47.063
+Ambos sexos	0102 Infecciones intestinales mal definidas A09	ARAGÓN	1.575
+Ambos sexos	0102 Infecciones intestinales mal definidas A09	CASTILLA Y LEÓN	2.740
+Ambos sexos	0102 Infecciones intestinales mal definidas A09	CASTILLA - LA MANCHA	1.473
+Ambos sexos	0102 Infecciones intestinales mal definidas A09	Tarragona	1.497
+Ambos sexos	0102 Infecciones intestinales mal definidas A09	Lugo	408
+Ambos sexos	0102 Infecciones intestinales mal definidas A09	RIOJA, LA	170
+Ambos sexos	0103 Tuberculosis A15-A19, B90	Jaén	198
+Ambos sexos	0103 Tuberculosis A15-A19, B90	Palmas, Las	892
+Ambos sexos	0103 Tuberculosis A15-A19, B90	Soria	262
+Ambos sexos	0103 Tuberculosis A15-A19, B90	Barcelona	26.414
+Ambos sexos	0103 Tuberculosis A15-A19, B90	Cáceres	157
+Ambos sexos	0103 Tuberculosis A15-A19, B90	Araba/Álava	458
+Ambos sexos	0104 Septicemia A40-A41	Córdoba	8.979
+Ambos sexos	0104 Septicemia A40-A41	ASTURIAS, PRINCIPADO DE	15.228
+Ambos sexos	0104 Septicemia A40-A41	Palencia	3.205
+Ambos sexos	0104 Septicemia A40-A41	Guadalajara	3.517
+Ambos sexos	0104 Septicemia A40-A41	Valencia/València	37.002
+Ambos sexos	0104 Septicemia A40-A41	MURCIA, REGIÓN DE	27.256
+Ambos sexos	0105 Infección del virus de la inmunodeficiencia humana B20	ANDALUCÍA	4.402
+Ambos sexos	0105 Infección del virus de la inmunodeficiencia humana B20	Huesca	135
+Ambos sexos	0105 Infección del virus de la inmunodeficiencia humana B20	Ávila	15
+Ambos sexos	0105 Infección del virus de la inmunodeficiencia humana B20	Albacete	68
+Ambos sexos	0105 Infección del virus de la inmunodeficiencia humana B20	COMUNITAT VALENCIANA	2.522
+Ambos sexos	0105 Infección del virus de la inmunodeficiencia humana B20	Ourense	70
+Ambos sexos	0105 Infección del virus de la inmunodeficiencia humana B20	Ceuta	86
+Ambos sexos	0106 COVID-19 U07.1, U09.9	Málaga	11.974
+Ambos sexos	0106 COVID-19 U07.1, U09.9	Santa Cruz de Tenerife	24.719
+Ambos sexos	0106 COVID-19 U07.1, U09.9	Valladolid	7.338
+Ambos sexos	0106 COVID-19 U07.1, U09.9	Girona	7.965
+Ambos sexos	0106 COVID-19 U07.1, U09.9	GALICIA	44.890
+Ambos sexos	0106 COVID-19 U07.1, U09.9	Bizkaia	13.418
+Ambos sexos	0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	Granada	3.047
+Ambos sexos	0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	BALEARS, ILLES	7.795
+Ambos sexos	0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	Salamanca	1.870
+Ambos sexos	0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	Toledo	2.456
+Ambos sexos	0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	EXTREMADURA	5.409
+Ambos sexos	0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	NAVARRA, COMUNIDAD FORAL DE	2.643
+Ambos sexos	0200 NEOPLASIAS C00-D49	Almería	39.843
+Ambos sexos	0200 NEOPLASIAS C00-D49	Teruel	6.926
+Ambos sexos	0200 NEOPLASIAS C00-D49	Burgos	30.446
+Ambos sexos	0200 NEOPLASIAS C00-D49	Ciudad Real	31.181
+Ambos sexos	0200 NEOPLASIAS C00-D49	Alicante/Alacant	131.014
+Ambos sexos	0200 NEOPLASIAS C00-D49	Pontevedra	72.854
+Ambos sexos	0200 NEOPLASIAS C00-D49	Melilla	2.876
+Ambos sexos	0201 Neoplasias malignas de colon, recto y ano  C18-C21	Sevilla	16.172
+Ambos sexos	0201 Neoplasias malignas de colon, recto y ano  C18-C21	CANTABRIA	5.357
+Ambos sexos	0201 Neoplasias malignas de colon, recto y ano  C18-C21	Zamora	2.212
+Ambos sexos	0201 Neoplasias malignas de colon, recto y ano  C18-C21	Lleida	7.220
+Ambos sexos	0201 Neoplasias malignas de colon, recto y ano  C18-C21	Coruña, A	13.604
+Ambos sexos	0201 Neoplasias malignas de colon, recto y ano  C18-C21	Gipuzkoa	4.561
+Ambos sexos	0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	Huelva	2.683
+Ambos sexos	0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	CANARIAS	13.863
+Ambos sexos	0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	Segovia	839
+Ambos sexos	0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	CATALUÑA	78.957
+Ambos sexos	0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	Badajoz	5.296
+Ambos sexos	0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	PAÍS VASCO	14.754
+Ambos sexos	0203 Melanoma y otras neoplasias malignas de la piel C43-C44	Cádiz	875
+Ambos sexos	0203 Melanoma y otras neoplasias malignas de la piel C43-C44	Zaragoza	970
+Ambos sexos	0203 Melanoma y otras neoplasias malignas de la piel C43-C44	León	725
+Ambos sexos	0203 Melanoma y otras neoplasias malignas de la piel C43-C44	Cuenca	28
+Ambos sexos	0203 Melanoma y otras neoplasias malignas de la piel C43-C44	Castellón/Castelló	284
+Ambos sexos	0203 Melanoma y otras neoplasias malignas de la piel C43-C44	MADRID, COMUNIDAD DE	3.137
+Ambos sexos	0204 Neoplasia maligna de la mama  C50	TOTAL NACIONAL	111.465
+Ambos sexos	0204 Neoplasia maligna de la mama  C50	ARAGÓN	3.614
+Ambos sexos	0204 Neoplasia maligna de la mama  C50	CASTILLA Y LEÓN	6.955
+Ambos sexos	0204 Neoplasia maligna de la mama  C50	CASTILLA - LA MANCHA	3.092
+Ambos sexos	0204 Neoplasia maligna de la mama  C50	Tarragona	1.943
+Ambos sexos	0204 Neoplasia maligna de la mama  C50	Lugo	582
+Ambos sexos	0204 Neoplasia maligna de la mama  C50	RIOJA, LA	897
+Ambos sexos	0205 Neoplasia maligna del útero C53-C55	Jaén	549
+Ambos sexos	0205 Neoplasia maligna del útero C53-C55	Palmas, Las	1.600
+Ambos sexos	0205 Neoplasia maligna del útero C53-C55	Soria	24
+Ambos sexos	0205 Neoplasia maligna del útero C53-C55	Barcelona	7.260
+Ambos sexos	0205 Neoplasia maligna del útero C53-C55	Cáceres	469
+Ambos sexos	0205 Neoplasia maligna del útero C53-C55	Araba/Álava	367
+Ambos sexos	0206 Neoplasia maligna del ovario C56	Córdoba	838
+Ambos sexos	0206 Neoplasia maligna del ovario C56	ASTURIAS, PRINCIPADO DE	1.269
+Ambos sexos	0206 Neoplasia maligna del ovario C56	Palencia	125
+Ambos sexos	0206 Neoplasia maligna del ovario C56	Guadalajara	80
+Ambos sexos	0206 Neoplasia maligna del ovario C56	Valencia/València	2.125
+Ambos sexos	0206 Neoplasia maligna del ovario C56	MURCIA, REGIÓN DE	1.000

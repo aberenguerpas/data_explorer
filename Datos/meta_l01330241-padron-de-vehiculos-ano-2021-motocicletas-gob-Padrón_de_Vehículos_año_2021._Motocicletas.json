@@ -1,0 +1,44 @@
+{
+    "identifier": "l01330241-padron-de-vehiculos-ano-2021-motocicletas",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Padrón de Vehículos año 2021. Motocicletas",
+    "file_name": "l01330241-padron-de-vehiculos-ano-2021-motocicletas-gob-Padrón_de_Vehículos_año_2021._Motocicletas",
+    "description": "Este conjunto de datos contiene información sobre los vehículos empadronados en Gijón tipo: Motocicletas, en el año 2021. También están disponibles otros conjuntos de datos relacionados con el Padrón de Vehículos por anualidades, desde el año 2021, y para cada uno de los siguientes vehículos: Turismos. Autobuses. Camiones. Tractores. Remolques. Semirremolques. Motocicletas. Ciclomotores.",
+    "theme": "transporte",
+    "resources": [
+        {
+            "name": "1000",
+            "language": "es",
+            "downloadUrl": "https://opendata.gijon.es/descargar.php?id=1000&tipo=CSV",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/1000.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "MODELO",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CC",
+                        "type": "number"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mié, 09 abr 2025 07:59:21 GMT+0000",
+    "issued": "mié, 09 abr 2025 07:59:21 GMT+0000",
+    "license": "http://creativecommons.org/licenses/by/3.0/es",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": null
+}

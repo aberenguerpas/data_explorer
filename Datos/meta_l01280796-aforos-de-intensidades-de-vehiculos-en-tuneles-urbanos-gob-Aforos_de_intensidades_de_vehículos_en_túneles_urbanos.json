@@ -1,0 +1,89 @@
+{
+    "identifier": "l01280796-aforos-de-intensidades-de-vehiculos-en-tuneles-urbanos",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Aforos de intensidades de vehículos en túneles urbanos",
+    "file_name": "l01280796-aforos-de-intensidades-de-vehiculos-en-tuneles-urbanos-gob-Aforos_de_intensidades_de_vehículos_en_túneles_urbanos",
+    "description": "En este conjunto de datos se proporciona la información de la intensidad horaria de los vehículos que circulan por los túneles urbanos y que disponen se encuentran conectados con el Centro de Control para su gestión y vigilancia en tiempo real, con una distribución de los datos de las intensidades medias diarias y horarias para distintos tipos de días como laborables o festivos.   Para obtener los aforos de vehículos en el interior del túnel se disponen a lo largo de todo su recorrido diferentes estaciones de medida para controlar tanto el número como la velocidad, tipología de vehículo, nivel de servicio y otros parámetros necesarios para la explotación correcta de esta infraestructura, en la información disponible se proporcionan datos de 102 estaciones. Para ello se utilizan diferentes tecnologías como el uso de cámaras con inteligencia artificial, espiras electromagnéticas embebidas en el pavimento, cámaras de lectura de matrículas, así como campañas de conteo manual para el control y verificación de la calidad de los datos.   La información suministrada se compone para cada túnel y día de control ya sea laborable o festivo el valor horario medio de la intensidad de vehículos que son el número de vehículos que pasan por un punto del túnel a lo largo de una hora. Se efectúan los valores medios ponderados de todas las que se corresponden con el mismo tubo o sentido de circulación, por ello para todos los túneles se proporciona un valor único por tubo y sentido de circulación, además en aquellos túneles en los que existen múltiples entradas y salidas se proporciona el valor de todas ellas para poder efectuar los correspondientes estudios de tráfico.   Los datos disponibles son los siguientes   &bull;           Un valor horario de la intensidad media horaria IMH (veh/hora) para cada de los accesos y cuya suma se corresponde con el valor de la Intensidad Media Diaria IMD (veh/día).   &bull;           Valores diferenciados para los días laborables y los días festivos.   &bull;           Valores para diferentes épocas del año (actualmente solo se ha cargado un valor tipo GENERAL correspondiente a la época general que se corresponde con fechas generales que no son fiestas, vacaciones ni días singulares)   Los datos se obtienen del sistema de control de túneles urbanos y su actualización se efectúa cada vez que existe algún condicionante por obras, cambios de movilidad, nuevas infraestructuras que generan un cambio en las circulaciones en el interior de los túneles, así como de forma programada cada seis meses se procede a su revisión y ajuste si fuese necesario.   Para la obtención del dato tipo característicos de cada túnel sección y día se utiliza un algoritmo para la combinación de todos los datos disponibles, eliminando aquellos días y periodos horarios en los que el túnel no presenta unas circulaciones ajustadas como son durante las actuaciones de mantenimiento, accidentes, desvíos de tráfico o cualquier otra circunstancia que condicione de manera puntual los datos de los sensores.",
+    "theme": "transporte",
+    "resources": [
+        {
+            "name": "300749-0-tuneles-aforos-movilidad-trafico",
+            "language": "es",
+            "downloadUrl": "https://datos.madrid.es/egob/catalogo/300749-0-tuneles-aforos-movilidad-trafico.csv",
+            "mediaType": "text/csv",
+            "size": 326656.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/300749-0-tuneles-aforos-movilidad-trafico.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "CODIGO",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TUNEL",
+                        "type": "string"
+                    },
+                    {
+                        "name": "EPOCA",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TIPO_DIA",
+                        "type": "string"
+                    },
+                    {
+                        "name": "HORA",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "SECCION_ACCESO",
+                        "type": "string"
+                    },
+                    {
+                        "name": "INTENSIDAD",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "field8",
+                        "type": "any"
+                    },
+                    {
+                        "name": "field9",
+                        "type": "any"
+                    },
+                    {
+                        "name": "field10",
+                        "type": "any"
+                    },
+                    {
+                        "name": "field11",
+                        "type": "any"
+                    },
+                    {
+                        "name": "field12",
+                        "type": "any"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 25 mar 2025 12:14:03 GMT+0000",
+    "issued": "mar, 25 mar 2025 12:13:46 GMT+0000",
+    "license": "https://datos.madrid.es/egob/catalogo/aviso-legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": null
+}

@@ -1,0 +1,145 @@
+{
+    "identifier": "l01280796-relacion-de-puestos-de-trabajo-rpt-del-ayuntamiento-de-madrid-y-organismos-autonomos-2025",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Relación de Puestos de Trabajo  del Ayuntamiento de Madrid y Organismos Autónomos 2025",
+    "file_name": "l01280796-relacion-de-puestos-de-trabajo-rpt-del-ayuntamiento-de-madrid-y-organismos-autonomos-2025-gob-Relación_de_Puestos_de_Trabajo__del_Ayuntamiento_de_Madrid_y_Organismos_Autónomos_2025",
+    "description": "Los ficheros que se incluyen a continuación muestran la relación de puestos de trabajo del  Ayuntamiento de Madrid y sus Organismos Autónomos :     Las retribuciones de los puestos de personal eventual corresponden a importe total bruto anual.   Las retribuciones de los puestos de trabajo de personal funcionario, sólo contemplan el Complemento Específico, ya que las retribuciones básicas del grupo o subgrupo de clasificación profesional y las relativas al nivel de complemento de destino, son las que vienen fijadas en la normativa estatal.     Puedes encontrar más información sobre estos datos en el Portal de transparencia &gt;  Relaciones de puestos de trabajo .",
+    "theme": "sector-publico",
+    "resources": [
+        {
+            "name": "300759-0-personal-rpt-2025",
+            "language": "es",
+            "downloadUrl": "https://datos.madrid.es/egob/catalogo/300759-0-personal-rpt-2025.csv",
+            "mediaType": "text/csv",
+            "size": 12363776.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/300759-0-personal-rpt-2025.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "iso8859-1",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Fecha de los datos",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Código de Unidad",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Descripción de la unidad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Área de gobierno/JM distrito/Org.aut.",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Coordinación general de Área de gobierno",
+                        "type": "any"
+                    },
+                    {
+                        "name": "Dirección general/Coordinación distrito",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Código de unidad adscripción puesto",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Denominación unidad adscripción puesto",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Código de puesto",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Denominación de puesto",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Nivel complemento de destino",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "C.E/Retrib",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Dotación",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Forma de provisión",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Tipo de puesto",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Administración de procedencia",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Grupo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Código de Escala",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Código de Subescala",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Código de categoría/especialidad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Requisitos/Titulación",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Observaciones",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Nombre y apellidos",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Vinculación ocupante",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Género Ocupante",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Teletrabajo",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 15 abr 2025 08:22:15 GMT+0000",
+    "issued": "mar, 15 abr 2025 08:21:29 GMT+0000",
+    "license": "https://datos.madrid.es/egob/catalogo/aviso-legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "Madrid"
+}

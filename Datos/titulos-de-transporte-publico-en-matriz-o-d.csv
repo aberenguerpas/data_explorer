@@ -1,0 +1,93 @@
+﻿titulo_id,titulo_descripcion,titulo_grupo,titulo_subgrupo
+0,Cambio Soporte Magnético....,Soporte,Monedero
+1,10 Viajes Escolares,Escolar,Monedero
+2,20 Viajes Escolares,Escolar,Monedero
+3,30 Viajes Escolares,Escolar,Monedero
+4,2 Viajes-Teresitas City Sigthseeing,Turistico,Monedero
+5,Empleado MTSA,Personal MTSA,Temporal no joven
+7,Título para ocasiones especiales. 2 dias ilimitado,Ocasiones Especiales,Temporal no joven
+8,Seguridad MTSA. Para cuerpos y fuerzas de seguridad del estado,Otros Temporal,Temporal no joven
+23,Familiar Titsa Interurbano.,Personal Titsa,Temporal no joven
+25,Familiar Titsa Urbano,Personal Titsa,Temporal no joven
+28,Jubilado de Titsa,Personal Titsa,Temporal no joven
+29,Jubilado de Titsa (Solo urbanos),Personal Titsa,Temporal no joven
+30,10 Viajes Servicio Urbano,Otros Viajes,Monedero
+33,Trayecto 10 Viajes(Colegios Urbanos),Escolar,Monedero
+35,5 viajes líneas Metropolitanas,Otros Viajes,Monedero
+36,Bono Dinero Promocion Cabildo Comercio,Comercio,Monedero
+37,IASS Baja Renta,Social,Social
+38,Social Ayuntamiento Santa Cruz,Social,Social
+40,Comercio Tradicional,Comercio,Monedero
+41,Empleados/Familiar TITSA Interurbano,Personal Titsa,Temporal no joven
+42,Empleado TITSA Urbano,Personal Titsa,Temporal no joven
+50,Sencillo,Sencillo,Monedero
+55,Ida/Vuelta TITSA (válido hoy),Otros Viajes,Monedero
+56,Vuelta TITSA,Otros Viajes,Monedero
+57,Pasajeros Lineas Gratuitas,Gratis,Monedero
+58,_Dto.B.Turís.Ida/Vuel,Turistico,Monedero
+59,_Dto.B.Turísti.Vuelta,Turistico,Monedero
+62,recargas ten+móvil (antigua Vía Móvil) // TITSA.: BIllete conductor pago viamovi,Ten+Movil,Monedero
+63,_Pack Bus Turístico Ida/Vuelta,Turistico,Monedero
+64,_Pack Bus Turístico Vuelta,Turistico,Monedero
+65,Complementario TITSA,Otros Viajes,Monedero
+69,Título de pruebas para MTSA (varios viajes).,Pruebas,Monedero
+70,Cortesía: Abono de tres días: Válido por 72 horas desde la primera validación,,Temporal no joven
+71,Cortesía: Bono 10 viajes,,Monedero
+72,1 dia. Título que permite viajar ilimitadamente hasta las 12 de la noche,Ocasiones Especiales,Temporal no joven
+73,Mensual Metropolitanas,Otros Temporal,Temporal no joven
+75,Mensual Metropolitanas,Otros Temporal,Temporal no joven
+76,Abono Transporte Joven (Mensual - Insular),Joven,Temporal joven
+77,Abono Mensual Residente Canario,Residente Canario,Temporal no joven
+78,Abono Niño menor de 10 años,Niños,Temporal no joven
+79,Mensual Mayor de 65 (SENIOR),Mayores,Social
+81,Bono Estudiante 15 euros,Estudiante,Monedero
+83,Familia Numerosa Cabildo,Familia Numerosa,Social
+84,Bono 65 12 euros.,Mayores,Social
+85,Personas de Movilidad Reducida (PMR) Cabildo,PMR,Social
+88,Bono de 25 euros. Se sustituye por el Monedero,Otros Monedero,Monedero
+89,Bono de 50 euros,Otros Monedero,Monedero
+92,PMR Ayuntamiento Santa Cruz...,PMR,Social
+93,Familia Numerosa Ayuntamiento Santa Cruz,Familia Numerosa,Social
+95,Mayores Ayuntamiento Santa Cruz,Mayores,Social
+101,Bono de pruebas,Pruebas,Monedero
+103,Borrar,Borrar,Monedero
+105,Borrar,Borrar,Temporal no joven
+106,Bono de 15 euros,Otros Monedero,Monedero
+108,Comercio Tradicional,Comercio,Monedero
+109,Borrar2,Borrar,Monedero
+110,Título para ocasiones especiales. 2 dias ilimitado,Ocasiones Especiales,Temporal no joven
+111,Título de configuración flexible para imprevistos y ocasiones especiales de MTSA,Personal Titsa,Monedero
+150,"EMV billete sencillo.
+SaldoMaximo=1 => titulo EMV por defecto (maxPurseBalance)",EMV,EMV
+155,EMV (Ida/Vuelta),EMV,EMV
+170,Mensual Discapacitado General (Discapacidad >= 50%),Discapacitado,Social
+171,Abono Turístico 1 Día,Turistico,Temporal no joven
+176,Abono Transporte Joven (Mensual - Insular),Joven,Temporal no joven
+180,* Se hace con Monedero *Trabajadores Aeropuerto - Tarifa Sin suplemento en Aerop,Trabajadores Aeropuerto,Monedero
+200,Monedero General,Otros Monedero,Monedero
+999,Permite personalización de soportes sin necesidad de incluir título adicional,Soporte,Monedero
+2049,Multa,Multa,Otros
+2050,Parking TITSA,Parking,Monedero
+2051,Multa TITSA..,Multa,Otros
+7003,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7004,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7008,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7009,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Monedero
+7010,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7011,VM Promotion,Ten+Movil,Temporal no joven
+7012,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7016,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7034,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7205,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7301,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Monedero
+7303,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Monedero
+9999,Títulos promocionales exclusivos de MTSA,Ten+Movil,Otros
+24,Familiar Titsa Interurbano,Personal Titsa,Temporal no joven
+39,Social Ayuntamiento La Laguna,Social,Social
+60,Billete sencillo tranvía,Sencillo,Monedero
+74,Semanal Metropolitanas Joven,Joven,Temporal joven
+86,Bono de 15 euros. Se sustituye por Monedero,Otros Monedero,Monedero
+107,Borrar,Borrar,Monedero
+172,Abono Turístico 1 Semana,Turistico,Temporal no joven
+7005,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Temporal no joven
+7302,Exclusivo ten+movil. Se incluye para la Compensación,Ten+Movil,Monedero

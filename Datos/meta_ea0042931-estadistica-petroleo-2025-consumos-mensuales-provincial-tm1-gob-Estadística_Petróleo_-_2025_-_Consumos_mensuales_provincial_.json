@@ -1,0 +1,33 @@
+{
+    "identifier": "ea0042931-estadistica-petroleo-2025-consumos-mensuales-provincial-tm1",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Estadística Petróleo - 2025 - Consumos mensuales provincial ",
+    "file_name": "ea0042931-estadistica-petroleo-2025-consumos-mensuales-provincial-tm1-gob-Estadística_Petróleo_-_2025_-_Consumos_mensuales_provincial_",
+    "description": "Se ofrece información sobre los consumos mensuales, expresados en toneladas métricas, de productos derivados del petróleo en España segmentados por provincia y Comunidad Autónoma.\nConsta de los siguientes productos: biodiésel (agrupa biodiesel puro y mezclas etiquetadas), gasóleo A, gasóleo B, gasóleo C, otros gasóleos (agrupa diésel y gasóleos de uso marítimo y otros gasóleos), bioetanol (agrupa bioetanol puro y mezclas etiquetadas), gasolina Auto S/PB 95 I.O., gasolina Auto S/PB 98 I.O, otras gasolinas (agrupa gasolina 97 I.O., gasolinas de aviación y otras gasolinas), fuelóleo BIA (fuelóleo de contenido en azufre inferior al 1% en peso), otros fuelóleos (agrupa fuelóleos de uso marítimo y otros fuelóleos), querosenos de aviación (agrupa Jet A-1 para aviación civil y Jet A-2 para aviación militar), otros querosenos y gases licuados del petróleo.\nFuente: Resolución de la Dirección General de Política Energética y Minas de 29 de mayo de 2007.\nhttps://www.boe.es/buscar/doc.php?id=BOE-A-2007-12750",
+    "theme": "energia",
+    "resources": [
+        {
+            "name": "ds_3390_1.csv",
+            "language": "es",
+            "downloadUrl": "https://catalogodatos.cnmc.es/dataset/24d4a6b0-842b-4b5d-8403-d0f661b77420/resource/e03eb373-0ec3-4bdd-abe4-6eecf50a0c9a/download/ds_3390_1.csv",
+            "mediaType": "text/csv",
+            "size": 37517.0
+        },
+        {
+            "name": "3390_1",
+            "language": "es",
+            "downloadUrl": "https://catalogodatos.cnmc.es/datastore/dump/fc091e43-3f59-4f50-89d9-e94d7afc7462",
+            "mediaType": "text/csv",
+            "size": null
+        }
+    ],
+    "modified": "dom, 27 abr 2025 22:00:00 GMT+0000",
+    "issued": "dom, 27 abr 2025 22:00:00 GMT+0000",
+    "license": "https://data.cnmc.es/condiciones-de-uso",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": null
+}

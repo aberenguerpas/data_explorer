@@ -1,0 +1,40 @@
+{
+    "identifier": "l01280796-datos-meteorologicos-datos-en-tiempo-real-acumulado",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Datos meteorológicos. Datos en tiempo real acumulado",
+    "file_name": "l01280796-datos-meteorologicos-datos-en-tiempo-real-acumulado-gob-Datos_meteorológicos._Datos_en_tiempo_real_acumulado",
+    "description": "El  Ayuntamiento de Madrid permite conocer en cada momento los datos meteorológicos del municipio.   En este conjunto de datos puede obtener la información actualizada en tiempo real,  actualizándose estos datos cada 20 minutos, y esta actualización se realizará en los minutos 15, 35 y 55.     Importante: estos datos en tiempo real son los que salen automáticamente de las estaciones de medición y están pendientes de revisión y validación. Ver el fichero 'Interpretación de datos metereológicos' que se encuentra más abajo en la sección 'documentación asociada'.    Toda la información relacionada la puede revisar tambien en la  Web calidad del aire  así como también ver  el mapa de la red meteorológica.    En este portal tambien están disponibles otros conjuntos de datos relacionados con la calidad del aire:      Datos meteorológicos. Datos diarios desde 2019 .    Datos meteorológicos. Datos horarios desde 2019 .    Datos meteorológicos. Estaciones de control.      A través del Portal de Visualizaciones ' Visualiza Madrid con Datos Abiertos' , el Ayuntamiento de Madrid pone a tu disposición una visualización realizada con datos abiertos de Datos meteorológicos.          Acceder a la visualización de Datos meteorológicos",
+    "theme": "medio-ambiente",
+    "resources": [
+        {
+            "name": "Datos metereológicos. Tiempo real csv",
+            "language": "es",
+            "downloadUrl": "https://datos.madrid.es/egob/catalogo/300754-12751538-meteorologia-tiempo-real-acumula.csv",
+            "mediaType": "text/csv",
+            "size": null
+        },
+        {
+            "name": "Datos metereológicos. Tiempo real acumulado json",
+            "language": "es",
+            "downloadUrl": "https://datos.madrid.es/egob/catalogo/300754-12751539-meteorologia-tiempo-real-acumula.csv",
+            "mediaType": "text/csv",
+            "size": null
+        },
+        {
+            "name": "Datos metereológicos. Tiempo real xml",
+            "language": "es",
+            "downloadUrl": "https://datos.madrid.es/egob/catalogo/300754-12751540-meteorologia-tiempo-real-acumula.csv",
+            "mediaType": "text/csv",
+            "size": null
+        }
+    ],
+    "modified": "mié, 09 abr 2025 22:00:00 GMT+0000",
+    "issued": "mié, 09 abr 2025 22:00:00 GMT+0000",
+    "license": "https://datos.madrid.es/egob/catalogo/aviso-legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "Madrid"
+}

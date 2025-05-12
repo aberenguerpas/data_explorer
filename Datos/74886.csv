@@ -1,0 +1,101 @@
+﻿Diagnóstico principal (CIE10MC);Sexo;Motivo del alta;Total
+0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y);Hombres;otras causas;433.828
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1;Ambos sexos;otras causas;25.579
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1;Mujeres;otras causas;9.533
+0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08;Hombres;otras causas;603
+0102 Infecciones intestinales mal definidas A09;Ambos sexos;otras causas;434
+0102 Infecciones intestinales mal definidas A09;Mujeres;otras causas;249
+0103 Tuberculosis A15-A19, B90;Hombres;otras causas;1.391
+0104 Septicemia A40-A41;Ambos sexos;otras causas;8.525
+0104 Septicemia A40-A41;Mujeres;otras causas;4.531
+0105 Infección del virus de la inmunodeficiencia humana B20;Hombres;otras causas;590
+0106 COVID-19 U07.1, U09.9;Ambos sexos;otras causas;10.011
+0106 COVID-19 U07.1, U09.9;Mujeres;otras causas;2.977
+0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99;Hombres;otras causas;2.248
+0200 NEOPLASIAS C00-D49;Ambos sexos;otras causas;19.073
+0200 NEOPLASIAS C00-D49;Mujeres;otras causas;7.734
+0201 Neoplasias malignas de colon, recto y ano  C18-C21;Hombres;otras causas;1.386
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34;Ambos sexos;otras causas;1.946
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34;Mujeres;otras causas;635
+0203 Melanoma y otras neoplasias malignas de la piel C43-C44;Hombres;otras causas;52
+0204 Neoplasia maligna de la mama  C50;Ambos sexos;otras causas;481
+0204 Neoplasia maligna de la mama  C50;Mujeres;otras causas;478
+0205 Neoplasia maligna del útero C53-C55;Hombres;otras causas;..
+0206 Neoplasia maligna del ovario C56;Ambos sexos;otras causas;272
+0206 Neoplasia maligna del ovario C56;Mujeres;otras causas;272
+0207 Neoplasia maligna de la próstata C61;Hombres;otras causas;560
+0208 Neoplasia maligna de la vejiga C67;Ambos sexos;otras causas;863
+0208 Neoplasia maligna de la vejiga C67;Mujeres;otras causas;159
+0209 Otras neoplasias malignas Resto de C00-C97;Hombres;otras causas;5.923
+0210 Carcinoma in situ D00-D09;Ambos sexos;otras causas;76
+0210 Carcinoma in situ D00-D09;Mujeres;otras causas;11
+0211 Neoplasia benigna del colon, del recto, del conducto anal y del ano D12;Hombres;otras causas;34
+0212 Leiomioma uterino D25;Ambos sexos;otras causas;161
+0212 Leiomioma uterino D25;Mujeres;otras causas;161
+0213 Otras neoplasias benignas y neoplasias de comportamiento incierto o desconocido Resto de D00-D49;Hombres;otras causas;1.299
+0300 ENFERMEDADES DE LA SANGRE, DE LOS ÓRGANOS HEMATOPOYTICOS Y CIERTOS TRASTORNOS QUE AFECTAN EL MECANISMO DE LA INMUNIDAD   D50-D89;Ambos sexos;otras causas;3.047
+0300 ENFERMEDADES DE LA SANGRE, DE LOS ÓRGANOS HEMATOPOYTICOS Y CIERTOS TRASTORNOS QUE AFECTAN EL MECANISMO DE LA INMUNIDAD   D50-D89;Mujeres;otras causas;1.493
+0301 Anemias D50-D64;Hombres;otras causas;1.075
+0302 Otras enfermedades de la sangre, de los órganos hematopoyéticos y ciertos trastornos que afectan al mecanismo inmunitario D65-D89;Ambos sexos;otras causas;873
+0302 Otras enfermedades de la sangre, de los órganos hematopoyéticos y ciertos trastornos que afectan al mecanismo inmunitario D65-D89;Mujeres;otras causas;394
+0400 ENFERMEDADES ENDOCRINAS, NUTRICIONALES Y METABÓLICAS E00-E89;Hombres;otras causas;6.746
+0401 Diabetes mellitus E08-E13;Ambos sexos;otras causas;6.195
+0401 Diabetes mellitus E08-E13;Mujeres;otras causas;1.841
+0402 Otras enfermedades endocrinas, nutricionales y metabólicas Resto de E00-E89;Hombres;otras causas;2.392
+0500 TRASTORNOS MENTALES F01-F99;Ambos sexos;otras causas;395.781
+0500 TRASTORNOS MENTALES F01-F99;Mujeres;otras causas;147.820
+0501 Demencia F01-F03;Hombres;otras causas;12.542
+0502 Trastornos mentales y del comportamiento debidos al uso de alcohol F10;Ambos sexos;otras causas;9.177
+0502 Trastornos mentales y del comportamiento debidos al uso de alcohol F10;Mujeres;otras causas;1.878
+0503 Trastornos mentales y del comportamiento debidos al uso de otras sustancias psicoactivas F11-F19;Hombres;otras causas;18.682
+0504 Esquizofrenia, trastornos esquizotípicos y trastornos delirantes F20-F29;Ambos sexos;otras causas;184.140
+0504 Esquizofrenia, trastornos esquizotípicos y trastornos delirantes F20-F29;Mujeres;otras causas;52.765
+0505 Trastornos del humor (afectivos)  F30-F39;Hombres;otras causas;28.441
+0506 Otros trastornos mentales y del comportamiento  Resto de F01-F99;Ambos sexos;otras causas;100.316
+0506 Otros trastornos mentales y del comportamiento  Resto de F01-F99;Mujeres;otras causas;50.694
+0600 ENFERMEDADES INFLAMATORIAS DEL SISTEMA NERVIOSO G00-G99;Hombres;otras causas;14.383
+0601 Enfermedad de Alzheimer G30;Ambos sexos;otras causas;7.772
+0601 Enfermedad de Alzheimer G30;Mujeres;otras causas;3.190
+0602 Esclerosis múltiple G35;Hombres;otras causas;38
+0603 Epilepsia G40;Ambos sexos;otras causas;2.655
+0603 Epilepsia G40;Mujeres;otras causas;1.528
+0604 Isquemia cerebral transitoria G45;Hombres;otras causas;267
+0605 Otras enfermedades inflamatorias del sistema nervioso Resto de G00-G99;Ambos sexos;otras causas;14.148
+0605 Otras enfermedades inflamatorias del sistema nervioso Resto de G00-G99;Mujeres;otras causas;5.779
+0700 ENFERMEDADES DEL OJO Y SUS ANEXOS  H00-H59;Hombres;otras causas;395
+0701 Catarata H25-H26, H28;Ambos sexos;otras causas;38
+0701 Catarata H25-H26, H28;Mujeres;otras causas;15
+0702 Otras enfermedades del ojo y sus anexos  Resto de H00-H59;Hombres;otras causas;372
+0800 ENFERMEDADES DEL OÍDO Y DE LA APÓFISIS MASTOIDES H60-H95;Ambos sexos;otras causas;441
+0800 ENFERMEDADES DEL OÍDO Y DE LA APÓFISIS MASTOIDES H60-H95;Mujeres;otras causas;281
+0900 ENFERMEDADES DEL SISTEMA CIRCULATORIO I00-I99;Hombres;otras causas;35.866
+0901 Enfermedad hipertensiva I10-I16;Ambos sexos;otras causas;9.555
+0901 Enfermedad hipertensiva I10-I16;Mujeres;otras causas;5.128
+0902 Angina de pecho I20;Hombres;otras causas;262
+0903 Infarto agudo de miocardio I21-I22;Ambos sexos;otras causas;2.479
+0903 Infarto agudo de miocardio I21-I22;Mujeres;otras causas;597
+0904 Otras enfermedades isquémicas del corazón I23-I25;Hombres;otras causas;1.405
+0905 Enfermedades de la circulación pulmonar I26-I28;Ambos sexos;otras causas;2.254
+0905 Enfermedades de la circulación pulmonar I26-I28;Mujeres;otras causas;1.560
+0906 Trastornos de conducción y disritmias cardiacas I44-I49;Hombres;otras causas;1.696
+0907 Insuficiencia cardiaca I50;Ambos sexos;otras causas;5.018
+0907 Insuficiencia cardiaca I50;Mujeres;otras causas;1.908
+0908 Enfermedades cerebrovasculares I60-I69;Hombres;otras causas;14.794
+0909 Aterosclerosis I70;Ambos sexos;otras causas;4.019
+0909 Aterosclerosis I70;Mujeres;otras causas;696
+0910 Venas varicosas de las extremidades inferiores I83;Hombres;otras causas;25
+0911 Otras enfermedades del sistema circulatorio Resto de I00-I99;Ambos sexos;otras causas;6.852
+0911 Otras enfermedades del sistema circulatorio Resto de I00-I99;Mujeres;otras causas;2.604
+1000 ENFERMEDADES DEL SISTEMA RESPIRATORIO J00-J99;Hombres;otras causas;22.391
+1001 Infecciones agudas de las vías respiratorias superiores y gripe J00-J11;Ambos sexos;otras causas;2.053
+1001 Infecciones agudas de las vías respiratorias superiores y gripe J00-J11;Mujeres;otras causas;977
+1002 Neumonía J12-J18;Hombres;otras causas;6.724
+1003 Bronquitis y bronquiolitis agudas J20-J22;Ambos sexos;otras causas;3.835
+1003 Bronquitis y bronquiolitis agudas J20-J22;Mujeres;otras causas;1.877
+1004 Enfermedad crónica de amígdalas y adenoides J35;Hombres;otras causas;47
+1005 Otras enfermedades del tracto respiratorio superior J30-J34, J36-J39;Ambos sexos;otras causas;1.093
+1005 Otras enfermedades del tracto respiratorio superior J30-J34, J36-J39;Mujeres;otras causas;348
+1006 Enfermedad pulmonar obstructiva crónica y bronquiectasias J40-J44, J47;Hombres;otras causas;5.268
+1007 Asma J45;Ambos sexos;otras causas;884
+1007 Asma J45;Mujeres;otras causas;513
+1008 Otras enfermedades del sistema respiratorio J60-J99;Hombres;otras causas;6.201

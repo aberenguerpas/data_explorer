@@ -1,0 +1,103 @@
+{
+    "identifier": "ea0010587-estancias-causadas-segun-la-provincia-comunidad-y-ciudad-autonoma-de-residencia-y-de-hospitalizacion-identificador-api-74909",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Estancias causadas según la provincia, Comunidad y Ciudad autónoma de residencia y de hospitalización. ",
+    "file_name": "ea0010587-estancias-causadas-segun-la-provincia-comunidad-y-ciudad-autonoma-de-residencia-y-de-hospitalizacion-identificador-api-74909-gob-Estancias_causadas_según_la_provincia,_Comunidad_y_Ciudad_autónoma_de_residencia_y_de_hospitalización._",
+    "description": "Tabla de INEbase\nEstancias causadas según la provincia, Comunidad y Ciudad autónoma de residencia y de hospitalización. Provincia, Comunidad y Ciudad autónoma de hospitalización. Encuesta de Morbilidad Hospitalaria",
+    "theme": "salud",
+    "resources": [
+        {
+            "name": "74909",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bd/74909.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74909.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Total Nacional",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Comunidades y Ciudades Autónomas",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Provincias",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Provincia, Comunidad y Ciudad autónoma de residencia",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "74909",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bdsc/74909.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74909.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Total Nacional",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Comunidades y Ciudades Autónomas",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Provincias",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Provincia, Comunidad y Ciudad autónoma de residencia",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 18 mar 2025 11:22:04 GMT+0000",
+    "issued": null,
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

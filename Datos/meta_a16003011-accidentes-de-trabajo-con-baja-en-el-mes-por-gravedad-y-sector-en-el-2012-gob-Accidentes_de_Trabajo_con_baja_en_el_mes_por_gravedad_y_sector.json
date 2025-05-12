@@ -1,0 +1,27 @@
+{
+    "identifier": "a16003011-accidentes-de-trabajo-con-baja-en-el-mes-por-gravedad-y-sector-en-el-2012",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Accidentes de Trabajo con baja en el mes por gravedad y sector en el 2012",
+    "file_name": "a16003011-accidentes-de-trabajo-con-baja-en-el-mes-por-gravedad-y-sector-en-el-2012-gob-Accidentes_de_Trabajo_con_baja_en_el_mes_por_gravedad_y_sector_en_el_2012",
+    "description": "En este apartado se podrán obtener una serie de estadísticas relativas a las lesiones por accidente de trabajo y enfermedades profesionales en la Comunidad Autónoma del País Vasco, elaboradas a partir de las comunicaciones de partes de accidentes de trabajo y enfermedades profesionales a la autoridad laboral y a la Seguridad Social.Desde el 1 de enero de 2004, se estableció por la Orden del 20 de noviembre de 2003, del Consejero de Justicia, Empleo y Seguridad Social del Gobierno Vasco que, en la CAPV, la presentación ante la autoridad laboral de los partes de accidentes y enfermedades profesionales se realizase telemáticamente a través de la aplicación informática IGATT.Posteriormente, la Orden TAS/1/2007, por la que se establece el modelo de parte de enfermedad profesional, se dictan normas para su elaboración y transmisión y se crea el correspondiente fichero de datos personales, ordenó un sistema de tramitación electrónica para las enfermedades profesionales diferenciado del sistema utilizado para los accidentes de trabajo. Se creó la aplicación informática CEPROSS, dependiente de la Dirección General de Ordenación de la Seguridad Social.Esta nueva normativa, así como la entrada en vigor el 1 de enero de 2009 de la nueva Clasificación Nacional de Actividades Económicas (CNAE-2009) ha obligado a incorporar mejoras en el sistema de notificación y registro de accidentes del Departamento de Empleo y Políticas Sociales que contemplen las actualizaciones mencionadas.Realizadas las modificaciones pertinentes en la aplicación IGATT, en el año 2012 se ha cambiado el formato de difusión de las estadísticas de accidentes de trabajo y enfermedades profesionales que se proporciona a través de la página web de Osalan. Uno de los motivos ha sido las mejoras incorporadas al sistema de notificación y registro de accidentes de trabajo del Departamento de Empleo y Políticas Sociales en el proceso de control y validación de los partes de declaración.A partir de 2012, el acceso a los informes estadísticos mensuales se hará seleccionando el año y mes de interés. Una vez escogido el periodo mensual, se mostrará la relación de tablas correspondientes a ese periodo. Las tablas se podrán consultar y descargar en diversos formatos.Señalar que, en las tablas que muestran datos comparativos con años anteriores, pueden observarse diferencias con los datos proporcionados mediante el anterior sistema de difusión y que continúa disponible en este apartado de estadísticas de la web de Osalan. Estas diferencias se deben a los nuevos criterios de validación.Recomendamos leer el documento Nota metodológica (pdf, 48 kb) antes de proceder a la consulta o descarga de las tablas estadísticas con el fin de conocer la fuente de datos y los criterios de selección utilizados en la operación estadística.",
+    "theme": "empleo",
+    "resources": [
+        {
+            "name": "Hilabete guztiak",
+            "language": "eu",
+            "downloadUrl": "https://opendata.euskadi.eus/contenidos/estadistica/2012_at_baja_mes_graved_sector/es_def/adjuntos/2012_at_baja_mes_graved_sector_csv.zip",
+            "mediaType": "text/csv",
+            "size": 7711.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/2012_at_baja_mes_graved_sector_csv.zip"
+        }
+    ],
+    "modified": "jue, 18 feb 2021 23:00:00 GMT+0000",
+    "issued": "sáb, 31 dic 2011 23:00:00 GMT+0000",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": "sáb, 31 dic 2011 23:00:00 GMT+0000",
+        "endDate": "jue, 18 feb 2021 23:00:00 GMT+0000"
+    },
+    "geo": "Pais Vasco"
+}

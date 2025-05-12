@@ -1,0 +1,103 @@
+{
+    "identifier": "ea0010587-personas-entre-15-y-74-anos-nacidas-en-el-extranjero-segun-cual-sea-su-conocimiento-del-castellano-hablado-en-la-actualidad-por-sexo-y-pais-de-nacimiento-epa-identificador-api-53256",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Personas entre 15 y 74 años nacidas en el extranjero, según cuál sea su conocimiento del castellano hablado, en la actualidad, por sexo y país de nacimiento. EPA ",
+    "file_name": "ea0010587-personas-entre-15-y-74-anos-nacidas-en-el-extranjero-segun-cual-sea-su-conocimiento-del-castellano-hablado-en-la-actualidad-por-sexo-y-pais-de-nacimiento-epa-identificador-api-53256-gob-Personas_entre_15_y_74_años_nacidas_en_el_extranjero,_según_cuál_sea_su_conocimiento_del_castellano_hablado,_en_la_actualidad,_por_sexo_y_país_de_nacimiento._EPA_",
+    "description": "Tabla de INEbase\nPersonas entre 15 y 74 años nacidas en el extranjero, según cuál sea su conocimiento del castellano hablado, en la actualidad, por sexo y país de nacimiento. Nacional. Encuesta de Población Activa (EPA)",
+    "theme": "empleo",
+    "resources": [
+        {
+            "name": "53256",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bd/53256.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/53256.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "País de nacimiento",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Tipo de dato",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Según cuál fuera su conocimiento del castellano hablado",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "53256",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bdsc/53256.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/53256.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "País de nacimiento",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Tipo de dato",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Según cuál fuera su conocimiento del castellano hablado",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 18 jun 2024 09:17:19 GMT+0000",
+    "issued": null,
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

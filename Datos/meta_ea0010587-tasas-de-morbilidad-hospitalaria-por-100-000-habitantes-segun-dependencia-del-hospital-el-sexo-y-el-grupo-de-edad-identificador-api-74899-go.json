@@ -1,0 +1,95 @@
+{
+    "identifier": "ea0010587-tasas-de-morbilidad-hospitalaria-por-100-000-habitantes-segun-dependencia-del-hospital-el-sexo-y-el-grupo-de-edad-identificador-api-74899",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Tasas de Morbilidad Hospitalaria por 100.000 habitantes según dependencia del hospital, el sexo y el grupo de edad. ",
+    "file_name": "ea0010587-tasas-de-morbilidad-hospitalaria-por-100-000-habitantes-segun-dependencia-del-hospital-el-sexo-y-el-grupo-de-edad-identificador-api-74899-gob-Hospital_Morbidity_Rates_per_100,000_inhabitants_by_ownership_of_the_hospital,_sex_and_age_group._",
+    "description": "Tabla de INEbase\nTasas de Morbilidad Hospitalaria por 100.000 habitantes según dependencia del hospital, el sexo y el grupo de edad. Nacional. Encuesta de Morbilidad Hospitalaria",
+    "theme": "salud",
+    "resources": [
+        {
+            "name": "74899",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bd/74899.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74899.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Dependencia del hospital",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Grupo de edad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "number"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "74899",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bdsc/74899.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74899.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Dependencia del hospital",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Grupo de edad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "number"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 18 mar 2025 11:22:03 GMT+0000",
+    "issued": null,
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

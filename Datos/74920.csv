@@ -1,0 +1,101 @@
+﻿Diagnóstico principal (CIE10MC)	Provincia, Comunidad y Ciudad autónoma de hospitalización	Total
+0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Sevilla	8.897
+0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	CANTABRIA	9.916
+0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Zamora	10.723
+0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Lleida	9.031
+0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Coruña, A	10.666
+0000 TODOS LOS DIAGNÓSTICOS A00-Z99 (excluyendo los códigos V, W, X, Y)	Gipuzkoa	10.867
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	Huelva	321
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	CANARIAS	324
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	Segovia	410
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	CATALUÑA	416
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	Badajoz	369
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1	PAÍS VASCO	434
+0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	Cádiz	36
+0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	Zaragoza	48
+0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	León	57
+0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	Cuenca	35
+0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	Castellón/Castelló	44
+0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08	MADRID, COMUNIDAD DE	60
+0102 Infecciones intestinales mal definidas A09	TOTAL NACIONAL	20
+0102 Infecciones intestinales mal definidas A09	ARAGÓN	23
+0102 Infecciones intestinales mal definidas A09	CASTILLA Y LEÓN	21
+0102 Infecciones intestinales mal definidas A09	CASTILLA - LA MANCHA	14
+0102 Infecciones intestinales mal definidas A09	Tarragona	30
+0102 Infecciones intestinales mal definidas A09	Lugo	23
+0102 Infecciones intestinales mal definidas A09	RIOJA, LA	11
+0103 Tuberculosis A15-A19, B90	Jaén	1
+0103 Tuberculosis A15-A19, B90	Palmas, Las	4
+0103 Tuberculosis A15-A19, B90	Soria	7
+0103 Tuberculosis A15-A19, B90	Barcelona	10
+0103 Tuberculosis A15-A19, B90	Cáceres	3
+0103 Tuberculosis A15-A19, B90	Araba/Álava	5
+0104 Septicemia A40-A41	Córdoba	102
+0104 Septicemia A40-A41	ASTURIAS, PRINCIPADO DE	134
+0104 Septicemia A40-A41	Palencia	189
+0104 Septicemia A40-A41	Guadalajara	100
+0104 Septicemia A40-A41	Valencia/València	135
+0104 Septicemia A40-A41	MURCIA, REGIÓN DE	148
+0105 Infección del virus de la inmunodeficiencia humana B20	ANDALUCÍA	3
+0105 Infección del virus de la inmunodeficiencia humana B20	Huesca	4
+0105 Infección del virus de la inmunodeficiencia humana B20	Ávila	2
+0105 Infección del virus de la inmunodeficiencia humana B20	Albacete	2
+0105 Infección del virus de la inmunodeficiencia humana B20	COMUNITAT VALENCIANA	3
+0105 Infección del virus de la inmunodeficiencia humana B20	Ourense	2
+0105 Infección del virus de la inmunodeficiencia humana B20	Ceuta	4
+0106 COVID-19 U07.1, U09.9	Málaga	73
+0106 COVID-19 U07.1, U09.9	Santa Cruz de Tenerife	137
+0106 COVID-19 U07.1, U09.9	Valladolid	182
+0106 COVID-19 U07.1, U09.9	Girona	130
+0106 COVID-19 U07.1, U09.9	GALICIA	180
+0106 COVID-19 U07.1, U09.9	Bizkaia	164
+0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	Granada	37
+0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	BALEARS, ILLES	77
+0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	Salamanca	57
+0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	Toledo	44
+0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	EXTREMADURA	66
+0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99	NAVARRA, COMUNIDAD FORAL DE	53
+0200 NEOPLASIAS C00-D49	Almería	647
+0200 NEOPLASIAS C00-D49	Teruel	738
+0200 NEOPLASIAS C00-D49	Burgos	1.125
+0200 NEOPLASIAS C00-D49	Ciudad Real	900
+0200 NEOPLASIAS C00-D49	Alicante/Alacant	988
+0200 NEOPLASIAS C00-D49	Pontevedra	1.069
+0200 NEOPLASIAS C00-D49	Melilla	342
+0201 Neoplasias malignas de colon, recto y ano  C18-C21	Sevilla	83
+0201 Neoplasias malignas de colon, recto y ano  C18-C21	CANTABRIA	93
+0201 Neoplasias malignas de colon, recto y ano  C18-C21	Zamora	116
+0201 Neoplasias malignas de colon, recto y ano  C18-C21	Lleida	101
+0201 Neoplasias malignas de colon, recto y ano  C18-C21	Coruña, A	107
+0201 Neoplasias malignas de colon, recto y ano  C18-C21	Gipuzkoa	79
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	Huelva	48
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	CANARIAS	51
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	Segovia	61
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	CATALUÑA	83
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	Badajoz	88
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34	PAÍS VASCO	76
+0203 Melanoma y otras neoplasias malignas de la piel C43-C44	Cádiz	17
+0203 Melanoma y otras neoplasias malignas de la piel C43-C44	Zaragoza	23
+0203 Melanoma y otras neoplasias malignas de la piel C43-C44	León	49
+0203 Melanoma y otras neoplasias malignas de la piel C43-C44	Cuenca	7
+0203 Melanoma y otras neoplasias malignas de la piel C43-C44	Castellón/Castelló	9
+0203 Melanoma y otras neoplasias malignas de la piel C43-C44	MADRID, COMUNIDAD DE	11
+0204 Neoplasia maligna de la mama  C50	TOTAL NACIONAL	65
+0204 Neoplasia maligna de la mama  C50	ARAGÓN	93
+0204 Neoplasia maligna de la mama  C50	CASTILLA Y LEÓN	85
+0204 Neoplasia maligna de la mama  C50	CASTILLA - LA MANCHA	44
+0204 Neoplasia maligna de la mama  C50	Tarragona	50
+0204 Neoplasia maligna de la mama  C50	Lugo	41
+0204 Neoplasia maligna de la mama  C50	RIOJA, LA	65
+0205 Neoplasia maligna del útero C53-C55	Jaén	16
+0205 Neoplasia maligna del útero C53-C55	Palmas, Las	27
+0205 Neoplasia maligna del útero C53-C55	Soria	6
+0205 Neoplasia maligna del útero C53-C55	Barcelona	24
+0205 Neoplasia maligna del útero C53-C55	Cáceres	22
+0205 Neoplasia maligna del útero C53-C55	Araba/Álava	21
+0206 Neoplasia maligna del ovario C56	Córdoba	14
+0206 Neoplasia maligna del ovario C56	ASTURIAS, PRINCIPADO DE	14
+0206 Neoplasia maligna del ovario C56	Palencia	13
+0206 Neoplasia maligna del ovario C56	Guadalajara	4
+0206 Neoplasia maligna del ovario C56	Valencia/València	12
+0206 Neoplasia maligna del ovario C56	MURCIA, REGIÓN DE	8

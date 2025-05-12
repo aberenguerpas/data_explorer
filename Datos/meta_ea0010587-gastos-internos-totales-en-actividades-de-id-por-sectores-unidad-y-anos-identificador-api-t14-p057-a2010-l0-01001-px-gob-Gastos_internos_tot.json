@@ -1,0 +1,90 @@
+{
+    "identifier": "ea0010587-gastos-internos-totales-en-actividades-de-id-por-sectores-unidad-y-anos-identificador-api-t14-p057-a2010-l0-01001-px",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Gastos internos totales en actividades de I+D por sectores/unidad y años ",
+    "file_name": "ea0010587-gastos-internos-totales-en-actividades-de-id-por-sectores-unidad-y-anos-identificador-api-t14-p057-a2010-l0-01001-px-gob-Gastos_internos_totales_en_actividades_de_I+D_por_sectores/unidad_y_años_",
+    "description": "Tabla de INEbase\nGastos internos totales en actividades de I+D por sectores/unidad y años. Nacional. Estadística sobre Actividades en I+D en el Sector Empresas",
+    "theme": [
+        "ciencia-tecnologia",
+        "economia"
+    ],
+    "resources": [
+        {
+            "name": "01001",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/_px/csv_bd/t14/p057/a2010/01001.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/01001.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sectores/unidad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "01001",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/_px/csv_bdsc/t14/p057/a2010/01001.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/01001.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sectores/unidad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "vie, 25 abr 2025 10:08:33 GMT+0000",
+    "issued": null,
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

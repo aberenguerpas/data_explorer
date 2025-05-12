@@ -1,0 +1,57 @@
+{
+    "identifier": "e05024101-numero-medio-de-alumnos-por-ordenador-conectado-a-internet-destinado-a-la-docencia-con-alumnos-por-comunidad-autonoma-y-titularidad-tipo-de-centro-2010-2011-2020-2021",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Número medio de alumnos por ordenador conectado a internet destinado a la docencia con alumnos por comunidad autónoma y titularidad/tipo de centro ",
+    "file_name": "e05024101-numero-medio-de-alumnos-por-ordenador-conectado-a-internet-destinado-a-la-docencia-con-alumnos-por-comunidad-autonoma-y-titularidad-tipo-de-centro-2010-2011-2020-2021-gob-Average_number_of_students_per_Internet-connected_computer_used_for_teaching_with_students_by_autonomous_community_and_ownership/type_of_center_",
+    "description": "Es una operación estadística del Plan Estadístico Nacional, realizada cada dos años por la Subdirección General de Estadística y Estudios del Ministerio en cooperación con los servicios estadísticos de las Consejerías/Departamentos de Educación de las Comunidades Autónomas y con la colaboración del Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado. Se proporciona información sobre la situación de las tecnologías de la información y las comunicaciones en los centros públicos y privados no universitarios de Régimen General (excluidos los centros exclusivos de E. Infantil), acompañada de la metodología estadística utilizada. También se presentan las series temporales de los principales datos e indicadores desde el curso 2002-2003, curso para el que se implantó definitivamente esta estadística. Hasta el curso 2014-15 fue anual y posteriormente tiene periodicidad bienal.",
+    "theme": "educacion",
+    "resources": [
+        {
+            "name": "series_1_3",
+            "language": "en",
+            "downloadUrl": "https://estadisticas.educacion.gob.es/EducaJaxiPx/files/_px/es/csv_bdsc/no-universitaria/centros/tic/series/l0/series_1_3.csv_bdsc?nocab=1",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/series_1_3.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Titularidad/tipo de centro",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Comunidad autónoma",
+                        "type": "string"
+                    },
+                    {
+                        "name": "periodo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "geopoint"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "lun, 10 mar 2025 11:00:00 GMT+0000",
+    "issued": "mié, 01 ene 2025 11:00:00 GMT+0000",
+    "license": "https://www.educacionyfp.gob.es/comunes/aviso-legal.html",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

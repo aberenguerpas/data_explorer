@@ -1,0 +1,493 @@
+{
+    "identifier": "a13002908-encuesta-sobre-la-percepcion-social-del-patrimonio-cultural-en-la-comunidad-de-madrid-2024",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Encuesta sobre la percepción social del patrimonio cultural en la Comunidad de Madrid 2024",
+    "file_name": "a13002908-encuesta-sobre-la-percepcion-social-del-patrimonio-cultural-en-la-comunidad-de-madrid-2024-gob-Encuesta_sobre_la_percepción_social_del_patrimonio_cultural_en_la_Comunidad_de_Madrid_2024",
+    "description": "Resultados de las 1.804 encuestas realizadas, entre el 12 de julio y el 6 de agosto de 2024, para analizar la percepción social de patrimonio cultural en la Comunidad de Madrid. Este año se analiza especialmente la percepción del patrimonio cultural inmaterial de la Comunidad de Madrid.",
+    "theme": "sector-publico",
+    "resources": [
+        {
+            "name": "percepcion_patrimonio_cultural_2024",
+            "language": "es",
+            "downloadUrl": "https://datos.comunidad.madrid/dataset/b0003161-c101-43a0-bc55-80c72e9247b0/resource/789d02b1-335d-4a45-82e3-1ba6ac44e971/download/percepcion_patrimonio_cultural_2024.csv",
+            "mediaType": "text/csv",
+            "size": 1636753.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/percepcion_patrimonio_cultural_2024.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "iso8859-1",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "dispositivo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "edad",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "intervalo_edad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "nivel_educativo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zona",
+                        "type": "string"
+                    },
+                    {
+                        "name": "municipio",
+                        "type": "string"
+                    },
+                    {
+                        "name": "distrito",
+                        "type": "string"
+                    },
+                    {
+                        "name": "habitantes",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P1#1",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P1#2",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P1#3",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P1#4",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P1#5",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P1#6",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P1#7",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P1#97",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P2#1",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P2#2",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P2#3",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P2#4",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P2#5",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P2#6",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P2#96",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P2#96#value",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P3_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P3_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P3_3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P3_4",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P3_5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P3_6",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P4_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P4_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P4_3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P4_4",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P4_5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P4_6",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P4_7",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P4_8",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P6",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P7",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P8#1",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#2",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#3",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#4",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#5",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#6",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#7",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#8",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#9",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#10",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P8#11",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P9_1",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P9_2",
+                        "type": "geopoint"
+                    },
+                    {
+                        "name": "P9_3",
+                        "type": "geopoint"
+                    },
+                    {
+                        "name": "P9_4",
+                        "type": "geopoint"
+                    },
+                    {
+                        "name": "P9_5",
+                        "type": "geopoint"
+                    },
+                    {
+                        "name": "P9_6",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P9_7",
+                        "type": "geopoint"
+                    },
+                    {
+                        "name": "P9_8",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "P9_9",
+                        "type": "geopoint"
+                    },
+                    {
+                        "name": "P9R_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P9R_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P9R_3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P10_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P10_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P10_3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P10_4",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P10_5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P10_6",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P10_7",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P11",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P12",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_4",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_6",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_7",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_8",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P13_9",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P14_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P14_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P15_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P15_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P15_3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P16_4",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P16_5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P16_6",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P16_7",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P17_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P17_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P17_3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P17_4",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P17_5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_4",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_5",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_6",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_7",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_8",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P18_9",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P19",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P20",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P21",
+                        "type": "string"
+                    },
+                    {
+                        "name": "P22",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CAMBIO_20240717",
+                        "type": "geopoint"
+                    },
+                    {
+                        "name": "CAMBIO_20240723",
+                        "type": "geopoint"
+                    },
+                    {
+                        "name": "CAMBIO_20240724",
+                        "type": "geopoint"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mié, 26 mar 2025 08:50:32 GMT+0000",
+    "issued": "mié, 26 mar 2025 08:40:44 GMT+0000",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode.es",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "Madrid."
+}

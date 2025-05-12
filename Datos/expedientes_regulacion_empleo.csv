@@ -1,0 +1,101 @@
+ID_EXPEDIENTE;DS_ESTADO;FC_SOLICITUD;TL_FECHA_INI_PER;TL_FECHA_FIN_PER;TL_MUN_INTER;TLLOCALIDAD_AFEC1;TLLOCALIDAD_AFEC2;TLLOCALIDAD_AFEC3;TLLOCALIDAD_AFEC4;TLLOCALIDAD_AFEC5;TLLOCALIDAD_AFEC6;TLLOCALIDAD_AFEC7;ITCAUSAS_EXPO;TL_CAUSA_FM;TL_CAUSA_ECO;ITCAUSAS_OR;TL_CAUSA_TEC;TL_CAUSA_PRO;TL_CNAE_09;DSCNAE;NUM_TRAB_PLANT;NUM_TRAB_AFECT;TL_MED_SUSP;TL_MED_RED;TL_MED_EXT
+09/2874/00443.4/2022;Iniciado;2022-04-01 12:29:53.0;01/04/2022;30/09/2022;Madrid;MADRID;;;;;;;;SI;NO;NO;NO;NO;4729;Otro comercio al por menor de productos alimenticios en establecimientos especializados;9;1;SI;NO;NO
+09/2874/00453.6/2022;Iniciado;2022-04-01 15:07:29.0;01/04/2022;31/03/2023;Madrid;MADRID;;;;;;;;NO;SI;NO;NO;NO;4741;Comercio al por menor de ordenadores, equipos periféricos y programas informáticos en establecimientos especializados;17;17;NO;SI;NO
+09/2874/00463.8/2022;Iniciado;2022-04-01 19:40:28.0;07/04/2022;06/10/2022;Madrid;MADRID;;;;;;;;NO;SI;NO;NO;NO;8121;Limpieza general de edificios;14;2;SI;NO;NO
+09/2874/00473.1/2022;Iniciado;2022-04-04 12:05:24.0;01/04/2022;31/12/2022;Alcalá de Henares;ALCALA DE HENARES;;;;;;;;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;3;1;SI;NO;NO
+09/2874/00483.3/2022;Iniciado;2022-04-04 15:32:37.0;01/04/2021;31/05/2022;Valdemoro;VALDEMORO;;;;;;;;NO;NO;NO;NO;NO;1086;Elaboración de preparados alimenticios homogeneizados y alimentos dietéticos;13;7;SI;SI;NO
+09/2874/00493.5/2022;Iniciado;2022-04-05 11:33:23.0;08/04/2022;30/04/2023;Madrid;MADRID;;;;;;;;NO;NO;NO;SI;NO;1089;Elaboración de otros productos alimenticios n.c.o.p.;1;1;SI;NO;NO
+09/2874/00503.8/2022;Iniciado;2022-04-05 14:14:23.0;01/04/2022;31/08/2022;Algete;ALGETE;;;;;;;;SI;NO;NO;NO;NO;8510;Educación preprimaria;3;1;SI;NO;NO
+09/2874/00513.1/2022;Iniciado;2022-04-05 18:44:51.0;01/04/2022;31/12/2022;Madrid;MADRID;;;;;;;;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;8;5;SI;SI;NO
+09/2874/00523.3/2022;Iniciado;2022-04-06 14:14:51.0;01/04/2022;31/12/2022;Madrid;MADRID;;;;;;;;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;13;13;SI;SI;NO
+09/2874/00532.4/2022;Iniciado;2022-04-06 19:05:51.0;19/04/2022;18/10/2023;Madrid;Madrid;;;;;;;;NO;NO;NO;NO;NO;5320;Otras actividades postales y de correos;72;22;SI;SI;NO
+09/2874/00542.6/2022;Iniciado;2022-04-07 13:58:45.0;07/04/2022;06/04/2023;Arganda del Rey;Madrid;;;;;;;;NO;NO;NO;NO;NO;4726;Comercio al por menor de productos de tabaco en establecimientos especializados;1;1;SI;NO;NO
+09/2874/00552.8/2022;Iniciado;2022-04-07 20:55:26.0;13/04/2022;30/11/2022;Madrid;MADRID;;;;;;;;NO;NO;NO;NO;NO;4752;Comercio al por menor de ferretería, pintura y vidrio en establecimientos especializados;3;3;NO;SI;NO
+09/2874/00562.1/2022;Iniciado;2022-04-08 13:11:42.0;01/04/2022;31/12/2022;Boadilla del Monte;MADRID;;;;;;;;SI;NO;NO;NO;NO;5610;Restaurantes y puestos de comidas;11;4;SI;NO;NO
+09/2874/00571.2/2022;Iniciado;2022-04-08 18:57:00.0;01/04/2022;31/12/2022;Madrid;MADRID;LAS PALMAS;;;;;;;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;45;26;SI;SI;NO
+09/2874/00581.4/2022;Iniciado;2022-04-11 14:34:35.0;12/04/2022;12/04/2023;Alcorcón;ALCORCÓN;;;;;;;PRODUCTIVAS;NO;NO;NO;NO;NO;8299;Otras actividades de apoyo a las empresas n.c.o.p.;87;4;SI;NO;NO
+09/2874/00592.7/2022;Iniciado;2022-04-12 13:36:07.0;09/04/2022;08/10/2022;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;7911;Actividades de las agencias de viajes;6;6;SI;SI;NO
+09/2874/00602.1/2022;Iniciado;2022-04-13 10:43:50.0;08/04/2022;07/10/2022;Ajalvir;AJALVIR;;;;;;;OTRAS;NO;SI;NO;NO;NO;7733;Alquiler de maquinaria y equipo de oficina, incluidos ordenadores;6;5;SI;SI;NO
+09/2874/00611.2/2022;Iniciado;2022-04-13 20:08:52.0;01/04/2022;01/10/2022;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;5610;Restaurantes y puestos de comidas;14;4;NO;SI;NO
+09/2874/00621.4/2022;Iniciado;2022-04-18 18:52:02.0;22/04/2022;31/12/2022;Torrejón de la Calzada;TORREJON DE LA CALZADA;;;;;;;OTRAS;NO;SI;NO;NO;NO;4634;Comercio al por mayor de bebidas;13;6;SI;SI;NO
+09/2874/00630.5/2022;Iniciado;2022-04-19 22:22:22.0;25/04/2022;24/04/2023;Granada;ESPARTINAS;ALCOBENDAS;;;;;;OTRAS;NO;SI;NO;NO;NO;4652;Comercio al por mayor de equipos electrónicos y de telecomunicaciones y sus componentes;25;23;SI;SI;NO
+09/2874/00640.7/2022;Iniciado;2022-04-20 17:48:40.0;01/04/2022;31/12/2022;Leganés;LEGANES;;;;;;;MR;NO;NO;NO;NO;NO;4939;Otros tipos de transporte terrestre de pasajeros n.c.o.p.;1;1;NO;SI;NO
+09/2874/00650.0/2022;Iniciado;2022-04-21 22:34:19.0;01/05/2022;31/12/2022;Móstoles;MOSTOLES;;;;;;;OTRAS;NO;SI;NO;NO;NO;3109;Fabricación de otros muebles;28;28;NO;SI;NO
+09/2874/00660.2/2022;Iniciado;2022-04-25 10:49:49.0;01/04/2022;31/12/2022;Madrid;MADRID;;;;;;;MR;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;1;1;SI;NO;NO
+09/2874/00670.4/2022;Iniciado;2022-04-26 17:30:27.0;01/04/2022;30/04/2022;Madrid;Madrid;;;;;;;MR;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;1;1;SI;NO;NO
+09/2874/00680.6/2022;Iniciado;2022-04-27 17:36:20.0;01/04/2022;31/12/2022;Madrid;MADRID;;;;;;;MR;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;28;28;SI;SI;NO
+09/2874/00690.8/2022;Iniciado;2022-04-28 22:57:17.0;01/05/2022;31/10/2022;Madrid;Madrid;;;;;;;OTRAS;NO;SI;NO;NO;NO;6201;Actividades de programación informática;2;1;SI;NO;NO
+09/2874/00700.2/2022;Iniciado;2022-05-03 12:48:18.0;01/04/2022;31/12/2022;Madrid;MADRID;;;;;;;MR;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;3;2;SI;NO;NO
+09/2874/00710.4/2022;Iniciado;2022-05-05 10:17:33.0;01/04/2022;31/12/2022;Madrid;MADRID;;;;;;;MR;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;1;1;SI;NO;NO
+09/2874/00720.6/2022;Iniciado;2022-05-09 18:54:07.0;09/05/2022;09/05/2023;Coruña, A;MADRID;;;;;;;OTRAS;NO;NO;NO;NO;NO;8299;Otras actividades de apoyo a las empresas n.c.o.p.;568;5;SI;SI;NO
+09/2874/00730.8/2022;Iniciado;2022-05-12 12:34:13.0;16/05/2022;15/11/2022;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;4624;Comercio al por mayor de cueros y pieles;2;2;SI;NO;NO
+09/2874/00741.2/2022;Iniciado;2022-05-16 17:13:30.0;15/05/2022;15/05/2024;Arroyomolinos;ARROYOMOLINOS;;;;;;;OTRAS;NO;NO;NO;NO;NO;6920;Actividades de contabilidad, teneduría de libros, auditoría y asesoría fiscal;1;1;NO;SI;NO
+09/2874/00750.3/2022;Iniciado;2022-05-22 19:55:00.0;01/05/2022;30/09/2022;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;4619;Intermediarios del comercio de productos diversos;1;1;NO;SI;NO
+09/2874/00760.5/2022;Iniciado;2022-05-25 10:43:33.0;21/05/2022;01/07/2022;Tres Cantos;TRES CANTOS;;;;;;;FM;SI;NO;NO;NO;NO;5610;Restaurantes y puestos de comidas;10;10;SI;NO;NO
+09/2874/00770.7/2022;Iniciado;2022-05-30 12:32:34.0;30/06/2022;30/06/2022;Madrid;MADRID;;;;;;;FM;SI;NO;NO;NO;NO;5630;Establecimientos de bebidas;5;5;NO;NO;SI
+09/2874/00780.0/2022;Iniciado;2022-06-03 12:21:44.0;01/04/2022;31/12/2022;Madrid;MADRID;;;;;;;MR;NO;NO;NO;NO;NO;7911;Actividades de las agencias de viajes;2;2;SI;SI;NO
+09/2874/00790.2/2022;Iniciado;2022-06-08 15:29:37.0;08/07/2022;31/07/2022;Madrid;28824;;;;;;;OTRAS;NO;SI;NO;NO;NO;5110;Transporte aéreo de pasajeros;32;32;NO;NO;SI
+09/2874/00800.5/2022;Iniciado;2022-06-15 10:11:40.0;01/07/2022;30/06/2023;Madrid;MADRID;;;;;;;OTRAS;NO;NO;NO;NO;NO;4652;Comercio al por mayor de equipos electrónicos y de telecomunicaciones y sus componentes;1;1;NO;SI;NO
+09/2874/00810.7/2022;Iniciado;2022-06-20 13:22:02.0;05/06/2022;30/09/2022;Rivas-Vaciamadrid;RIVAS VACIAMADRID;RIVAS VACIAMADRID;;;;;;OTRAS;NO;SI;NO;NO;NO;5629;Otros servicios de comidas;141;13;SI;NO;NO
+09/2874/00820.0/2022;Iniciado;2022-06-23 19:19:16.0;23/06/2022;22/06/2023;Madrid;MADRID;;;;;;;OTRAS;NO;NO;NO;NO;NO;4520;Mantenimiento y reparación de vehículos de motor;1;1;SI;NO;NO
+09/2874/00830.2/2022;Iniciado;2022-06-28 12:49:48.0;01/07/2022;31/12/2022;Madrid;PINTO;;;;;;;OTRAS;NO;SI;NO;NO;NO;4647;Comercio al por mayor de muebles, alfombras y aparatos de iluminación;35;25;NO;SI;NO
+09/2874/00840.4/2022;Iniciado;2022-07-01 11:17:24.0;13/07/2022;03/10/2022;Madrid;Torrejón de Ardoz;;;;;;;OTRAS;NO;NO;NO;NO;NO;4753;Comercio al por menor de alfombras, moquetas y revestimientos de paredes y suelos en establecimientos especializados;11;8;SI;NO;NO
+09/2874/00850.6/2022;Iniciado;2022-07-06 11:34:07.0;01/08/2022;15/11/2022;Madrid;MADRID;;;;;;;FM;SI;NO;NO;NO;NO;5610;Restaurantes y puestos de comidas;34;34;SI;NO;NO
+09/2874/00861.0/2022;Iniciado;2022-07-11 14:51:52.0;01/07/2022;01/07/2023;Humanes de Madrid;HUMANES DE MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;1071;Fabricación de pan y de productos frescos de panadería y pastelería;41;5;SI;NO;NO
+09/2874/00871.2/2022;Iniciado;2022-07-14 16:57:49.0;01/08/2022;31/08/2022;Madrid;Madrid;;;;;;;OTRAS;NO;NO;NO;NO;NO;9329;Otras actividades recreativas y de entretenimiento;24;18;NO;NO;SI
+09/2874/00881.4/2022;Iniciado;2022-07-19 12:06:29.0;15/07/2022;14/07/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;6209;Otros servicios relacionados con las tecnologías de la información y la informática;5;3;NO;SI;NO
+09/2874/00891.6/2022;Iniciado;2022-07-21 17:16:43.0;01/09/2022;31/08/2023;San Sebastián de los Reyes;S S REYES;;;;;;;OTRAS;NO;SI;NO;NO;NO;4645;Comercio al por mayor de productos de perfumería y cosmética;4;3;NO;SI;NO
+09/2874/00901.0/2022;Iniciado;2022-07-29 16:23:09.0;29/08/2022;31/12/2099;Majadahonda;MAJADAHONDA;;;;;;;OTRAS;NO;SI;NO;NO;NO;5610;Restaurantes y puestos de comidas;8;8;NO;NO;SI
+09/2874/00911.2/2022;Iniciado;2022-08-09 10:59:01.0;08/08/2022;30/09/2022;Madrid;MADRID;;;;;;;OTRAS;NO;NO;NO;NO;NO;8532;Educación secundaria técnica y profesional;138;2;SI;NO;NO
+09/2874/00921.4/2022;Iniciado;2022-08-23 10:57:30.0;01/09/2022;30/09/2022;Collado Villalba;COLLADO VILLALBA;;;;;;;OTRAS;NO;NO;NO;SI;NO;4520;Mantenimiento y reparación de vehículos de motor;2;2;SI;NO;NO
+09/2874/00932.7/2022;Iniciado;2022-09-05 13:07:17.0;06/09/2022;31/10/2022;Fuenlabrada;FUENLABRADA;;;;;;;OTRAS;NO;SI;NO;NO;NO;8510;Educación preprimaria;7;2;SI;NO;NO
+09/2874/00942.0/2022;Iniciado;2022-09-12 12:58:43.0;01/09/2022;31/01/2023;Coslada;COSLADA;;;;;;;OTRAS;NO;SI;NO;NO;NO;3320;Instalación de máquinaria y equipos industriales;3;1;SI;NO;NO
+09/2874/00953.3/2022;Iniciado;2022-09-20 19:15:02.0;21/09/2022;21/12/2022;Alcalá de Henares;Alcalá de Henares;;;;;;;OTRAS;NO;NO;NO;SI;NO;4932;Transporte por taxi;3;1;SI;NO;NO
+;NO;NO;SI
+09/2874/00971.5/2022;Iniciado;2022-10-05 16:00:36.0;05/11/2022;05/11/2022;Madrid;MADRID;BARCELONA;ALICANTE;;;;;OTRAS;NO;SI;NO;NO;NO;6209;Otros servicios relacionados con las tecnologías de la información y la informática;7;7;NO;NO;SI
+09/2874/00980.6/2022;Iniciado;2022-10-13 16:04:01.0;15/11/2022;20/12/2022;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;8541;Educación postsecundaria no terciaria;119;15;NO;NO;SI
+09/2874/00991.0/2022;Iniciado;2022-10-18 16:49:48.0;01/10/2022;31/12/2022;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;5610;Restaurantes y puestos de comidas;4;4;SI;NO;NO
+09/2874/01001.4/2022;Iniciado;2022-10-28 13:21:30.0;01/11/2022;30/04/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;6201;Actividades de programación informática;2;1;SI;NO;NO
+09/2874/01011.6/2022;Iniciado;2022-11-04 08:48:39.0;11/11/2022;11/11/2022;Algete;ALGETE;;;;;;;OTRAS;NO;SI;NO;NO;NO;8292;Actividades de envasado y empaquetado;10;10;NO;NO;SI
+09/2874/01021.8/2022;Iniciado;2022-11-10 15:14:14.0;16/11/2022;30/06/2023;Parla;PARLA;;;;;;;OTRAS;NO;NO;NO;NO;NO;4511;Venta de automóviles y vehículos de motor ligeros;35;2;SI;NO;NO
+09/2874/01028.6/2022;Iniciado;2022-11-15 14:28:12.0;10/12/2022;28/12/2022;Móstoles;MOSTOLES;;;;;;;OTRAS;NO;SI;NO;NO;NO;7120;Ensayos y análisis técnicos;13;13;NO;NO;SI
+09/2874/01039.0/2022;Iniciado;2022-11-21 12:00:09.0;15/11/2022;15/03/2023;Madrid;MADRID;;;;;;;MR;NO;NO;NO;NO;NO;9602;Peluquería y otros tratamientos de belleza;1;1;NO;SI;NO
+09/2874/01049.2/2022;Iniciado;2022-11-29 19:39:50.0;31/12/2022;09/12/2099;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;8899;Otros actividades de servicios sociales sin alojamiento n.c.o.p.;28;11;NO;NO;SI
+09/2874/01059.4/2022;Iniciado;2022-12-09 19:07:06.0;08/01/2023;08/01/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;6499;Otros servicios financieros, excepto seguros y fondos de pensiones n.c.o.p.;104;35;NO;NO;SI
+09/2874/01069.6/2022;Iniciado;2022-12-19 12:57:52.0;19/12/2022;31/12/2022;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;9004;Gestión de salas de espectáculos;3;1;NO;NO;SI
+09/2874/01079.8/2022;Iniciado;2022-12-21 12:18:36.0;21/12/2022;20/12/2023;Madrid;MADRID;;;;;;;OTRAS;NO;NO;NO;SI;NO;4322;Fontanería, instalaciones de sistemas de calefacción y aire acondicionado;19;9;SI;NO;NO
+09/2874/00001.6/2023;Finalizado;2022-12-31 18:59:14.0;01/01/2023;30/09/2022;Madrid;madrid;;;;;;;OTRAS;NO;NO;NO;NO;NO;4619;Intermediarios del comercio de productos diversos;1;1;NO;SI;NO
+09/2874/00011.8/2023;Iniciado;2023-01-12 13:23:16.0;01/01/2023;31/12/2023;Carballo;Getafe;Leganés;;;;;;OTRAS;NO;NO;NO;NO;NO;9311;Gestión de instalaciones deportivas;36;11;SI;SI;NO
+09/2874/00021.1/2023;Iniciado;2023-01-17 14:03:41.0;17/01/2023;15/02/2023;Pinto;PINTO;;;;;;;OTRAS;NO;SI;NO;NO;NO;2829;Fabricación de otra maquinaria de uso general n.c.o.p.;9;9;NO;NO;SI
+09/2874/00031.3/2023;Iniciado;2023-01-23 11:51:09.0;25/01/2023;24/07/2023;Valdemoro;VALDEMORO;;;;;;;OTRAS;NO;NO;NO;NO;NO;7830;Otra provisión de recursos humanos;2;2;SI;NO;NO
+09/2874/00042.6/2023;Iniciado;2023-01-25 17:21:57.0;27/01/2023;10/02/2023;Madrid;Madrid;;;;;;;OTRAS;NO;SI;NO;NO;NO;6202;Actividades de consultoría informática;81;14;NO;NO;SI
+09/2874/00052.8/2023;Iniciado;2023-01-30 21:09:44.0;14/02/2023;31/03/2023;Madrid;Madrid;Madrid;;;;;;OTRAS;NO;SI;NO;NO;NO;4690;Comercio al por mayor no especializado;9;9;NO;NO;SI
+09/2874/00062.1/2023;Iniciado;2023-02-07 10:36:50.0;01/01/2023;31/12/2025;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;8299;Otras actividades de apoyo a las empresas n.c.o.p.;2;1;NO;SI;NO
+09/2874/00072.3/2023;Finalizado;2023-02-10 15:00:49.0;11/02/2023;12/03/2023;Madrid;Madrid;Madrid;;;;;;FM;SI;NO;NO;NO;NO;5610;Restaurantes y puestos de comidas;56;47;SI;NO;NO
+09/2874/00082.5/2023;Iniciado;2023-02-17 12:08:19.0;20/02/2023;19/02/2024;Madrid;MADRID;;;;;;;OTRAS;NO;NO;NO;NO;NO;1512;Fabricación de artículos de marroquinería, viaje y de guarnicionería y talabartería;1;1;SI;SI;NO
+09/2874/00092.7/2023;Iniciado;2023-02-24 20:27:51.0;05/03/2023;05/06/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;9492;Actividades de organizaciones políticas;23;3;SI;NO;NO
+09/2874/00102.1/2023;Finalizado;2023-03-02 11:28:59.0;06/02/2023;30/04/2023;Pozuelo de Alarcón;POZUELO DE ALARCON;;;;;;;FM;SI;NO;NO;NO;NO;5630;Establecimientos de bebidas;7;7;SI;NO;NO
+09/2874/00112.3/2023;Iniciado;2023-03-08 10:01:55.0;06/03/2023;07/04/2023;Granollers;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;5224;Manipulación de mercancías;6;6;NO;NO;SI
+09/2874/00122.5/2023;Iniciado;2023-03-14 14:12:44.0;17/03/2023;31/12/2023;Alcalá de Henares;ALCALA DE HENARES;;;;;;;OTRAS;NO;NO;NO;NO;NO;1393;Fabricación de alfombras y moquetas;207;201;NO;SI;NO
+09/2874/00132.7/2023;Iniciado;2023-03-22 13:34:12.0;06/04/2023;02/10/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;9602;Peluquería y otros tratamientos de belleza;9;1;NO;SI;NO
+09/2874/00142.0/2023;Finalizado;2023-03-27 17:11:33.0;15/03/2023;14/03/2025;Madrid;MADRID;;;;;;;FM;SI;NO;NO;NO;NO;7490;Otras actividades profesionales, científicas y técnicas n.c.o.p.;2;1;NO;SI;NO
+09/2874/00152.2/2023;Iniciado;2023-04-03 19:46:08.0;11/05/2023;11/05/2023;Langreo;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;8299;Otras actividades de apoyo a las empresas n.c.o.p.;165;94;NO;NO;SI
+09/2874/00162.4/2023;Finalizado;2023-04-19 15:41:09.0;01/05/2023;31/07/2023;Madrid;Madrid;;;;;;;FM;SI;NO;NO;NO;NO;5221;Actividades anexas al transporte terrestre;2;2;SI;NO;NO
+09/2874/00172.6/2023;Iniciado;2023-04-25 18:28:04.0;25/04/2023;24/10/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;3250;Fabricación de instrumentos y suministros médicos y odontológicos;4;2;NO;SI;NO
+09/2874/00182.8/2023;Iniciado;2023-05-08 20:05:20.0;06/06/2023;31/12/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;5915;Actividades de producción cinematográfica y de vídeo;135;89;NO;NO;SI
+09/2874/00192.1/2023;Iniciado;2023-05-19 13:31:49.0;19/06/2023;28/06/2023;Paracuellos de Jarama;paracuellos de jarama;;;;;;;OTRAS;NO;SI;NO;NO;NO;8510;Educación preprimaria;6;6;NO;NO;SI
+09/2874/00202.4/2023;Iniciado;2023-06-01 13:30:17.0;30/05/2023;03/06/2024;Madrid;MADRID;;;;;;;OTRAS;NO;NO;NO;NO;NO;9700;Actividades de los hogares como empleadores de personal doméstico;1;1;SI;NO;NO
+09/2874/00212.6/2023;Iniciado;2023-06-06 19:06:29.0;01/07/2023;30/06/2024;Madrid;;MADRID;;;;;;OTRAS;NO;SI;NO;NO;NO;7311;Agencias de publicidad;2;1;NO;SI;NO
+09/2874/00222.8/2023;Iniciado;2023-06-13 19:22:55.0;14/07/2023;30/06/2024;Madrid;MADRID;;;;;;;OTRAS;NO;NO;NO;SI;NO;4636;Comercio al por mayor de azúcar, chocolate y confitería;569;72;NO;NO;SI
+09/2874/00232.1/2023;Iniciado;2023-06-21 14:02:23.0;30/06/2023;30/06/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;5610;Restaurantes y puestos de comidas;7;7;NO;NO;SI
+09/2874/00242.3/2023;Finalizado;2023-06-27 17:44:55.0;01/07/2023;31/12/2023;Madrid;MADRID;;;;;;;OTRAS;NO;SI;NO;NO;NO;4511;Venta de automóviles y vehículos de motor ligeros;15;11;SI;NO;NO
+09/2874/00252.5/2023;Finalizado;2023-07-03 17:39:16.0;01/07/2023;31/12/2023;Madrid;MADRID;;;;;;;OTRAS;NO;NO;NO;NO;NO;9499;Otras actividades asociativas n.c.o.p.;9;9;SI;NO;NO
+09/2874/00262.7/2023;Iniciado;2023-07-11 17:07:42.0;10/07/2023;31/03/2024;Madrid;TALAMANCA DEL JARAMA;;;;;;;OTRAS;NO;SI;NO;NO;NO;4730;Comercio al por menor de combustible para la automoción en establecimientos especializados;4;4;SI;NO;NO
+09/2874/00272.0/2023;Iniciado;2023-07-17 21:15:47.0;17/08/2023;17/08/2023;San Fernando de Henares;SAN FERNANDO DE HENARES;;;;;;;OTRAS;NO;SI;NO;NO;NO;4634;Comercio al por mayor de bebidas;7;7;NO;NO;SI
+09/2874/00282.2/2023;Finalizado;2023-07-21 12:01:04.0;09/07/2023;26/01/2024;Madrid;Madrid;;;;;;;FM;SI;NO;NO;NO;NO;5610;Restaurantes y puestos de comidas;19;19;SI;NO;NO
+09/2874/00292.4/2023;Finalizado;2023-07-27 18:49:34.0;01/08/2023;30/09/2023;Madrid;MADRID;;;;;;;FM;SI;NO;NO;NO;NO;5610;Restaurantes y puestos de comidas;13;8;SI;NO;NO
+09/2874/00302.7/2023;Finalizado;2023-08-07 15:49:51.0;08/08/2023;31/08/2023;Madrid;ALCOBENDAS;;;;;;;FM;SI;NO;NO;NO;NO;5610;Restaurantes y puestos de comidas;4;4;SI;NO;NO
+09/2874/00312.0/2023;Iniciado;2023-08-21 15:18:24.0;15/09/2023;20/09/2023;Madrid;MADRID;MADRID;MADRID;;;;;OTRAS;NO;SI;NO;NO;NO;5610;Restaurantes y puestos de comidas;18;18;NO;NO;SI
+09/2874/00322.2/2023;Iniciado;2023-09-01 12:15:09.0;04/09/2023;01/10/2023;Leganés;MARID;;;;;;;OTRAS;NO;NO;NO;NO;NO;5629;Otros servicios de comidas;3;3;SI;NO;NO
+09/2874/00332.4/2023;Iniciado;2023-09-13 13:23:57.0;13/10/2023;31/10/2023;Alcobendas;Alcobendas;;;;;;;OTRAS;NO;SI;NO;NO;NO;7111;Servicios técnicos de arquitectura;13;13;NO;NO;SI
+09/2874/00342.6/2023;Iniciado;2023-09-19 16:07:17.0;04/09/2023;30/09/2023;Rivas-Vaciamadrid;MADRID;;;;;;;FM;SI;NO;NO;NO;NO;4723;Comercio al por menor de pescados y mariscos en establecimientos especializados;1;1;SI;NO;NO

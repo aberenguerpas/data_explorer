@@ -1,0 +1,101 @@
+﻿Diagnóstico principal (CIE10MC);Sexo;Intervalos de estancia;Total
+0100 CIERTAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS A00-B99, U07.1;Ambos sexos;De 1 a 30 días;1.392.750
+0101 Enfermedades infecciosas intestinales, excepto diarrea A00-A08;Ambos sexos;De 31 días a 6 meses;15.508
+0102 Infecciones intestinales mal definidas A09;Ambos sexos;Más de 6 meses;577
+0103 Tuberculosis A15-A19, B90;Hombres;De 1 a 30 días;18.941
+0104 Septicemia A40-A41;Hombres;De 31 días a 6 meses;129.867
+0105 Infección del virus de la inmunodeficiencia humana B20;Hombres;Más de 6 meses;6.969
+0106 COVID-19 U07.1, U09.9;Mujeres;De 1 a 30 días;205.763
+0107 Otras enfermedades infecciosas y parasitarias Resto de  A00-B99;Mujeres;De 31 días a 6 meses;22.275
+0200 NEOPLASIAS C00-D49;Mujeres;Más de 6 meses;41.795
+0202 Neoplasias malignas de tráquea, bronquios y pulmón  C33-C34;Ambos sexos;De 1 a 30 días;260.982
+0203 Melanoma y otras neoplasias malignas de la piel C43-C44;Ambos sexos;De 31 días a 6 meses;6.602
+0204 Neoplasia maligna de la mama  C50;Ambos sexos;Más de 6 meses;4.581
+0205 Neoplasia maligna del útero C53-C55;Hombres;De 1 a 30 días;..
+0206 Neoplasia maligna del ovario C56;Hombres;De 31 días a 6 meses;..
+0207 Neoplasia maligna de la próstata C61;Hombres;Más de 6 meses;6.916
+0208 Neoplasia maligna de la vejiga C67;Mujeres;De 1 a 30 días;27.272
+0209 Otras neoplasias malignas Resto de C00-C97;Mujeres;De 31 días a 6 meses;225.041
+0210 Carcinoma in situ D00-D09;Mujeres;Más de 6 meses;1.662
+0212 Leiomioma uterino D25;Ambos sexos;De 1 a 30 días;58.661
+0213 Otras neoplasias benignas y neoplasias de comportamiento incierto o desconocido Resto de D00-D49;Ambos sexos;De 31 días a 6 meses;54.385
+0300 ENFERMEDADES DE LA SANGRE, DE LOS ÓRGANOS HEMATOPOYTICOS Y CIERTOS TRASTORNOS QUE AFECTAN EL MECANISMO DE LA INMUNIDAD   D50-D89;Ambos sexos;Más de 6 meses;11.198
+0301 Anemias D50-D64;Hombres;De 1 a 30 días;82.035
+0302 Otras enfermedades de la sangre, de los órganos hematopoyéticos y ciertos trastornos que afectan al mecanismo inmunitario D65-D89;Hombres;De 31 días a 6 meses;11.055
+0400 ENFERMEDADES ENDOCRINAS, NUTRICIONALES Y METABÓLICAS E00-E89;Hombres;Más de 6 meses;20.977
+0401 Diabetes mellitus E08-E13;Mujeres;De 1 a 30 días;76.590
+0402 Otras enfermedades endocrinas, nutricionales y metabólicas Resto de E00-E89;Mujeres;De 31 días a 6 meses;31.522
+0500 TRASTORNOS MENTALES F01-F99;Mujeres;Más de 6 meses;1.701.415
+0502 Trastornos mentales y del comportamiento debidos al uso de alcohol F10;Ambos sexos;De 1 a 30 días;67.117
+0503 Trastornos mentales y del comportamiento debidos al uso de otras sustancias psicoactivas F11-F19;Ambos sexos;De 31 días a 6 meses;65.218
+0504 Esquizofrenia, trastornos esquizotípicos y trastornos delirantes F20-F29;Ambos sexos;Más de 6 meses;2.404.613
+0505 Trastornos del humor (afectivos)  F30-F39;Hombres;De 1 a 30 días;108.569
+0506 Otros trastornos mentales y del comportamiento  Resto de F01-F99;Hombres;De 31 días a 6 meses;105.438
+0600 ENFERMEDADES INFLAMATORIAS DEL SISTEMA NERVIOSO G00-G99;Hombres;Más de 6 meses;129.484
+0601 Enfermedad de Alzheimer G30;Mujeres;De 1 a 30 días;15.939
+0602 Esclerosis múltiple G35;Mujeres;De 31 días a 6 meses;2.514
+0603 Epilepsia G40;Mujeres;Más de 6 meses;2.892
+0605 Otras enfermedades inflamatorias del sistema nervioso Resto de G00-G99;Ambos sexos;De 1 a 30 días;399.476
+0700 ENFERMEDADES DEL OJO Y SUS ANEXOS  H00-H59;Ambos sexos;De 31 días a 6 meses;7.771
+0701 Catarata H25-H26, H28;Ambos sexos;Más de 6 meses;473
+0702 Otras enfermedades del ojo y sus anexos  Resto de H00-H59;Hombres;De 1 a 30 días;29.234
+0800 ENFERMEDADES DEL OÍDO Y DE LA APÓFISIS MASTOIDES H60-H95;Hombres;De 31 días a 6 meses;2.666
+0900 ENFERMEDADES DEL SISTEMA CIRCULATORIO I00-I99;Hombres;Más de 6 meses;181.168
+0901 Enfermedad hipertensiva I10-I16;Mujeres;De 1 a 30 días;363.544
+0902 Angina de pecho I20;Mujeres;De 31 días a 6 meses;1.168
+0903 Infarto agudo de miocardio I21-I22;Mujeres;Más de 6 meses;10.955
+0905 Enfermedades de la circulación pulmonar I26-I28;Ambos sexos;De 1 a 30 días;184.177
+0906 Trastornos de conducción y disritmias cardiacas I44-I49;Ambos sexos;De 31 días a 6 meses;37.017
+0907 Insuficiencia cardiaca I50;Ambos sexos;Más de 6 meses;31.230
+0908 Enfermedades cerebrovasculares I60-I69;Hombres;De 1 a 30 días;415.392
+0909 Aterosclerosis I70;Hombres;De 31 días a 6 meses;58.466
+0910 Venas varicosas de las extremidades inferiores I83;Hombres;Más de 6 meses;1.250
+0911 Otras enfermedades del sistema circulatorio Resto de I00-I99;Mujeres;De 1 a 30 días;214.641
+1000 ENFERMEDADES DEL SISTEMA RESPIRATORIO J00-J99;Mujeres;De 31 días a 6 meses;201.476
+1001 Infecciones agudas de las vías respiratorias superiores y gripe J00-J11;Mujeres;Más de 6 meses;3.000
+1003 Bronquitis y bronquiolitis agudas J20-J22;Ambos sexos;De 1 a 30 días;431.617
+1004 Enfermedad crónica de amígdalas y adenoides J35;Ambos sexos;De 31 días a 6 meses;3.063
+1005 Otras enfermedades del tracto respiratorio superior J30-J34, J36-J39;Ambos sexos;Más de 6 meses;517
+1006 Enfermedad pulmonar obstructiva crónica y bronquiectasias J40-J44, J47;Hombres;De 1 a 30 días;469.070
+1007 Asma J45;Hombres;De 31 días a 6 meses;1.268
+1008 Otras enfermedades del sistema respiratorio J60-J99;Hombres;Más de 6 meses;82.971
+1100 ENFERMEDADES DEL APARATO DIGESTIVO K00-K95;Mujeres;De 1 a 30 días;1.288.816
+1101 Trastornos de los dientes y de las estructuras de sostén K00-K08;Mujeres;De 31 días a 6 meses;839
+1102 Otras enfermedades de la cavidad oral, glándulas salivares y maxilares K09-K14;Mujeres;Más de 6 meses;..
+1104 Úlcera péptica K25-K28;Ambos sexos;De 1 a 30 días;72.096
+1105 Dispepsia y otras enfermedades del estómago y duodeno K29-K31;Ambos sexos;De 31 días a 6 meses;9.672
+1106 Enfermedades del Apéndice K35-K38;Ambos sexos;Más de 6 meses;..
+1107 Hernia inguinal K40;Hombres;De 1 a 30 días;71.322
+1108 Otra hernia abdominal K41-K46;Hombres;De 31 días a 6 meses;9.206
+1109 Enfermedad de Crohn y colitis ulcerosa K50-K51;Hombres;Más de 6 meses;738
+1110 Otras gastroenteritis, colitis no infecciosas y las no especificadas K52;Mujeres;De 1 a 30 días;79.052
+1111 Obstrucción intestinal sin mención de hernia K56;Mujeres;De 31 días a 6 meses;18.039
+1112 Divertículos intestinales K57;Mujeres;Más de 6 meses;781
+1114 Otras enfermedades del intestino K55, K58-K59, K63;Ambos sexos;De 1 a 30 días;142.187
+1115 Enfermedad alcohólica del hígado K70;Ambos sexos;De 31 días a 6 meses;32.517
+1116 Otras enfermedades del hígado K71-K77;Ambos sexos;Más de 6 meses;1.509
+1117 Colelitiasis K80;Hombres;De 1 a 30 días;197.240
+1118 Otras enfermedades de la vesícula biliar y del tracto biliar K81-K83;Hombres;De 31 días a 6 meses;17.537
+1119 Enfermedades pancreáticas K85-K87;Hombres;Más de 6 meses;4.181
+1120 Otras enfermedades del aparato digestivo Resto de K00-K95;Mujeres;De 1 a 30 días;124.235
+1200 ENFERMEDADES DE LA PIEL Y DEL TEJIDO SUBCUTÁNEO L00-L99;Mujeres;De 31 días a 6 meses;62.167
+1201 Infecciones de la piel y del tejido celular subcutáneo L00-L08;Mujeres;Más de 6 meses;918
+1203 Otras enfermedades de la piel y del tejido subcutáneo Resto de L00-L99;Ambos sexos;De 1 a 30 días;128.060
+1300 ENFERMEDADES DEL SISTEMA OSTEOMUSCULAR Y DEL TEJIDO CONJUNTIVO  M00-M99;Ambos sexos;De 31 días a 6 meses;375.613
+1301 Coxartrosis [artrosis de la cadera] M16;Ambos sexos;Más de 6 meses;6.283
+1302 Gonartrosis [artrosis de la rodilla] M17;Hombres;De 1 a 30 días;101.059
+1303 Trastorno interno de rodilla M23;Hombres;De 31 días a 6 meses;1.197
+1304 Otras artropatías M00-M15, M18-M22, M24-M25;Hombres;Más de 6 meses;2.962
+1305 Trastornos sistémicos del tejido conjuntivo M30-M36;Mujeres;De 1 a 30 días;28.085
+1306 Dorsopatías deformantes y espondilopatías M40-M49;Mujeres;De 31 días a 6 meses;27.905
+1307 Trastorno del disco intervertebral M50-M51;Mujeres;Más de 6 meses;3.558
+1309 Trastornos de los tejidos blandos M60-M79;Ambos sexos;De 1 a 30 días;117.002
+1310 Otras enfermedades del sistema osteomuscular y del tejido conjuntivo  M26-M27, M53, M80-M99;Ambos sexos;De 31 días a 6 meses;95.465
+1400 ENFERMEDADES DEL SISTEMA GENITOURINARIO N00-N99;Ambos sexos;Más de 6 meses;69.644
+1401 Enfermedades glomerulares y renales túbulo-intersticiales N00-N16;Hombres;De 1 a 30 días;88.614
+1402 Insuficiencia renal N17-N19;Hombres;De 31 días a 6 meses;36.397
+1403 Litiasis urinaria N20-N23;Hombres;Más de 6 meses;..
+1404 Otras enfermedades del sistema urinario N25-N39;Mujeres;De 1 a 30 días;350.324
+1405 Hiperplasia prostática N40;Mujeres;De 31 días a 6 meses;..
+1406 Otras enfermedades de los órganos genitales masculinos N41-N53;Mujeres;Más de 6 meses;..
+1408 Enfermedad inflamatoria de los órganos pélvicos femeninos N70-N77;Ambos sexos;De 1 a 30 días;33.542

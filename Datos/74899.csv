@@ -1,0 +1,101 @@
+﻿Dependencia del hospital;Sexo;Grupo de edad;Total
+TOTAL;Ambos sexos;de 95 años y más;49.895
+TOTAL;Hombres;total;9.983
+TOTAL;Hombres;menores de 1 año;37.167
+TOTAL;Hombres;de 1 a 4 años;6.535
+TOTAL;Hombres;de 5 a 14 años;3.025
+TOTAL;Hombres;de 15 a 24 años;3.222
+TOTAL;Hombres;de 35 a 44 años;4.356
+TOTAL;Hombres;de 45 a 54 años;6.503
+TOTAL;Hombres;de 55 a 64 años;11.868
+TOTAL;Hombres;de 65 a 74 años;20.324
+TOTAL;Hombres;de 75 a 84 años;32.720
+TOTAL;Hombres;de 85 a 89 años;46.550
+TOTAL;Hombres;de 90 a 94 años;55.529
+TOTAL;Hombres;de 95 años y más;61.034
+TOTAL;Mujeres;total;10.144
+TOTAL;Mujeres;de 1 a 4 años;5.260
+TOTAL;Mujeres;de 5 a 14 años;2.546
+TOTAL;Mujeres;de 15 a 24 años;4.707
+TOTAL;Mujeres;de 25 a 34 años;10.431
+TOTAL;Mujeres;de 35 a 44 años;8.842
+TOTAL;Mujeres;de 45 a 54 años;6.156
+TOTAL;Mujeres;de 55 a 64 años;8.335
+TOTAL;Mujeres;de 65 a 74 años;12.851
+TOTAL;Mujeres;de 75 a 84 años;21.249
+TOTAL;Mujeres;de 90 a 94 años;42.481
+TOTAL;Mujeres;de 95 años y más;46.380
+Público;Ambos sexos;total;7.343
+Público;Ambos sexos;menores de 1 año;26.633
+Público;Ambos sexos;de 1 a 4 años;4.392
+Público;Ambos sexos;de 5 a 14 años;2.069
+Público;Ambos sexos;de 15 a 24 años;2.626
+Público;Ambos sexos;de 25 a 34 años;4.748
+Público;Ambos sexos;de 35 a 44 años;4.325
+Público;Ambos sexos;de 55 a 64 años;7.249
+Público;Ambos sexos;de 65 a 74 años;12.255
+Público;Ambos sexos;de 75 a 84 años;20.192
+Público;Ambos sexos;de 85 a 89 años;30.329
+Público;Ambos sexos;de 90 a 94 años;36.911
+Público;Ambos sexos;de 95 años y más;38.586
+Público;Hombres;total;7.349
+Público;Hombres;menores de 1 año;29.349
+Público;Hombres;de 1 a 4 años;4.848
+Público;Hombres;de 15 a 24 años;2.017
+Público;Hombres;de 25 a 34 años;2.157
+Público;Hombres;de 35 a 44 años;2.758
+Público;Hombres;de 45 a 54 años;4.368
+Público;Hombres;de 55 a 64 años;8.676
+Público;Hombres;de 65 a 74 años;15.495
+Público;Hombres;de 75 a 84 años;25.527
+Público;Hombres;de 85 a 89 años;37.036
+Público;Hombres;de 90 a 94 años;44.409
+Público;Mujeres;total;7.337
+Público;Mujeres;menores de 1 año;23.764
+Público;Mujeres;de 1 a 4 años;3.911
+Público;Mujeres;de 5 a 14 años;1.903
+Público;Mujeres;de 15 a 24 años;3.273
+Público;Mujeres;de 25 a 34 años;7.410
+Público;Mujeres;de 35 a 44 años;5.891
+Público;Mujeres;de 45 a 54 años;3.985
+Público;Mujeres;de 55 a 64 años;5.884
+Público;Mujeres;de 75 a 84 años;16.150
+Público;Mujeres;de 85 a 89 años;26.468
+Público;Mujeres;de 90 a 94 años;33.506
+Público;Mujeres;de 95 años y más;35.686
+Privado;Ambos sexos;total;2.722
+Privado;Ambos sexos;menores de 1 año;7.221
+Privado;Ambos sexos;de 1 a 4 años;1.523
+Privado;Ambos sexos;de 5 a 14 años;724
+Privado;Ambos sexos;de 15 a 24 años;1.316
+Privado;Ambos sexos;de 35 a 44 años;2.274
+Privado;Ambos sexos;de 45 a 54 años;2.153
+Privado;Ambos sexos;de 55 a 64 años;2.814
+Privado;Ambos sexos;de 65 a 74 años;4.105
+Privado;Ambos sexos;de 75 a 84 años;6.002
+Privado;Ambos sexos;de 85 a 89 años;7.947
+Privado;Ambos sexos;de 90 a 94 años;9.645
+Privado;Ambos sexos;de 95 años y más;11.308
+Privado;Hombres;total;2.634
+Privado;Hombres;de 1 a 4 años;1.687
+Privado;Hombres;de 5 a 14 años;800
+Privado;Hombres;de 15 a 24 años;1.205
+Privado;Hombres;de 25 a 34 años;1.219
+Privado;Hombres;de 35 a 44 años;1.598
+Privado;Hombres;de 45 a 54 años;2.135
+Privado;Hombres;de 55 a 64 años;3.192
+Privado;Hombres;de 65 a 74 años;4.830
+Privado;Hombres;de 75 a 84 años;7.194
+Privado;Hombres;de 90 a 94 años;11.120
+TOTAL;Ambos sexos;de 65 a 74 años;16.360
+TOTAL;Hombres;de 25 a 34 años;3.376
+TOTAL;Mujeres;menores de 1 año;30.354
+TOTAL;Mujeres;de 85 a 89 años;33.514
+Público;Ambos sexos;de 45 a 54 años;4.177
+Público;Hombres;de 5 a 14 años;2.225
+Público;Hombres;de 95 años y más;47.775
+Público;Mujeres;de 65 a 74 años;9.387
+Privado;Ambos sexos;de 25 a 34 años;2.108
+Privado;Hombres;menores de 1 año;7.817
+Privado;Hombres;de 85 a 89 años;9.514
+Privado;Mujeres;de 45 a 54 años;2.172

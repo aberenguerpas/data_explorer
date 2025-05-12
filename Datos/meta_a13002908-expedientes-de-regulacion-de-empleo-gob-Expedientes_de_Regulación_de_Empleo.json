@@ -1,0 +1,145 @@
+{
+    "identifier": "a13002908-expedientes-de-regulacion-de-empleo",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Expedientes de Regulación de Empleo",
+    "file_name": "a13002908-expedientes-de-regulacion-de-empleo-gob-Expedientes_de_Regulación_de_Empleo",
+    "description": "Información relativa a la situación de expedientes de regulación de empleo (ERE) y expedientes de regulación temporal de empleo (ERTE) registrados en la Comunidad de Madrid. Los datos corresponden a expedientes tramitados sobre los que se han adoptado medidas",
+    "theme": "sector-publico",
+    "resources": [
+        {
+            "name": "expedientes_regulacion_empleo",
+            "language": "es",
+            "downloadUrl": "https://datos.comunidad.madrid/dataset/82d9ed37-b3e7-45da-967a-e44cb84488a7/resource/6b53151a-61ab-4d0d-b0a6-9855423414c2/download/expedientes_regulacion_empleo.csv",
+            "mediaType": "text/csv",
+            "size": 339696.0,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/expedientes_regulacion_empleo.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "iso8859-1",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ID_EXPEDIENTE",
+                        "type": "string"
+                    },
+                    {
+                        "name": "DS_ESTADO",
+                        "type": "string"
+                    },
+                    {
+                        "name": "FC_SOLICITUD",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_FECHA_INI_PER",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_FECHA_FIN_PER",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_MUN_INTER",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TLLOCALIDAD_AFEC1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TLLOCALIDAD_AFEC2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TLLOCALIDAD_AFEC3",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TLLOCALIDAD_AFEC4",
+                        "type": "yearmonth"
+                    },
+                    {
+                        "name": "TLLOCALIDAD_AFEC5",
+                        "type": "yearmonth"
+                    },
+                    {
+                        "name": "TLLOCALIDAD_AFEC6",
+                        "type": "yearmonth"
+                    },
+                    {
+                        "name": "TLLOCALIDAD_AFEC7",
+                        "type": "yearmonth"
+                    },
+                    {
+                        "name": "ITCAUSAS_EXPO",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_CAUSA_FM",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_CAUSA_ECO",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ITCAUSAS_OR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_CAUSA_TEC",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_CAUSA_PRO",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_CNAE_09",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "DSCNAE",
+                        "type": "string"
+                    },
+                    {
+                        "name": "NUM_TRAB_PLANT",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "NUM_TRAB_AFECT",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "TL_MED_SUSP",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_MED_RED",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TL_MED_EXT",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "jue, 01 may 2025 03:13:41 GMT+0000",
+    "issued": "lun, 31 mar 2025 13:58:27 GMT+0000",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode.es",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "Madrid."
+}

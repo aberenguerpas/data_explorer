@@ -1,0 +1,101 @@
+atm_inventario_año;atm_inventario_sector_GNFR;atm_inventario_sector_NFR;atm_inventario_actividad_NFR;atm_inventario_contaminante;atm_inventario_cantidad_kt
+1990;B. Industria;NFR 1: Energía;1A2a  Hierro y acero;SO2;0,628039133
+1990;B. Industria;NFR 1: Energía;1A2d  Pasta de papel, papel e impresión;NH3;0,0008812
+1990;B. Industria;NFR 1: Energía;1A2f  Minerales no metálicos;COVNM;0,164247961
+1990;B. Industria;NFR 2: Procesos industriales y uso de productos (IPPU);2C1  Producción de hierro y acero;CO;0,956192438
+1990;B. Industria;NFR 2: Procesos industriales y uso de productos (IPPU);2L  Otra producción, consumo, almacenamiento, transporte o manipulación de productos a granel;NH3;0,008754157
+1990;C. Otra combustión estacionaria;NFR 1: Energía;1A4c  Agricultura/Silvicultura/Pesca;CO;0,016642653
+1990;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2D3g  Productos quimicos;COVNM;4,013566585
+1990;F. Transporte por carretera;NFR 1: Energía;1A3b  Transporte por carretera;COVNM;47,719499462
+1990;I. Otros medios de transporte;NFR 1: Energía;1A2g  Otros sectores;NOX;0,829968566
+1990;I. Otros medios de transporte;NFR 1: Energía;1A4c  Agricultura/Silvicultura/Pesca;NOX;0,691751734
+1990;J. Residuos;NFR 5: Residuos;5C1b  Incineración de lodos de depuradora y cremación;COVNM;0,000530539
+1990;J. Residuos;NFR 5: Residuos;5D2  Tratamiento y eliminación de aguas residuales industriales;CO;0,005495842
+1990;K. Ganadería;NFR 3: Agricultura;3B1b  Manejo del estiércol - Ganado no lechero;NOX;0,009677369
+1990;K. Ganadería;NFR 3: Agricultura;3B4e  Manejo del estiércol - Caballos;NH3;0,045338974
+1990;K. Ganadería;NFR 3: Agricultura;3B4h  Manejo de estiércol - Otros animales ;COVNM;0,002037878
+1990;L. Otros agricultura;NFR 3: Agricultura;3De  Cultivos;COVNM;0,050188082
+1991;B. Industria;NFR 1: Energía;1A1c  Fabricación de combustibles sólidos y otras industrias energéticas;NOX;0,001015421
+1991;B. Industria;NFR 1: Energía;1A2c  Productos químicos;CO;0,560065528
+1991;B. Industria;NFR 1: Energía;1A2e  Procesado de alimentos, bebidas y tabaco;NH3;0,000013874
+1991;B. Industria;NFR 1: Energía;1A2g  Otros sectores;COVNM;1,6253343609
+1991;B. Industria;NFR 2: Procesos industriales y uso de productos (IPPU);2D3c  Techos de asfalto;COVNM;0,001324721
+1991;C. Otra combustión estacionaria;NFR 1: Energía;1A4b  Residencial;COVNM;1,966156112
+1991;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2D3d  Aplicaciones de recubrimiento;COVNM;20,770654729
+1991;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2G  Otros productos minerales;SO2;0,000735646
+1991;I. Otros medios de transporte;NFR 1: Energía;1A2g  Otros sectores;CO;0,481840485
+1991;I. Otros medios de transporte;NFR 1: Energía;1A4c  Agricultura/Silvicultura/Pesca;CO;0,384693517
+1991;J. Residuos;NFR 5: Residuos;5A Tratamiento biológico de residuos (disposición de residuos sólidos en tierra);COVNM;0,454634665
+1991;J. Residuos;NFR 5: Residuos;5D1  Tratamiento y eliminación de aguas residuales domésticas;CO;0,004200683
+1991;K. Ganadería;NFR 3: Agricultura;3B1a  Manejo del estiércol - Ganado lechero;NOX;0,013030914
+1991;K. Ganadería;NFR 3: Agricultura;3B4d  Manejo del estiércol - Cabras;NH3;0,002814288
+1991;K. Ganadería;NFR 3: Agricultura;3B4g  Manejo del estiércol - Gallinas ponedoras;COVNM;0,062031466
+1991;L. Otros agricultura;NFR 3: Agricultura;3De  Cultivos;COVNM;0,047140042
+1992;B. Industria;NFR 1: Energía;1A1c  Fabricación de combustibles sólidos y otras industrias energéticas;NOX;0,000994582
+1992;B. Industria;NFR 1: Energía;1A2c  Productos químicos;CO;0,518530866
+1992;B. Industria;NFR 1: Energía;1A2e  Procesado de alimentos, bebidas y tabaco;NH3;0,000011639
+1992;B. Industria;NFR 1: Energía;1A2g  Otros sectores;COVNM;1,0349734864
+1992;B. Industria;NFR 2: Procesos industriales y uso de productos (IPPU);2D3c  Techos de asfalto;COVNM;0,001327711
+1992;C. Otra combustión estacionaria;NFR 1: Energía;1A4b  Residencial;COVNM;2,287551625
+1992;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2D3d  Aplicaciones de recubrimiento;COVNM;18,743053683
+1992;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2G  Otros productos minerales;SO2;0,000737307
+1992;I. Otros medios de transporte;NFR 1: Energía;1A2g  Otros sectores;CO;0,441776562
+1992;I. Otros medios de transporte;NFR 1: Energía;1A4c  Agricultura/Silvicultura/Pesca;CO;0,376878056
+1992;J. Residuos;NFR 5: Residuos;5A Tratamiento biológico de residuos (disposición de residuos sólidos en tierra);COVNM;0,47975324
+1992;J. Residuos;NFR 5: Residuos;5D1  Tratamiento y eliminación de aguas residuales domésticas;CO;0,004200683
+1992;K. Ganadería;NFR 3: Agricultura;3B1a  Manejo del estiércol - Ganado lechero;NOX;0,009690037
+1992;K. Ganadería;NFR 3: Agricultura;3B4d  Manejo del estiércol - Cabras;NH3;0,004659261
+1992;K. Ganadería;NFR 3: Agricultura;3B4g  Manejo del estiércol - Gallinas ponedoras;COVNM;0,051968305
+1992;L. Otros agricultura;NFR 3: Agricultura;3De  Cultivos;COVNM;0,046472187
+1993;B. Industria;NFR 1: Energía;1A1c  Fabricación de combustibles sólidos y otras industrias energéticas;NOX;0,001006936
+1993;B. Industria;NFR 1: Energía;1A2c  Productos químicos;CO;0,496201924
+1993;B. Industria;NFR 1: Energía;1A2e  Procesado de alimentos, bebidas y tabaco;NH3;0,000011919
+1993;B. Industria;NFR 1: Energía;1A2g  Otros sectores;COVNM;1,0514234471
+1993;B. Industria;NFR 2: Procesos industriales y uso de productos (IPPU);2D3c  Techos de asfalto;COVNM;0,001450107
+1993;C. Otra combustión estacionaria;NFR 1: Energía;1A4b  Residencial;COVNM;1,836269811
+1993;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2D3d  Aplicaciones de recubrimiento;COVNM;17,053304038
+1993;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2G  Otros productos minerales;SO2;0,000738785
+1993;I. Otros medios de transporte;NFR 1: Energía;1A2g  Otros sectores;CO;0,39112056
+1993;I. Otros medios de transporte;NFR 1: Energía;1A4c  Agricultura/Silvicultura/Pesca;CO;0,35422533
+1993;J. Residuos;NFR 5: Residuos;5A Tratamiento biológico de residuos (disposición de residuos sólidos en tierra);CO;0,002763227
+1993;J. Residuos;NFR 5: Residuos;5C2  Quema a cielo abierto de residuos;SO2;0,009173465
+1993;K. Ganadería;NFR 3: Agricultura;3B1a  Manejo del estiércol - Ganado lechero;COVNM;0,160991648
+1993;K. Ganadería;NFR 3: Agricultura;3B3  Manejo del estiércol - Porcino;NOX;0,002007268
+1993;K. Ganadería;NFR 3: Agricultura;3B4g  Manejo del estiércol - Gallinas ponedoras;NH3;0,203954326
+1993;L. Otros agricultura;NFR 3: Agricultura;3Da2  Estiércol aplicado a los suelos;NOX;0,354870483
+1994;A. Energía pública;NFR 1: Energía;1A1a  Electricidad pública y producción de calor;CO;0,112394412
+1994;B. Industria;NFR 1: Energía;1A2b  Metales no ferrosos;CO;0,027691968
+1994;B. Industria;NFR 1: Energía;1A2d  Pasta de papel, papel e impresión;COVNM;0,040762097
+1994;B. Industria;NFR 1: Energía;1A2f  Minerales no metálicos;NOX;5,180155286
+1994;B. Industria;NFR 2: Procesos industriales y uso de productos (IPPU);2C1  Producción de hierro y acero;SO2;0,036388802
+1994;C. Otra combustión estacionaria;NFR 1: Energía;1A4a  Comercial / institucional;NOX;1,482881742
+1994;C. Otra combustión estacionaria;NFR 1: Energía;1A4c  Agricultura/Silvicultura/Pesca;SO2;0,00937155
+1994;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2G  Otros productos minerales;CO;0,142087444
+1994;H. Transporte aéreo;NFR 1: Energía;1A3a Aviación internacional y doméstica LTO (civil);CO;0,9956072361
+1994;I. Otros medios de transporte;NFR 1: Energía;1A3c  Transporte por ferrocarril;NH3;0,000043471
+1994;I. Otros medios de transporte;NFR 1: Energía;1A5b  Otros, móviles (incluidos barcos militares, terrestres y de recreo);NH3;0,000051346
+1994;J. Residuos;NFR 5: Residuos;5C1b  Incineración de lodos de depuradora y cremación;SO2;0,001026944
+1994;J. Residuos;NFR 5: Residuos;5D2  Tratamiento y eliminación de aguas residuales industriales;NOX;0,000293087
+1994;K. Ganadería;NFR 3: Agricultura;3B2  Manejo del estiércol - Ovinos;COVNM;0,026465413
+1994;K. Ganadería;NFR 3: Agricultura;3B4e  Manejo del estiércol - Caballos;NOX;0,001732002
+1994;L. Otros agricultura;NFR 3: Agricultura;3Da1  Fertilizantes N-inorgánicos (incluye también la aplicación de urea);NH3;0,774244234
+1994;L. Otros agricultura;NFR 3: Agricultura;3F  Quema de residuos agrícolas en el campo;NH3;0,229375734
+1995;B. Industria;NFR 1: Energía;1A1c  Fabricación de combustibles sólidos y otras industrias energéticas;NOX;0,001035448
+1995;B. Industria;NFR 1: Energía;1A2c  Productos químicos;CO;1,188158853
+1995;B. Industria;NFR 1: Energía;1A2e  Procesado de alimentos, bebidas y tabaco;NH3;0,000013507
+1995;B. Industria;NFR 1: Energía;1A2g  Otros sectores;COVNM;1,0018827625
+1995;B. Industria;NFR 2: Procesos industriales y uso de productos (IPPU);2D3c  Techos de asfalto;COVNM;0,002358912
+1995;C. Otra combustión estacionaria;NFR 1: Energía;1A4b  Residencial;COVNM;0,962078066
+1995;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2D3d  Aplicaciones de recubrimiento;COVNM;19,878109022
+1995;E. Disolventes;NFR 2: Procesos industriales y uso de productos (IPPU);2G  Otros productos minerales;SO2;0,000740088
+1995;I. Otros medios de transporte;NFR 1: Energía;1A2g  Otros sectores;CO;0,290411815
+1995;I. Otros medios de transporte;NFR 1: Energía;1A4c  Agricultura/Silvicultura/Pesca;CO;0,358416729
+1995;J. Residuos;NFR 5: Residuos;5A Tratamiento biológico de residuos (disposición de residuos sólidos en tierra);CO;0,002654883
+1995;J. Residuos;NFR 5: Residuos;5C2  Quema a cielo abierto de residuos;SO2;0,003795338
+1995;K. Ganadería;NFR 3: Agricultura;3B1a  Manejo del estiércol - Ganado lechero;COVNM;0,269476509
+1995;K. Ganadería;NFR 3: Agricultura;3B3  Manejo del estiércol - Porcino;NOX;0,001519727
+1995;K. Ganadería;NFR 3: Agricultura;3B4g  Manejo del estiércol - Gallinas ponedoras;NH3;0,28333892
+1995;L. Otros agricultura;NFR 3: Agricultura;3Da2  Estiércol aplicado a los suelos;NOX;0,351969233
+1996;A. Energía pública;NFR 1: Energía;1A1a  Electricidad pública y producción de calor;CO;0,1238566945
+1996;B. Industria;NFR 1: Energía;1A2a  Hierro y acero;NOX;0,189581309
+1996;B. Industria;NFR 1: Energía;1A2d  Pasta de papel, papel e impresión;CO;0,352024822

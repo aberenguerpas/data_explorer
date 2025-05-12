@@ -1,0 +1,90 @@
+{
+    "identifier": "ea0010587-gastos-internos-totales-en-actividades-de-id-en-relacion-con-el-pib-por-sectores-de-ejecucion-y-anos-identificador-api-t14-p057-a2008-l0-01002-px",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Gastos internos totales en actividades de I+D en relación con el PIB por sectores de ejecución y años ",
+    "file_name": "ea0010587-gastos-internos-totales-en-actividades-de-id-en-relacion-con-el-pib-por-sectores-de-ejecucion-y-anos-identificador-api-t14-p057-a2008-l0-01002-px-gob-Gastos_internos_totales_en_actividades_de_I+D_en_relación_con_el_PIB_por_sectores_de_ejecución_y_años_",
+    "description": "Tabla de INEbase\nGastos internos totales en actividades de I+D en relación con el PIB por sectores de ejecución y años. Nacional. Estadística sobre Actividades en I+D en el Sector Empresas",
+    "theme": [
+        "ciencia-tecnologia",
+        "economia"
+    ],
+    "resources": [
+        {
+            "name": "01002",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/_px/csv_bd/t14/p057/a2008/01002.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/01002.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sectores de ejecución",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "01002",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/_px/csv_bdsc/t14/p057/a2008/01002.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/01002.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sectores de ejecución",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "vie, 25 abr 2025 12:29:01 GMT+0000",
+    "issued": null,
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

@@ -1,0 +1,111 @@
+{
+    "identifier": "ea0010587-estancias-causadas-segun-el-sexo-el-diagnostico-principal-la-provincia-comunidad-y-ciudad-autonoma-de-residencia-identificador-api-74908",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Estancias causadas según el sexo, el diagnóstico principal, la provincia, Comunidad y Ciudad autónoma de residencia. ",
+    "file_name": "ea0010587-estancias-causadas-segun-el-sexo-el-diagnostico-principal-la-provincia-comunidad-y-ciudad-autonoma-de-residencia-identificador-api-74908-gob-Estancias_causadas_según_el_sexo,_el_diagnóstico_principal,_la_provincia,_Comunidad_y_Ciudad_autónoma_de_residencia._",
+    "description": "Tabla de INEbase\nEstancias causadas según el sexo, el diagnóstico principal, la provincia, Comunidad y Ciudad autónoma de residencia. Encuesta de Morbilidad Hospitalaria",
+    "theme": "salud",
+    "resources": [
+        {
+            "name": "74908",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bdsc/74908.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74908.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": "\t"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Diagnóstico principal (CIE10MC)",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total Nacional",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Comunidades y Ciudades Autónomas",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Provincias",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "74908",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/tpx/csv_bd/74908.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74908.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": "\t"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Diagnóstico principal (CIE10MC)",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total Nacional",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Comunidades y Ciudades Autónomas",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Provincias",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 18 mar 2025 11:22:04 GMT+0000",
+    "issued": null,
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

@@ -1,0 +1,90 @@
+{
+    "identifier": "ea0010587-indicadores-de-los-medios-de-trabajo-del-investigador-por-tipo-de-indicador-y-anos-identificador-api-t14-p057-a2008-l0-01007-px",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Indicadores de los medios de trabajo del investigador por tipo de indicador y años ",
+    "file_name": "ea0010587-indicadores-de-los-medios-de-trabajo-del-investigador-por-tipo-de-indicador-y-anos-identificador-api-t14-p057-a2008-l0-01007-px-gob-Indicadores_de_los_medios_de_trabajo_del_investigador_por_tipo_de_indicador_y_años_",
+    "description": "Tabla de INEbase\nIndicadores de los medios de trabajo del investigador por tipo de indicador y años. Nacional. Estadística sobre Actividades en I+D en el Sector Empresas",
+    "theme": [
+        "ciencia-tecnologia",
+        "economia"
+    ],
+    "resources": [
+        {
+            "name": "01007",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/_px/csv_bd/t14/p057/a2008/01007.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/01007.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Tipo de indicador",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "01007",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxi/files/_px/csv_bdsc/t14/p057/a2008/01007.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/01007.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": ";"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Tipo de indicador",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "vie, 25 abr 2025 12:29:00 GMT+0000",
+    "issued": null,
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": null,
+        "endDate": null
+    },
+    "geo": "España"
+}

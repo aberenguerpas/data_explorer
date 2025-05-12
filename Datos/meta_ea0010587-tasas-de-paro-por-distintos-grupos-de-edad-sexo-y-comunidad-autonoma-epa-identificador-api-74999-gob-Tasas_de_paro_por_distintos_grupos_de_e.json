@@ -1,0 +1,103 @@
+{
+    "identifier": "ea0010587-tasas-de-paro-por-distintos-grupos-de-edad-sexo-y-comunidad-autonoma-epa-identificador-api-74999",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Tasas de paro por distintos grupos de edad, sexo y comunidad autónoma. EPA ",
+    "file_name": "ea0010587-tasas-de-paro-por-distintos-grupos-de-edad-sexo-y-comunidad-autonoma-epa-identificador-api-74999-gob-Tasas_de_paro_por_distintos_grupos_de_edad,_sexo_y_comunidad_autónoma._EPA_",
+    "description": "Tabla de INEbase\nTasas de paro por distintos grupos de edad, sexo y comunidad autónoma. Anual. Comunidades y Ciudades Autónomas. Encuesta de Población Activa (EPA)",
+    "theme": "empleo",
+    "resources": [
+        {
+            "name": "74999",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxiT3/files/t/csv_bdsc/74999.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74999.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": "\t"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Comunidades y Ciudades Autónomas",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Edad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "74999",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxiT3/files/t/csv_bd/74999.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74999.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": "\t"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Comunidades y Ciudades Autónomas",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Edad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mié, 25 may 2011 09:00:00 GMT+0000",
+    "issued": "mié, 25 may 2011 09:00:00 GMT+0000",
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": "dom, 01 ene 2006 00:00:00 GMT+0000",
+        "endDate": "lun, 01 ene 2024 00:00:00 GMT+0000"
+    },
+    "geo": "España"
+}

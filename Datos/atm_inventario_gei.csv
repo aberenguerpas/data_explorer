@@ -1,0 +1,101 @@
+inventario_gei_año;inventario_gei_sector_CRF;inventario_gei_categoria_CRF;inventario_gei_actividad_CRF;inventario_gei_contaminante;inventario_gei_Gg_CO2_eq
+1990;CRF 1 Energía;1.A. Actividades de combustión;1A2b Metales no ferrosos;CO2;16,3716564273
+1990;CRF 1 Energía;1.A. Actividades de combustión;1A2e  Procesado de alimentos, bebidas y tabaco;N2O;0,47005117
+1990;CRF 1 Energía;1.A. Actividades de combustión;1A3b Transporte rodado;CH4;59,344284188
+1990;CRF 1 Energía;1.A. Actividades de combustión;1A4b  ResidencialEstacionaria;CO2;2573,15479
+1990;CRF 2 Procesos industriales y uso de productos;2.A. Productos minerales;2A1 Producción de cemento;CO2;697,08975
+1990;CRF 2 Procesos industriales y uso de productos;2.G. Otras fuentes de emisión de procesos industriales;2G1b Equipos eléctricos/Stock;SF6;7,2291235095
+1990;CRF 3 Sector agrario;3.A. Fermentación entérica;3A46 Conejos;CH4;0,45191048
+1990;CRF 3 Sector agrario;3.D. Suelos agrícolas;3D11 Fertilizantes inorgánicos de N;N2O;26,758241705
+1990;CRF 3 Sector agrario;3.F. Quema en el campo de residuos agrícolas;3F13 Maíz;CH4;2,862861316
+1990;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4(IV)2 Emisiones indirectas de N2O;4(IV)2 Emisiones indirectas de N2O;N2O;0,0950152472
+1990;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.B. Tierras de cultivo;4B11 Tierras de cultivo que siguen siendo tierras de cultivo;CO2;3,2131376871
+1990;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.C. Pastizales;4C21 Tierras forestales convertidas en pastizales;CO2;1,2306488485
+1990;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.G. Productos madereros;4G11 Madera sólida;CO2;-298,3459178947
+1990;CRF 5 Residuos;5.C. Incineración y quema en espacio abierto de residuos sólidos;5C22 Quema abierta de residuos no biogénicos;CO2;0,461962
+1991;CRF 1 Energía;1.A. Actividades de combustión;1A1c  Fabricación de combustibles sólidos y otras industrias energéticas;N2O;0,006005695
+1991;CRF 1 Energía;1.A. Actividades de combustión;1A2d Pasta de papel, papel e impresión;CH4;1,378292048
+1991;CRF 1 Energía;1.A. Actividades de combustión;1A2g Otros sectores;N2O;7,711928993
+1991;CRF 1 Energía;1.A. Actividades de combustión;1A3c Transporte por ferrocarril;CH4;0,03966004
+1991;CRF 1 Energía;1.A. Actividades de combustión;1A5b  Otros, móviles (incluidos barcos militares, terrestres y de recreo);CH4;0,016381932
+1991;CRF 2 Procesos industriales y uso de productos;2.C. Producción metalúrgica;2C1a Producción de acero;CO2;27,311698
+1991;CRF 3 Sector agrario;3.A. Fermentación entérica;3A2 Ovino;CH4;32,093736388
+1991;CRF 3 Sector agrario;3.B. Gestión del estiércol;3B22 Ovino;N2O;2,66959198
+1991;CRF 3 Sector agrario;3.F. Quema en el campo de residuos agrícolas;3F11 Trigo;CH4;1,800685964
+1991;CRF 3 Sector agrario;3.F. Quema en el campo de residuos agrícolas;3F31 Tubérculos y raíces;CH4;1,43997224
+1991;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.A. Tierras forestales;4A21 Tierras de cultivo convertidas en tierras forestales;CO2;-32,7713213756
+1991;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.B. Tierras de cultivo;4B23 Humedales convertidos en tierras de cultivo;CO2;0,0
+1991;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.C. Pastizales;4C25 Otras tierras convertidas en pastizales;CO2;0,0
+1991;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.F. Otras tierras;4F21 Tierras forestales convertidas en otras tierras;CO2;0,0583193364
+1991;CRF 5 Residuos;5.C. Incineración y quema en espacio abierto de residuos sólidos;5C12 Incineración de residuos no biogénicos;CO2;0,350811
+1991;CRF 5 Residuos;5.E. Otros;5E1 Esparcimiento de lodos;CH4;0,753136776
+1992;CRF 1 Energía;1.A. Actividades de combustión;1A2b Metales no ferrosos;CO2;48,5481738549
+1992;CRF 1 Energía;1.A. Actividades de combustión;1A2e  Procesado de alimentos, bebidas y tabaco;CO2;254,086373
+1992;CRF 1 Energía;1.A. Actividades de combustión;1A3b Transporte rodado;CH4;72,7946639
+1992;CRF 1 Energía;1.A. Actividades de combustión;1A4b  ResidencialEstacionaria;CO2;3182,473943
+1992;CRF 2 Procesos industriales y uso de productos;2.A. Productos minerales;2A1 Producción de cemento;CO2;743,647569
+1992;CRF 2 Procesos industriales y uso de productos;2.G. Otras fuentes de emisión de procesos industriales;2G1b Equipos eléctricos/Stock;SF6;7,8631691135
+1992;CRF 3 Sector agrario;3.B. Gestión del estiércol;3B11 Vacuno;CH4;15,309282856
+1992;CRF 3 Sector agrario;3.D. Suelos agrícolas;3D12 Fertilizantes orgánicos de N;N2O;16,620324325
+1992;CRF 3 Sector agrario;3.F. Quema en el campo de residuos agrícolas;3F13 Maíz;CH4;2,53453634
+1992;CRF 3 Sector agrario;3.I. Otros fertilizantes que contienen carbono;3I Otros fertilizantes que contienen carbono;CO2;0,855974
+1992;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.B. Tierras de cultivo;4B11 Tierras de cultivo que siguen siendo tierras de cultivo;CH4;0,3033188339
+1992;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.C. Pastizales;4C11 Pastizales que siguen siendo pastizales;N2O;0,7775004709
+1992;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.E. Asentamientos;4E22 Tierras de cultivo convertidas en asentamientos;CO2;37,7410833075
+1992;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.G. Productos madereros;4G11 Madera sólida;CO2;-168,2327525573
+1992;CRF 5 Residuos;5.C. Incineración y quema en espacio abierto de residuos sólidos;5C22 Quema abierta de residuos no biogénicos;CO2;0,266177
+1993;CRF 1 Energía;1.A. Actividades de combustión;1A1c  Fabricación de combustibles sólidos y otras industrias energéticas;N2O;0,006256915
+1993;CRF 1 Energía;1.A. Actividades de combustión;1A2d Pasta de papel, papel e impresión;CH4;1,985181436
+1993;CRF 1 Energía;1.A. Actividades de combustión;1A2g Otros sectores;CO2;651,426339
+1993;CRF 1 Energía;1.A. Actividades de combustión;1A3c Transporte por ferrocarril;N2O;0,04261147
+1993;CRF 1 Energía;1.A. Actividades de combustión;1A5b  Otros, móviles (incluidos barcos militares, terrestres y de recreo);CH4;0,018146772
+1993;CRF 2 Procesos industriales y uso de productos;2.C. Producción metalúrgica;2C1a Producción de acero;CO2;27,921139
+1993;CRF 3 Sector agrario;3.A. Fermentación entérica;3A2 Ovino;CH4;22,947430716
+1993;CRF 3 Sector agrario;3.B. Gestión del estiércol;3B21 Vacuno;N2O;2,447688135
+1993;CRF 3 Sector agrario;3.D. Suelos agrícolas;3D22 Lixiviación y Escorrentía de N;N2O;2,822244435
+1993;CRF 3 Sector agrario;3.F. Quema en el campo de residuos agrícolas;3F31 Tubérculos y raíces;N2O;0,25642725
+1993;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.A. Tierras forestales;4A22 Pastizales convertidos en tierras forestales;CO2;-136,4516680383
+1993;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.B. Tierras de cultivo;4B24 Asentamientos convertidos en tierras de cultivo;CO2;-0,0551365689
+1993;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.F. Otras tierras;4F21 Tierras forestales convertidas en otras tierras;CO2;0,0693045918
+1993;CRF 5 Residuos;5.C. Incineración y quema en espacio abierto de residuos sólidos;5C21 Quema abierta de residuos Biogénicos;CH4;1,067581004
+1994;CRF 1 Energía;1.A. Actividades de combustión;1A1a Producción de energía y calor en plantas de servicio público;N2O;0,015799035
+1994;CRF 1 Energía;1.A. Actividades de combustión;1A2c Productos químicos;CH4;4,355704444
+1994;CRF 1 Energía;1.A. Actividades de combustión;1A2f Minerales no metálicos;CO2;824,6540063008
+1994;CRF 1 Energía;1.A. Actividades de combustión;1A3b Transporte rodado;CH4;59,90910632
+1994;CRF 1 Energía;1.A. Actividades de combustión;1A4c Agricultura/Pesca/Forestal;CO2;74,571385
+1994;CRF 2 Procesos industriales y uso de productos;2.A. Productos minerales;2A3 Producción de vidrio;CO2;6,370592
+1994;CRF 2 Procesos industriales y uso de productos;2.G. Otras fuentes de emisión de procesos industriales;2G3b Propulsor para para productos a presión y aerosoles;N2O;0,130808505
+1994;CRF 3 Sector agrario;3.B. Gestión del estiércol;3B12 Ovino;CH4;5,828334568
+1994;CRF 3 Sector agrario;3.D. Suelos agrícolas;3D13 Orina y estiércol depositado por animales de pastoreo;N2O;3,365882925
+1994;CRF 3 Sector agrario;3.F. Quema en el campo de residuos agrícolas;3F14 Otros cereales;CH4;0,073133536
+1994;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4(IV)2 Emisiones indirectas de N2O;4(IV)2 Emisiones indirectas de N2O;N2O;0,1009802247
+1994;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.B. Tierras de cultivo;4B11 Tierras de cultivo que siguen siendo tierras de cultivo;CH4;0,3306205507
+1994;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.C. Pastizales;4C21 Tierras forestales convertidas en pastizales;CO2;1,1277643508
+1994;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.E. Asentamientos;4E23 Pastizales convertidos en asentamientos;CO2;25,4296156468
+1994;CRF 5 Residuos;5.A. Depósito en vertederos de residuos sólidos;5A1a Vertederos gestionados Anaeróbicos;CH4;1398,289646096
+1994;CRF 5 Residuos;5.D. Tratamiento y eliminación de aguas residuales;5D1 Aguas residuales domésticas;CH4;414,254621872
+1995;CRF 1 Energía;1.A. Actividades de combustión;1A2a Hierro y acero;N2O;0,23284914
+1995;CRF 1 Energía;1.A. Actividades de combustión;1A2d Pasta de papel, papel e impresión;N2O;1,276068545
+1995;CRF 1 Energía;1.A. Actividades de combustión;1A3a Transporte aéreo civil;N2O;4,6438679474
+1995;CRF 1 Energía;1.A. Actividades de combustión;1A4a Comercial / institucional;CO2;1251,127565
+1995;CRF 1 Energía;1.A. Actividades de combustión;1A5b  Otros, móviles (incluidos barcos militares, terrestres y de recreo);N2O;0,321116665
+1995;CRF 2 Procesos industriales y uso de productos;2.D. Productos no energéticos y uso de disolventes;2D1 Uso de lubricantes;CO2;20,558602
+1995;CRF 2 Procesos industriales y uso de productos;2.G. Otras fuentes de emisión de procesos industriales;2G2b Aceleradores;SF6;0,0385463215
+1995;CRF 3 Sector agrario;3.A. Fermentación entérica;3A46 Conejos;CH4;0,77783104
+1995;CRF 3 Sector agrario;3.D. Suelos agrícolas;3D11 Fertilizantes inorgánicos de N;N2O;20,132005215
+1995;CRF 3 Sector agrario;3.F. Quema en el campo de residuos agrícolas;3F13 Maíz;CH4;2,256082136
+1995;CRF 3 Sector agrario;3.H. Urea;3H Urea;CO2;2,527543
+1995;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.A. Tierras forestales;4A25 Otras tierras convertidas en tierras forestales;CO2;0,0
+1995;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.C. Pastizales;4C11 Pastizales que siguen siendo pastizales;CO2;0,1246895231
+1995;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.E. Asentamientos;4E21 Tierras forestales convertidas en asentamientos;CO2;8,6837104678
+1995;CRF 4 Uso de la tierra, cambios de usos de la tierra y selvicultura;4.F. Otras tierras;4F25 Asentamientos convertidos en otras tierras;CO2;0,0
+1995;CRF 5 Residuos;5.C. Incineración y quema en espacio abierto de residuos sólidos;5C22 Quema abierta de residuos no biogénicos;N2O;0,006774725
+1996;CRF 1 Energía;1.A. Actividades de combustión;1A1c  Fabricación de combustibles sólidos y otras industrias energéticas;N2O;0,0071073
+1996;CRF 1 Energía;1.A. Actividades de combustión;1A2d Pasta de papel, papel e impresión;CH4;5,336976792
+1996;CRF 1 Energía;1.A. Actividades de combustión;1A2g Otros sectores;CO2;582,257262
+1996;CRF 1 Energía;1.A. Actividades de combustión;1A3c Transporte por ferrocarril;CO2;19,058113
+1996;CRF 1 Energía;1.A. Actividades de combustión;1A4c Agricultura/Pesca/Forestal;N2O;0,76169692
+1996;CRF 2 Procesos industriales y uso de productos;2.A. Productos minerales;2A3 Producción de vidrio;CO2;7,036648
+1996;CRF 2 Procesos industriales y uso de productos;2.F. Consumo de gases fluorados;2F1b Refrigeración doméstica;HFC;0,2283012017
+1996;CRF 2 Procesos industriales y uso de productos;2.F. Consumo de gases fluorados;2F3a Protección contra incendios/Fabricación;HFC;0,0054092396
+1996;CRF 2 Procesos industriales y uso de productos;2.G. Otras fuentes de emisión de procesos industriales;2G3b Propulsor para para productos a presión y aerosoles;N2O;0,130456585

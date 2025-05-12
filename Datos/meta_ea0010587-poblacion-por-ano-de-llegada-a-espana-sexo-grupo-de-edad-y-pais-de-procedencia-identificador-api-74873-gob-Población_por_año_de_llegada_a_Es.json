@@ -1,0 +1,111 @@
+{
+    "identifier": "ea0010587-poblacion-por-ano-de-llegada-a-espana-sexo-grupo-de-edad-y-pais-de-procedencia-identificador-api-74873",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fdatosgob&psig=AOvVaw0S3XMbqIR169Ky85_jiAZ9&ust=1676033201784000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD7t6-8iP0CFQAAAAAdAAAAABAE",
+    "title": "Población por año de llegada a España, sexo, grupo de edad y país de procedencia ",
+    "file_name": "ea0010587-poblacion-por-ano-de-llegada-a-espana-sexo-grupo-de-edad-y-pais-de-procedencia-identificador-api-74873-gob-Población_por_año_de_llegada_a_España,_sexo,_grupo_de_edad_y_país_de_procedencia_",
+    "description": "Tabla de INEbase\nPoblación por año de llegada a España, sexo, grupo de edad y país de procedencia. Anual. Nacional. Censo de Población",
+    "theme": "demografia",
+    "resources": [
+        {
+            "name": "74873",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxiT3/files/t/csv_bdsc/74873.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74873.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": "\t"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Año de llegada a España",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Edad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "País de procedencia",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "74873",
+            "language": "en",
+            "downloadUrl": "https://www.ine.es/jaxiT3/files/t/csv_bd/74873.csv",
+            "mediaType": "text/csv",
+            "size": null,
+            "path": "/home/jmelgarejo/opendatacrawler-noparalelo/data/datos.gob.es/74873.csv",
+            "type": "table",
+            "scheme": "file",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "dialect": {
+                "csv": {
+                    "delimiter": "\t"
+                }
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Año de llegada a España",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Sexo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Edad",
+                        "type": "string"
+                    },
+                    {
+                        "name": "País de procedencia",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Periodo",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Total",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "mar, 15 abr 2025 11:00:00 GMT+0000",
+    "issued": "jue, 26 sep 2024 11:00:00 GMT+0000",
+    "license": "https://www.ine.es/aviso_legal",
+    "source": "https://datos.gob.es",
+    "temporal": {
+        "startDate": "vie, 01 ene 2021 00:00:00 GMT+0000",
+        "endDate": "lun, 01 ene 2024 00:00:00 GMT+0000"
+    },
+    "geo": "España"
+}

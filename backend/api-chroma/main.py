@@ -18,7 +18,7 @@ app = FastAPI()
 
 generative = GenerativeEngine('gpt-4.1-nano')
 
-semantic = SemanticEngine('sentence-transformers/all-MiniLM-L6-v2')
+semantic = SemanticEngine('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
 log = LoggerOpenSeach()
 db = dbEngine()
 search = SearchEngine(db, generative, semantic)

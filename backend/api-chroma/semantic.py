@@ -23,6 +23,10 @@ class SemanticEngine:
         self.col_headers = client.get_or_create_collection(name="cabeceras_csv")
         self.col_data = client.get_or_create_collection(name="contenido_csv")
 
+    def get_embeddings(self, ids, collection):
+        res = collection.get(ids=ids, include=["embeddings"])
+        return [np.array(e) for e in res["embeddings"]]
+
     def similarItems(self, query):
         emb = self.model.encode(query).tolist()
         res = self.col_titulo.query(query_embeddings=[emb], n_results=4)
@@ -55,18 +59,14 @@ class SemanticEngine:
         
             for index, score in enumerate(scores_description):
                 r_id = list_results[index].get('id')
-                print(f"[DEBUG] Score para ID {r_id}: {score:.5f}")
-                #if score >= 0.02:
-                print(f"[DEBUG] → ACEPTADO (>= 0.02): {r_id}")
-                final_result.append(list_results[index])
-                #else:
-                    #print(f"[DEBUG] → DESCARTADO (< 0.02): {r_id}")
-        
+                if score >= 0.02:
+                    final_result.append(list_results[index])
+                
         print(f"[DEBUG] Total aceptados tras reranker: {len(final_result)}")
         return final_result
 
     def embed(self, text):
-        return self.model.encode(text).tolist()
+        return self.model.encode(text)
 
     def query_collections(self, query, k=50):
         emb = self.embed(query)

@@ -12,15 +12,16 @@ import re
 import string
 import torch
 import time
+from sklearn.preprocessing import normalize
 
 # ----------- CONFIGURACIÓN -----------
-model_name = "sentence-transformers/all-MiniLM-L6-v2"
-DATA_PATH = '../Datos'
-CHROMA_PATH = "./api-chroma/chroma_data"
+model_name = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+DATA_PATH = '../datos/datos.gob.es'
+CHROMA_PATH = "./chroma_data"
 BLOCK_SIZE = 25
 
 # ----------- NORMALIZACIÓN -----------
-def normalize(text):
+def normalize_text(text):
     if text is None:
         return ''
         
@@ -48,7 +49,7 @@ def recolectar_datos_json(ruta_json, directorio, normalizado=True, num_rows=None
         with open(ruta_json, 'r', encoding='utf-8') as f:
             datos_json = json.load(f)
 
-        norm = normalize if normalizado else (lambda x: x)
+        norm = normalize_text if normalizado else (lambda x: x)
 
         uid = str(datos_json.get("identifier", "")).strip()
         
@@ -152,6 +153,7 @@ def generar_embeddings_y_guardar(data, model, BATCH_SIZE=64):
             emb_rows_mean.append(np.zeros(embedding_dim, dtype=np.float32))
 
     print("Indexando en ChromaDB...")
+
     col_titulo.add(ids=ids, embeddings=emb_titles.tolist(), documents=titles, metadatas=metas)
     col_desc.add(ids=ids, embeddings=emb_descs.tolist(), documents=descs, metadatas=metas)
     col_headers.add(ids=ids, embeddings=emb_headers.tolist(), documents=headers, metadatas=metas)
@@ -167,7 +169,6 @@ if __name__ == "__main__":
     torch.cuda.empty_cache()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    #model_name = "jinaai/jina-embeddings-v2-base-es"
     model = SentenceTransformer(model_name, device=device)
 
     print("Recolectando datos...")

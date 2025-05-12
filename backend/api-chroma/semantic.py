@@ -41,25 +41,26 @@ class SemanticEngine:
     
         print(f"[DEBUG] Ejecutando reranker para consulta: '{q}'")
         print(f"[DEBUG] Número de resultados a evaluar: {len(list_results)}")
-    
-        for r in list_results:
-            desc = r.get('description', '')
-            print(f"[DEBUG] → Evaluando ID: {r.get('id')} | Descripción: {desc}")
-            rank_description.append([q, desc])
-    
-        scores_description = self.reranker.compute_score(rank_description, normalize=True)
-    
-        if isinstance(scores_description, float) or isinstance(scores_description, np.float64):
-            scores_description = [scores_description]
-    
-        for index, score in enumerate(scores_description):
-            r_id = list_results[index].get('id')
-            print(f"[DEBUG] Score para ID {r_id}: {score:.5f}")
-            #if score >= 0.02:
-            print(f"[DEBUG] → ACEPTADO (>= 0.02): {r_id}")
-            final_result.append(list_results[index])
-            #else:
-                #print(f"[DEBUG] → DESCARTADO (< 0.02): {r_id}")
+
+        if len(list_results) > 1:
+            for r in list_results:
+                desc = r.get('description', '')
+                print(f"[DEBUG] → Evaluando ID: {r.get('id')} | Descripción: {desc}")
+                rank_description.append([q, desc])
+        
+            scores_description = self.reranker.compute_score(rank_description, normalize=True)
+        
+            if isinstance(scores_description, float) or isinstance(scores_description, np.float64):
+                scores_description = [scores_description]
+        
+            for index, score in enumerate(scores_description):
+                r_id = list_results[index].get('id')
+                print(f"[DEBUG] Score para ID {r_id}: {score:.5f}")
+                #if score >= 0.02:
+                print(f"[DEBUG] → ACEPTADO (>= 0.02): {r_id}")
+                final_result.append(list_results[index])
+                #else:
+                    #print(f"[DEBUG] → DESCARTADO (< 0.02): {r_id}")
         
         print(f"[DEBUG] Total aceptados tras reranker: {len(final_result)}")
         return final_result

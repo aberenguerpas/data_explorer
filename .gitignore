@@ -1,8 +1,10 @@
 .vscode
-/datos
 datos.zip
 /backend/indexs/
 .env/
 /backend/api-chroma/.env
 /backend/api-chroma/__pycache__/
-/backend/api-chroma/chroma_data/
+/backend/api-chroma/chroma_data/*
+/backend/api-chroma/chroma_data/chroma.sqlite3
+Datos/
+backend/api-chroma/chroma_data/chroma.sqlite3

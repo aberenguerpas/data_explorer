@@ -14,9 +14,9 @@ import torch
 import time
 
 # ----------- CONFIGURACIÓN -----------
-model_name = "jinaai/jina-embeddings-v2-base-es"
-DATA_PATH = '../datos/datos.gob.es'
-CHROMA_PATH = "./chroma_data"
+model_name = "sentence-transformers/all-MiniLM-L6-v2"
+DATA_PATH = '../Datos'
+CHROMA_PATH = "./api-chroma/chroma_data"
 BLOCK_SIZE = 25
 
 # ----------- NORMALIZACIÓN -----------
@@ -167,7 +167,7 @@ if __name__ == "__main__":
     torch.cuda.empty_cache()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    model_name = "jinaai/jina-embeddings-v2-base-es"
+    #model_name = "jinaai/jina-embeddings-v2-base-es"
     model = SentenceTransformer(model_name, device=device)
 
     print("Recolectando datos...")

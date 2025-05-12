@@ -16,13 +16,13 @@
                         <!-- Card header -->
                         <div class="w-full sm:flex justify-between items-center mb-3">
                             <!-- Title -->
-                            <h2 class="text-md leading-snug font-extrabold text-gray-600 truncate mb-1 sm:mb-0">{{ props['data']['fields']['title'][0] }}</h2>
+                            <h2 class="text-md leading-snug font-extrabold text-gray-600 truncate mb-1 sm:mb-0">{{ props['data']['title'] }}</h2>
                         </div>
                         <!-- Card body -->
                         <div class="flex items-end justify-between whitespace-normal text-md">
                             <!-- Paragraph -->
                             <div class="text-stone-500 line-clamp-3">
-                                <p class="mb-2">{{ props['data']['fields']['description'][0] }}</p>
+                                <p class="mb-2">{{ props['data']['description'] }}</p>
                             </div>
                             <!-- More link -->
                             <button class="flex-shrink-0 flex items-center justify-center text-blue-600 w-10 h-10 rounded-full bg-gradient-to-b from-blue-50 to-blue-100 hover:from-white hover:to-blue-50 focus:outline-none focus-visible:from-white focus-visible:to-white transition duration-150 ml-2" @click="goDetails">
@@ -42,7 +42,7 @@ import { useRouter } from 'vue-router';
 const props = defineProps(['data'])
 const router = useRouter()
 const goDetails = async()=>{
-    await router.push('/dataset/'+props['data']['fields']['id_custom'])
+    await router.push('/dataset/'+props['data']['id'])
     //router.go(0)
 }
 </script>

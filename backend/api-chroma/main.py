@@ -6,14 +6,19 @@ from db import dbEngine
 from generative import GenerativeEngine
 from semantic import SemanticEngine
 import chromadb
-import json
+import json,csv
+import pandas as pd
+from io import StringIO
+from json import loads
+
+
 from transformers import AutoModel
 
 app = FastAPI()
 
 generative = GenerativeEngine('gpt-4.1-nano')
 
-semantic = SemanticEngine('jinaai/jina-embeddings-v2-base-es')
+semantic = SemanticEngine('sentence-transformers/all-MiniLM-L6-v2')
 log = LoggerOpenSeach()
 db = dbEngine()
 search = SearchEngine(db, generative, semantic)
@@ -61,9 +66,15 @@ def download_sample(item_id: str):
     if result and result['metadatas']:
         try:
             csv_text = result['metadatas'][0].get("csv", "")
-            return {"response": csv_text if csv_text else "No data"}
+            if not csv_text:
+                return {"response": "No hay datos"}
+            # Detectar el delimitador
+            sniffer = csv.Sniffer()
+            delimiter = sniffer.sniff(csv_text).delimiter
+            return {"response": loads(pd.read_csv(StringIO(csv_text), engine='python',
+                             on_bad_lines="skip", encoding='utf-8', sep=delimiter).to_json(orient="index")) if csv_text else "No data"}
         except:
-            return {"response": "Error al recuperar contenido CSV"}
+            return {"response": "Error al recuperar contenido"}
     return {"response": "No encontrado"}
 
 @app.get("/similar")

@@ -1,17 +1,9 @@
 import pickle
 import numpy as np
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
 class SearchEngine:
     def __init__(self, db, generative, semantic):
         print('Created Search Engine')
-        
-        self.model_name = "meta-llama/Llama-3.2-3B-Instruct"
-        self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, use_auth_token=True)
-        self.llm_model = AutoModelForCausalLM.from_pretrained(
-            self.model_name, device_map="auto", torch_dtype="auto", use_auth_token=True
-        )
-        self.classifier_pipeline = pipeline("text-generation", model=self.llm_model, tokenizer=self.tokenizer)
 
         self.db = db
         self.generative = generative
@@ -19,7 +11,8 @@ class SearchEngine:
 
     def search(self, text):
         print(f"[SEARCH] Consulta recibida: {text}")
-        query_type = self.classify_query_type(text)
+        query_type = self.generative.classify_query_type(text)
+        
         print(f"[SEARCH] Tipo de consulta clasificada: {'intent' if query_type == 1 else 'keyword'}")
         if query_type == 1:
             keywords = self.generative.getKeywords(text)
@@ -163,21 +156,3 @@ class SearchEngine:
                 response['additional'] = self.generative.additionalInfo(query)
 
         return response
-
-    def classify_query_type(self, query):
-        prompt = f"""
-Dada la siguiente consulta de un usuario, determina si se trata de una búsqueda directa de información (tipo 'keyword') o si el usuario está expresando una intención más general o abstracta (tipo 'intent').
-
-- Si el usuario menciona una acción, un objetivo o una necesidad, responde con: intent.
-- Si el usuario menciona directamente un concepto, entidad, evento o término específico a buscar, responde con: keyword.
-
-Devuelve solo una de estas dos palabras: intent o keyword.
-
-Consulta: "{query}"
-Respuesta:
-""".strip()
-
-        print(f"[CLASSIFY] Prompt de clasificación:\n{prompt}")
-        result = self.classifier_pipeline(prompt, max_new_tokens=10, return_full_text=False)[0]['generated_text'].strip().lower()
-        print(f"[CLASSIFY] Resultado clasificación: {result}")
-        return 0 if "keyword" in result else 1

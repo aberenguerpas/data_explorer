@@ -3,3 +3,5 @@
 datos.zip
 /backend/indexs/
 .env/
+/backend/api-chroma/.env
+/backend/api-chroma/__pycache__/

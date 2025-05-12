@@ -19,4 +19,4 @@ COPY . /app/
 EXPOSE 8005
 
 # Run main.py when the container launches
-CMD ["fastapi", "run", "/app/api/main.py" ,"--host", "0.0.0.0", "--port", "8005"]
+CMD ["fastapi", "run", "/app/api-chroma/main.py" ,"--host", "0.0.0.0", "--port", "8005"]

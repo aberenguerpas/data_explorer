@@ -11,7 +11,6 @@ from transformers import AutoModel
 
 app = FastAPI()
 
-#generative = GenerativeEngine('gpt-4-turbo')
 generative = GenerativeEngine('gpt-4.1-nano')
 
 semantic = SemanticEngine('jinaai/jina-embeddings-v2-base-es')

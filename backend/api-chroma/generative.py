@@ -1,25 +1,20 @@
 import os
 from langchain_openai import ChatOpenAI
-from langchain_groq import ChatGroq
 from langchain_core.output_parsers import JsonOutputParser
 from langchain.prompts import PromptTemplate
 from utils import load_dataset
+from dotenv import load_dotenv
 
 class GenerativeEngine:
   def __init__(self, model_name):
     print('Created Generative Engine')
     # Load envs
-    import os
+    load_dotenv()
     os.getenv("OPENAI_API_KEY")
-      
-    #os.environ["GROQ_API_KEY"] =''
 
     self.model_name = model_name
+    self.llm = ChatOpenAI(temperature=0, model_name=model_name)
 
-    if 'gpt' in model_name:
-      self.llm = ChatOpenAI(temperature=0, model_name=model_name)
-    else:
-      self.llm = ChatGroq(temperature=0, model_name=model_name)
 
   def suggestions(self, item_id, db):
       item_path = '../../datos/'+item_id+'.csv'

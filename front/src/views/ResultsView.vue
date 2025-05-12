@@ -80,7 +80,7 @@
       keyword.value = route.query.q
       store.InputSearch = route.query.q
       loading.value = true
-      const res = await fetch('https://demo.inferia.io/api/search?q='+keyword.value)
+      const res = await fetch('http://127.0.0.1:8000/search?q='+keyword.value)
       const jsonResponse = await res.json()
     
       type.value = jsonResponse['type']

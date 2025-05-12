@@ -15,8 +15,8 @@ import time
 
 # ----------- CONFIGURACIÓN -----------
 model_name = "jinaai/jina-embeddings-v2-base-es"
-DATA_PATH = '../datos/datos.gob.es'
-CHROMA_PATH = "./chroma_data"
+DATA_PATH = '../Datos'
+CHROMA_PATH = "./api-chroma/chroma_data"
 BLOCK_SIZE = 50
 
 # ----------- NORMALIZACIÓN -----------

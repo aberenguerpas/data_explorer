@@ -5,3 +5,4 @@ datos.zip
 .env/
 /backend/api-chroma/.env
 /backend/api-chroma/__pycache__/
+/backend/api-chroma/chroma_data/

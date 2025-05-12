@@ -148,3 +148,30 @@ class GenerativeEngine:
     res = chain.invoke({"query": query})
     text = "<p class='font-semibold'>Parece que no tenemos en nuestra base de datos la información que buscas, pero no te preocupes, hemos encontrado algo que quizá te sirva:</p><br>"
     return  text+res.content
+
+  def classify_query_type(self, query):
+    prompt_template = PromptTemplate(
+        input_variables=["query"],
+        template="""
+Dada la siguiente consulta de un usuario, determina si se trata de una búsqueda directa de información (tipo 'keyword') o si el usuario está expresando una intención más general o abstracta (tipo 'intent').
+
+- Si el usuario menciona una acción, un objetivo o una necesidad, responde con: intent.
+- Si el usuario menciona directamente un concepto, entidad, evento o término específico a buscar, responde con: keyword.
+
+Devuelve solo una de estas dos palabras: intent o keyword.
+
+Consulta: "{query}"
+Respuesta:
+""".strip()
+    )
+    print(f"[CLASSIFY] Prompt de clasificación:\n{query}")
+    chain = prompt_template | self.llm
+    res = chain.invoke({"query": query})
+
+    resultado = res.content.strip().lower()
+    print(f"[CLASSIFY] Resultado clasificación: {resultado}")
+    
+    if "keyword" in resultado:
+        return 0
+    else:
+        return 1

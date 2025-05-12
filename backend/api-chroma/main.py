@@ -13,7 +13,7 @@ app = FastAPI()
 
 generative = GenerativeEngine('gpt-4.1-nano')
 
-semantic = SemanticEngine('jinaai/jina-embeddings-v2-base-es')
+semantic = SemanticEngine('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
 log = LoggerOpenSeach()
 db = dbEngine()
 search = SearchEngine(db, generative, semantic)

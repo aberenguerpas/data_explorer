@@ -27,7 +27,7 @@
                     <p class="italic text-lg mx-4">{{intro}}</p>
                     <div class="p-4">
                       <div v-for="i in results">
-                        <ComplexResultItem v-if="i['resultados']['total']['value'] > 0" :data="i"/>
+                        <ComplexResultItem v-if="i['total']['value'] > 0" :data="i"/>
                       </div>
                     </div>
                   </div>

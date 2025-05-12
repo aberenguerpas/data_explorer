@@ -17,7 +17,7 @@ import time
 model_name = "jinaai/jina-embeddings-v2-base-es"
 DATA_PATH = '../datos/datos.gob.es'
 CHROMA_PATH = "./chroma_data"
-BLOCK_SIZE = 50
+BLOCK_SIZE = 25
 
 # ----------- NORMALIZACIÓN -----------
 def normalize(text):
@@ -168,7 +168,7 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     model_name = "jinaai/jina-embeddings-v2-base-es"
-    model = AutoModel.from_pretrained(model_name, trust_remote_code=True).to(device)
+    model = SentenceTransformer(model_name, device=device)
 
     print("Recolectando datos...")
     datos = recolectar_todo(DATA_PATH, normalizado=True, num_rows=10)
@@ -178,6 +178,20 @@ if __name__ == "__main__":
         bloque = datos[i:i+BLOCK_SIZE]
         print(f"- Procesando bloque {i//BLOCK_SIZE + 1} ({len(bloque)} elementos)...")
         inicio = time.time()
-        generar_embeddings_y_guardar(bloque, model)
+        try:
+            generar_embeddings_y_guardar(bloque, model)
+        except RuntimeError as e:
+            if "out of memory" in str(e).lower():
+                print("[!] Error de memoria en bloque:")
+                for j, item in enumerate(bloque):
+                    print(f"  - Item {j} UID: {item.get('uid', 'N/A')}")
+                    print(f"    Título: {item.get('titulo', '')}")
+                    print(f"    Descripción: {item.get('descripcion', '')}")
+                    print(f"    Header: {item.get('header_text', '')[:100]}...")
+                    print(f"    Contenido (primeras 200 chars): {' '.join(item.get('contenido_text', [])[:3])[:200]}...\n")
+                torch.cuda.empty_cache()
+                continue
+            else:
+                raise e
         print(f"-- Tiempo de ejecución: {time.time() - inicio:.2f} segundos.")
         torch.cuda.empty_cache()

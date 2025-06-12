@@ -1,220 +1,135 @@
 import pickle
-import numpy as np
-from sklearn.preprocessing import normalize
-from sklearn.metrics.pairwise import cosine_similarity
+import time
+
+# He añadido esto para poder cambiar entre la petición a la API para la generación de la info adicional o la query de debajo.
+flag_adiccional_generativo = False
+
+RESPUESTA_ADICIONAL = "<p>Addicionalmente existen otras fuentes que pueden ser de utilidad:</p><br><p><a class='font-semibold underline' href='https://datos.gob.es/' target='_blank'>Datos Abiertos del Gobierno de España</a>: Plataforma con múltiples datasets públicos de diferentes ámbitos en España.<p><br>\n<p><a class='font-semibold underline' href='https://opendata.aragon.es/' target='_blank'>Open Data Aragón</a>: Datos abiertos de la comunidad autónoma de Aragón.<p><br>\n<p><a class='font-semibold underline' href='https://datos.madrid.es/' target='_blank'>Datos Abiertos del Ayuntamiento de Madrid</a>: Datos abiertos de la comunidad autónoma de Madrid.<p><br>\n<p><a class='font-semibold underline' href='https://opendata.jcyl.es/' target='_blank'>Datos Abiertos de Castilla y León</a>: Datos públicos de Castilla y León en diferentes ámbitos.<p><br>\n<p><a class='font-semibold underline' href='https://opendata.bcn.cat/' target='_blank'>Ajuntament de Barcelona Open Data</a>: Datos abiertos de la provincia Barcelona.<p><br>\n"
 
 class SearchEngine:
     def __init__(self, db, generative, semantic):
         print('Created Search Engine')
         self.db = db
+        self.query_classifier = pickle.load(open('/app/api-chroma/query_classifier.pickle', 'rb'))
         self.generative = generative
         self.semantic = semantic
-
         self.pesos = {
             "title": 0.5,
             "description": 0.3,
             "header": 0.1,
             "rows": 0.1
         }
-        self.umbral_similitud = 0.6
-        self.top_n = 10
-        self.k = 50
+        
+        # Con 0.8 no encontraba nada, con 0.5 ha encontrado solo cosas relevantes
+        self.umbral_similitud = 0.50
+        self.umbral_similitud_generativo = 0.50
+        self.top_n = 10 # Resultados devueltos por keyword
+        self.k = 100    # Número de elementos máximo recuperado
 
+    # Función del endpoint search (inicio de las busquedas), ramificación keyword - intención
     def search(self, text):
         print(f"[SEARCH] Consulta recibida: {text}")
-        query_type = self.generative.classify_query_type(text)
-        
+        ini_query = time.time()
+        query_type = self.query_classifier.predict(self.semantic.model.encode([text])).tolist()[0]
         print(f"[SEARCH] Tipo de consulta clasificada: {'intent' if query_type == 1 else 'keyword'}")
+        print(f"[Tiempo Keyword-Intent] {time.time() - ini_query}")
+
         if query_type == 1:
-            keywords = self.generative.getKeywords(text)
+            ini_get_keywords = time.time()
+            # Según si queremos usar la API para generar la info adicional o no, la función con getKeywords_extra genera y devuelve un extra, mientras que la otra no.
+            if flag_adiccional_generativo:
+                keywords = self.generative.getKeywords_extra(text)
+            else:
+                keywords = self.generative.getKeywords(text)
+
+            print(f"[Tiempo Generar-Keywords] {time.time() - ini_get_keywords}")
+
             print(f"[SEARCH] Keywords generadas: {keywords}")
             return self.get_intent_results(keywords, text)
         else:
             return self.get_keyword_results(text)
+    
+    # Función para únifica la busqueda. Hace la query, filtro de similitud y rerank
+    def search_single_query(self, query, threshold=None, limit=None):        
+        ini_query = time.time()
+        # Consulta y devuelve todas las coincidencias en chroma
+        titulos, descripciones, cabeceras_csv, contenido_csv = self.semantic.query_collections(query, k=self.k)
+        candidate_ids = set(titulos["ids"]) | set(descripciones["ids"]) | set(cabeceras_csv["ids"]) | set(contenido_csv["ids"])       
+        print(f"[Tiempo Query] {time.time() - ini_query}")
 
-    def get_intent_results(self, queries, intent):
-        print(f"[INTENT] Ejecutando búsqueda para la intención: '{intent}'")
+        print(f"[QUERY INICIAL] {len(candidate_ids)} candidatos tras unión de colecciones")
         
-        resultados_finales = []
-        total_hits = 0
-        ya_encontrados = set()
-    
-        # Iterar por cada keyword generada y procesar cada una por separado
-        for q in queries['keywords']:
-            query = q['consulta']
-            print(f"[INTENT] Ejecutando consulta para la keyword: '{query}'")
-    
-            # Generar embedding de la keyword
-            emb_q = self.semantic.model.encode([query])[0]  # shape (dim,)
-    
-                # Recuperar candidatos de cada colección para esta keyword
-            r1 = self.semantic.col_titulo.query(query_embeddings=[emb_q], n_results=self.k)
-            r2 = self.semantic.col_desc.query(query_embeddings=[emb_q], n_results=self.k)
-            r3 = self.semantic.col_headers.query(query_embeddings=[emb_q], n_results=self.k)
-            r4 = self.semantic.col_data.query(query_embeddings=[emb_q], n_results=self.k)
-    
-            def get_score_dict(r):
-                return {r['ids'][0][i]: r['distances'][0][i] for i in range(len(r['ids'][0]))}
-    
-            # Obtener puntuaciones de cada colección
-            scores1 = get_score_dict(r1)
-            scores2 = get_score_dict(r2)
-            scores3 = get_score_dict(r3)
-            scores4 = get_score_dict(r4)
-    
-            # Unir los IDs de todas las colecciones
-            all_ids = set(scores1.keys()) | set(scores2.keys()) | set(scores3.keys()) | set(scores4.keys())
-            
-            # Combinar las puntuaciones de las colecciones con ponderación
-            combined_scores = {}
-            for _id in all_ids:
-                score = (
-                    scores1.get(_id, 0) * 0.5 +
-                    scores2.get(_id, 0) * 0.3 +
-                    scores3.get(_id, 0) * 0.1 +
-                    scores4.get(_id, 0) * 0.1
-                )
-    
-                # Filtrar si la puntuación es mayor al umbral de similitud
-                if score > 0.8:
-                    combined_scores[_id] = score
-    
-            # Ordenar los resultados por puntuación
-            ids_ordenados = sorted(combined_scores.items(), key=lambda x: x[1], reverse=True)
-            ids_finales = [id for id, _ in ids_ordenados]
-            print(f"[INTENT] IDs seleccionados para '{query}' (score > 0.8): {ids_finales}")
-    
-            # Recuperar metadatos de los top resultados
-            resultados = self.db.getItems(ids_finales)
-            hits = resultados.get('hits', [])
-    
-            for hit in hits:
-                dataset_id = hit['id']
-                score = combined_scores.get(dataset_id, None)
-                title = hit.get('title', 'SIN TÍTULO')
-                description = hit.get('description', 'SIN DESCRIPCIÓN')
-    
-            # Aplicar reranking a los hits recuperados
-            reranked_hits = self.semantic.resReranker(query, hits)
-            print(f"[INTENT] Resultados tras rerank para '{query}': {[r.get('id') for r in reranked_hits]}")
-    
-            # Filtrar resultados ya encontrados
-            reranked_hits = [r for r in reranked_hits if r['id'] not in ya_encontrados]
-            if reranked_hits:
-                for r in reranked_hits:
-                    ya_encontrados.add(r['id'])
-                q['resultados'] = {'hits': reranked_hits}
-                total_hits += len(reranked_hits)
-                resultados_finales.append(q)
-    
-        print(f"[INTENT] Total resultados acumulados: {total_hits}")
-        
-        if total_hits == 0:
-            return {
-                "type": "intent",
-                "total": 0,
-                "hits": 0,
-                "intro": self.generative.generateNoResultsResponse(intent),
-                "additional": ''
-            }
-
-        return {
-            "type": "intent",
-            "total": total_hits,
-            "hits": resultados_finales,
-            "intro": queries.get('intro', ''),
-            "additional": queries.get('extra', '')
-        }
-    
-    def get_keyword_results(self, query: str):
-        print(f"[KEYWORD] Ejecutando búsqueda manual para: '{query}'")
-
-        # 1) Generar embedding bruto de la query
-        emb_q = self.semantic.model.encode([query])[0]  # shape (dim,)
-
-        # 2) Recuperar candidatos por aproximación (solo para acotar la búsqueda)
-        r1 = self.semantic.col_titulo.query(query_embeddings=[emb_q],   n_results=self.k)
-        r2 = self.semantic.col_desc.query(query_embeddings=[emb_q],     n_results=self.k)
-        r3 = self.semantic.col_headers.query(query_embeddings=[emb_q],  n_results=self.k)
-        r4 = self.semantic.col_data.query(query_embeddings=[emb_q],     n_results=self.k)
-
-        # 3) Unión de IDs candidatos
-        ids1 = r1["ids"][0]
-        ids2 = r2["ids"][0]
-        ids3 = r3["ids"][0]
-        ids4 = r4["ids"][0]
-        candidate_ids = set(ids1 + ids2 + ids3 + ids4)
-        print(f"[KEYWORD] {len(candidate_ids)} candidatos tras unión de colecciones")
-        print(candidate_ids)
-        
-        # 4) Para cada candidato, recuperar sus 4 embeddings y calcular coseno
+        # Ponderación de las similitudes
+        ini_similitudes = time.time()
         similitudes = []
         for _id in candidate_ids:
-            # recuperar embeddings
-            emb_title = np.array(self.semantic.col_titulo.get(
-                ids=[_id], include=["embeddings"]
-            )["embeddings"][0])
-            emb_desc = np.array(self.semantic.col_desc.get(
-                ids=[_id], include=["embeddings"]
-            )["embeddings"][0])
-            emb_header = np.array(self.semantic.col_headers.get(
-                ids=[_id], include=["embeddings"]
-            )["embeddings"][0])
-            emb_rows = np.array(self.semantic.col_data.get(
-                ids=[_id], include=["embeddings"]
-            )["embeddings"][0])
-
-            # similitud coseno
-            sim_title = cosine_similarity([emb_q], [emb_title])[0][0]
-            sim_desc  = cosine_similarity([emb_q], [emb_desc  ])[0][0]
-            sim_head  = cosine_similarity([emb_q], [emb_header])[0][0]
-            sim_rows  = cosine_similarity([emb_q], [emb_rows  ])[0][0]
-
-            # combinación ponderada
-            sim_total = (
-                self.pesos["title"]       * sim_title +
-                self.pesos["description"] * sim_desc  +
-                self.pesos["header"]      * sim_head  +
-                self.pesos["rows"]        * sim_rows
-            )
-
-            print("Similitud total: ", sim_total)
+            sim_total = 0
+            sim_details = {}
             
-            if sim_total >= self.umbral_similitud:
+            for name, weight in self.pesos.items():
+                collection_name = {"title": "titulos","description": "descripciones", "header": "cabeceras_csv", "rows": "contenido_csv"}[name]
+                collection = {"titulos": titulos,"descripciones": descripciones,"cabeceras_csv": cabeceras_csv,"contenido_csv": contenido_csv}[collection_name]
+                
+                if _id in collection["ids"]:
+                    idx = collection["ids"].index(_id)
+                    sim = collection["similarities"][idx]
+                    sim_total += sim * weight
+                    sim_details[f"sim_{name}"] = sim
+                else:
+                    sim_details[f"sim_{name}"] = 0
+
+            if sim_total >= threshold:
                 similitudes.append({
                     "id": _id,
                     "sim_total": sim_total,
-                    "sim_title": sim_title,
-                    "sim_description": sim_desc,
-                    "sim_header": sim_head,
-                    "sim_rows": sim_rows
+                    **sim_details
                 })
+                
+        if not similitudes:
+            print(f"[FILTRO SIMILITUD] Ningún candidato supera el umbral {threshold}")
+            return [], []
 
-        # 5) Orden descendente y quedarnos con top_n
+        # Ordenar y seleccionar top resultados
         similitudes.sort(key=lambda x: x["sim_total"], reverse=True)
-        top = similitudes[:self.top_n]
-
-        # 6) Recuperar metadata de los top resultados y anotar puntuaciones
+        top = similitudes[:limit] if limit else similitudes
+        top_ids = [entry["id"] for entry in top]
+        print(f"[Tiempo Similitudes] {time.time() - ini_similitudes}")
+        
+        # Recuperar metadatos
+        ini_recuperacion = time.time()
+        docs = self.db.getItems(top_ids)["hits"]
         hits = []
-        for entry in top:
-            _id = entry["id"]
-            # getItems devuelve {'hits': [ {...} ], 'total': ...}
-            doc = self.db.getItems([_id])["hits"][0]
-            # añadimos las similitudes al objeto
-            doc["score"]            = entry["sim_total"]
-            doc["sim_title"]        = entry["sim_title"]
-            doc["sim_description"]  = entry["sim_description"]
-            doc["sim_header"]       = entry["sim_header"]
-            doc["sim_rows"]         = entry["sim_rows"]
+        for i, doc in enumerate(docs):
+            doc["score"] = top[i]["sim_total"]
+            doc["sim_title"] = top[i]["sim_title"]
+            doc["sim_description"] = top[i]["sim_description"]
+            doc["sim_header"] = top[i]["sim_header"]
+            doc["sim_rows"] = top[i]["sim_rows"]
             hits.append(doc)
+        print(f"[Tiempo Recuperar Datos DB] {time.time() - ini_recuperacion}")
 
+        # Aplicar reranking
+        ini_rerank = time.time()
+        print(f"[RERANKER] Total results after similarity: {len(hits)}")
         reranked_hits = self.semantic.resReranker(query, hits)
+        print(f"[Tiempo Rerank] {time.time() - ini_rerank}")
 
-        # Agregar campos json/csv aunque estén vacíos
+        return reranked_hits, top
+
+    def get_keyword_results(self, query):
+        print(f"[KEYWORD] Ejecutando búsqueda manual para: '{query}'")
+        reranked_hits, top = self.search_single_query(query, threshold=self.umbral_similitud, limit=self.top_n)
+        
+        # Asegurar campos json y csv
         for r in reranked_hits:
             r['json'] = r.get('json', '')
             r['csv'] = r.get('csv', '')
 
+        if flag_adiccional_generativo:
+            adaptativo = self.generative.additionalInfo(query)
+        else:
+            adaptativo = RESPUESTA_ADICIONAL
+            
         if not reranked_hits:
             print(f"[KEYWORD] Sin resultados, generando respuesta vacía.")
             return {
@@ -224,11 +139,52 @@ class SearchEngine:
                 "intro": self.generative.generateNoResultsResponse(query),
                 "additional": ''
             }
+        return {
+            "type": "keywords",
+            "total": {"value": len(reranked_hits)},
+            "hits": reranked_hits,
+            "intro": "",
+            "additional": adaptativo
+        }
+
+    def get_intent_results(self, queries, intent):
+        print(f"[INTENT] Ejecutando búsqueda para la intención: '{intent}'")
+        resultados_finales = []
+        total_hits = 0
+        ya_encontrados = set()
+
+        if flag_adiccional_generativo:
+            adaptativo = queries.get('extra', RESPUESTA_ADICIONAL)
         else:
+            adaptativo = RESPUESTA_ADICIONAL
+            
+        for q in queries['keywords']:
+            query = q['consulta']
+            print(f"[INTENT] Ejecutando consulta para la keyword: '{query}'")
+            reranked_hits, _ = self.search_single_query(query, threshold=self.umbral_similitud_generativo, limit=self.top_n)
+            
+            # Filtrar resultados ya encontrados
+            reranked_hits = [r for r in reranked_hits if r['id'] not in ya_encontrados]
+            if reranked_hits:
+                for r in reranked_hits:
+                    ya_encontrados.add(r['id'])
+                q['resultados'] = {'hits': reranked_hits}
+                total_hits += len(reranked_hits)
+                resultados_finales.append(q)
+
+        print(f"[INTENT] Total resultados acumulados: {total_hits}")
+        if total_hits == 0:
             return {
-                "type": "keywords",
-                "total": {"value": len(reranked_hits)},
-                "hits": reranked_hits,
-                "intro": "",
-                "additional": self.generative.additionalInfo(query)
+                "type": "intent",
+                "total": 0,
+                "hits": 0,
+                "intro": self.generative.generateNoResultsResponse(intent),
+                "additional": ''
             }
+        return {
+            "type": "intent",
+            "total": total_hits,
+            "hits": resultados_finales,
+            "intro": queries.get('intro', ''),
+            "additional": adaptativo
+        }

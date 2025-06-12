@@ -5,29 +5,21 @@ from logger import LoggerOpenSeach
 from db import dbEngine
 from generative import GenerativeEngine
 from semantic import SemanticEngine
-import chromadb
-import json,csv
+import json, csv
 import pandas as pd
 from io import StringIO
 from json import loads
-
-
-from transformers import AutoModel
+import time
+from pyinstrument import Profiler
 
 app = FastAPI()
 
 generative = GenerativeEngine('gpt-4.1-nano')
-
-semantic = SemanticEngine('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
-log = LoggerOpenSeach()
 db = dbEngine()
+semantic = SemanticEngine('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2', db)
+log = LoggerOpenSeach()
+
 search = SearchEngine(db, generative, semantic)
-
-# Cliente Chroma
-client = chromadb.PersistentClient(path="./chroma_data")
-
-coleccion_titulos = client.get_or_create_collection(name="titulos")
-coleccion_contenido = client.get_or_create_collection(name="contenido_csv")
 
 app.add_middleware(
     CORSMiddleware,
@@ -39,16 +31,28 @@ app.add_middleware(
 
 @app.get("/search")
 def searchApi(q: str):
-    import time
+    profiler = Profiler()
+    profiler.start()
+
     start = time.time()
     r = search.search(q)
     end = time.time()
-    log.saveLog(q, end - start)
+    response_time = end - start
+
+    profiler.stop()
+    log.saveLog(q, response_time)
+
+    r['response_time'] = round(response_time, 3)
+    
+    with open("profile_output.html", "w") as f:
+        f.write(profiler.output_html())
+
     return r
 
 @app.get("/dataset/{item_id}")
 def read_item(item_id: str):
-    result = coleccion_titulos.get(ids=[item_id])
+    coleccion_titulos = db.get_collection("titulos")
+    result = coleccion_titulos.get(ids=[item_id])    
     if result and result['metadatas']:
         try:
             return json.loads(result['metadatas'][0]['json'])
@@ -62,13 +66,13 @@ def get_suggestions(item_id: str):
 
 @app.get("/dataset/{item_id}/sample")
 def download_sample(item_id: str):
+    coleccion_contenido = db.get_collection("contenido_csv")
     result = coleccion_contenido.get(ids=[item_id])
     if result and result['metadatas']:
         try:
             csv_text = result['metadatas'][0].get("csv", "")
             if not csv_text:
                 return {"response": "No hay datos"}
-            # Detectar el delimitador
             sniffer = csv.Sniffer()
             delimiter = sniffer.sniff(csv_text).delimiter
             return {"response": loads(pd.read_csv(StringIO(csv_text), engine='python',
@@ -80,3 +84,5 @@ def download_sample(item_id: str):
 @app.get("/similar")
 def read_item(q: str):
     return semantic.similarItems(q)
+
+    

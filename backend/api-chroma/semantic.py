@@ -1,78 +1,97 @@
 from sentence_transformers import SentenceTransformer
-from db import dbEngine
 from FlagEmbedding import FlagReranker
 import os
 import numpy as np
-import chromadb
 
 class SemanticEngine:
-    def __init__(self, model_name):
+    def __init__(self, model_name, db):
         print('Created Semantic Engine')
         os.environ["TOKENIZERS_PARALLELISM"] = "true"
-
         self.model = SentenceTransformer(model_name)
         self.reranker = FlagReranker('BAAI/bge-reranker-v2-m3', use_fp16=True)
-        self.db = dbEngine()
+        self.db = db
         self.model.max_seq_length = 512
-
-        # Cliente y colecciones Chroma
-        client = chromadb.PersistentClient(path="./chroma_data")
         
-        self.col_titulo = client.get_or_create_collection(name="titulos")
-        self.col_desc = client.get_or_create_collection(name="descripciones")
-        self.col_headers = client.get_or_create_collection(name="cabeceras_csv")
-        self.col_data = client.get_or_create_collection(name="contenido_csv")
-
-    def get_embeddings(self, ids, collection):
-        res = collection.get(ids=ids, include=["embeddings"])
-        return [np.array(e) for e in res["embeddings"]]
+        self.col_titulo = db.get_collection("titulos")
+        self.col_desc = db.get_collection("descripciones")
+        self.col_headers = db.get_collection("cabeceras_csv")
+        self.col_data = db.get_collection("contenido_csv")
 
     def similarItems(self, query):
-        emb = self.model.encode(query).tolist()
-        res = self.col_titulo.query(query_embeddings=[emb], n_results=4)
-
-        ids = res['ids'][0][1:]  # Excluir el más similar (primer resultado)
+        emb = self.model.encode(query, normalize_embeddings=True).tolist()
+        res = self.col_titulo.query(query_embeddings=[emb], n_results=4, include=["distances"])
+        ids = res['ids'][0][1:] if res['ids'][0] else []
         docs = self.db.getItems(ids)
-
-        # Agregar similitud al resultado (si es necesario)
         for i, hit in enumerate(docs['hits']):
-            hit['_score'] = float(res['distances'][0][i + 1])  # desde el segundo
+            hit['_score'] = 1 - float(res['distances'][0][i + 1]) if i + 1 < len(res['distances'][0]) else 0.0
         return docs
 
     def resReranker(self, q, list_results):
         rank_description = []
         final_result = []
-    
-        print(f"[DEBUG] Ejecutando reranker para consulta: '{q}'")
-        print(f"[DEBUG] Número de resultados a evaluar: {len(list_results)}")
+        
+        for r in list_results:
+            desc = str(r.get('description', '')).strip()
+            if not desc:
+                continue
+            rank_description.append([q.strip(), desc])
 
-        if len(list_results) > 1:
-            for r in list_results:
-                desc = r.get('description', '')
-                print(f"[DEBUG] → Evaluando ID: {r.get('id')} | Descripción: {desc}")
-                rank_description.append([q, desc])
+        if not rank_description:
+            return final_result
+
+        scores_normalized = self.reranker.compute_score(rank_description, normalize=True)
+        if isinstance(scores_normalized, (float, np.float64)):
+            scores_normalized = [scores_normalized]
         
-            scores_description = self.reranker.compute_score(rank_description, normalize=True)
-        
-            if isinstance(scores_description, float) or isinstance(scores_description, np.float64):
-                scores_description = [scores_description]
-        
-            for index, score in enumerate(scores_description):
-                r_id = list_results[index].get('id')
-                if score >= 0.02:
-                    final_result.append(list_results[index])
-                
-        print(f"[DEBUG] Total aceptados tras reranker: {len(final_result)}")
+        for index, score in enumerate(scores_normalized):
+            if score >= 0.02:
+                final_result.append(list_results[index])
+
+        print(f"[RERANKER] Total results after reranking: {len(final_result)}")
         return final_result
-
+        
     def embed(self, text):
-        return self.model.encode(text)
+        return self.model.encode(text, normalize_embeddings=True)
 
-    def query_collections(self, query, k=50):
+    # Función para hacer la query a todas las colecciones. Devuelve una lista de resultados con ID y similitud por cada colección
+    def query_collections(self, query, k=None):
         emb = self.embed(query)
-        r1 = self.col_titulo.query(query_embeddings=[emb], n_results=k)
-        r2 = self.col_desc.query(query_embeddings=[emb], n_results=k)
-        r3 = self.col_headers.query(query_embeddings=[emb], n_results=k)
-        r4 = self.col_data.query(query_embeddings=[emb], n_results=k)
-
-        return r1, r2, r3, r4
+        collections = self.db.get_all_collections()
+        results = {}
+        for name, collection in collections.items():
+            if name == "datasets": # Skipeo la colección que lleva los datos completos
+                continue
+            try:
+                data = collection.query(
+                    query_embeddings=[emb],
+                    n_results=k,
+                    include=["distances"]
+                )
+                if not data["ids"] or not data["ids"][0]:
+                    results[name] = {
+                        "ids": [],
+                        "similarities": []
+                    }
+                    print(f"[QUERY_COLLECTIONS] Collection {name}: No results")
+                    continue
+    
+                similarities = [1 - d for d in data["distances"][0]] if data["distances"][0] else []
+    
+                results[name] = {
+                    "ids": data["ids"][0],
+                    "similarities": similarities
+                }
+    
+            except Exception as e:
+                print(f"[QUERY_COLLECTIONS] Error querying collection {name}: {e}")
+                results[name] = {
+                    "ids": [],
+                    "similarities": []
+                }
+    
+        return (
+            results.get("titulos", {"ids": [], "similarities": []}),
+            results.get("descripciones", {"ids": [], "similarities": []}),
+            results.get("cabeceras_csv", {"ids": [], "similarities": []}),
+            results.get("contenido_csv", {"ids": [], "similarities": []})
+        )

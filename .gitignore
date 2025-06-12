@@ -8,3 +8,4 @@ datos.zip
 /backend/api-chroma/chroma_data/chroma.sqlite3
 Datos/
 backend/api-chroma/chroma_data/chroma.sqlite3
+__pycache__

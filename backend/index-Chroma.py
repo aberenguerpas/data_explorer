@@ -1,4 +1,3 @@
-from transformers import AutoModel
 import os
 import json
 import numpy as np
@@ -7,12 +6,12 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 from sentence_transformers import SentenceTransformer
 import chromadb
-import unicodedata
+
 import re
 import string
 import torch
 import time
-from sklearn.preprocessing import normalize
+
 
 # ----------- CONFIGURACIÓN -----------
 model_name = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"

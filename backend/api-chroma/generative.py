@@ -4,6 +4,7 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain.prompts import PromptTemplate
 from utils import load_dataset
 from dotenv import load_dotenv
+import time
 
 class GenerativeEngine:
   def __init__(self, model_name):
@@ -51,9 +52,8 @@ class GenerativeEngine:
             return {"response": "Error parsing"}
       else:
         return {"response": "Error parsing"}
-      
-  
-  def getKeywords(self, intent):
+
+def getKeywords_extra(self, intent):
         intent_template = """
         Te voy a decir una tarea que quiero completar.
         Actúa como experto en analítica de datos.
@@ -101,8 +101,50 @@ class GenerativeEngine:
         except Exception as e:
             return []
 
+def getKeywords(self, intent):
+      
+        intent_template = """
+        Te voy a decir una tarea que quiero completar.
+        Actúa como experto en analítica de datos.
+        Dime hasta 6 consultas que harías a portales de datos que ayuden a resolver la tarea.
+        Cada consulta tiene entre 3 y 5 palabras. Cada consulta debe ser única y no deben parecerse entre ellas, en este sentido, los resultados de cada consulta no deberían parecerse.
+        
+        Además para cada consulta aporta:
+        Una Descripción por cada tarea que diga porqué la información que proporciona esa consulta es relevante para resolver la tarea. Tiene que tener entre 10 palabras y 30 palabras.
+        Un titulo tiene 3 y 5 palabras.
+        
+        Además genera una intro que indique al usuario porqué esas consultas son útiles para su búsqueda.
+        Para la intro no uses más de 60 palabras y qué sea útil y directa. No hagas listas.
+        
+        Sé realista con las consultas, debe ser información que habitualmente esté disponible y en abierto.
+        
+        La respuesta la debes devolver en formato json. El json debe seguir la siguiente estructura {format}.
+        La tarea es la siguiente: {task}.
+        """
 
-  def additionalInfo(self, query):
+        parser = JsonOutputParser()
+
+        format = """{intro:"...", "keywords":[
+                {"desc":"...", "titulo":"...", "consulta":"..."},
+                {"desc":"...", "titulo":"...", "consulta":"..."},
+                {"desc":"...", "titulo":"...", "consulta":"..."}]}"""
+
+        prompt_template = PromptTemplate(
+            input_variables=["task"],
+            template=intent_template,
+            partial_variables={"format_instructions": parser.get_format_instructions()}
+        )
+        
+        chain = prompt_template | self.llm | parser
+        try:
+            res = chain.invoke({"task": intent, "parsed": parser, "format": format})
+            return res
+        except Exception as e:
+            return []
+
+
+def additionalInfo(self, query):
+    ini_adicional = time.time()
     intent_template = """    
     Dime portales o APIs dónde se pueda encontrar datasets para la consulta que te voy a pasar.
     Debe estar centrado en España a menos que en la consulta se indique otro lugar.
@@ -120,11 +162,14 @@ class GenerativeEngine:
     )
     chain = prompt_template | self.llm
     res = chain.invoke({"query": query})
+          
+    print(f"[Tiempo Generar Info Adicional] {time.time() - ini_adicional}")
+
     return "<p>Addicionalmente existen otras fuentes que pueden ser de utilidad:</p><br>" + res.content
 
     
 
-  def generateNoResultsResponse(self, query):
+def generateNoResultsResponse(self, query):
     intent_template = """
     Proporciona portales de datos o APIs dónde se pueda encontrar datasets para la consulta que te voy a pasar.
     Tu respuesta debe de ser fiable.
@@ -149,21 +194,22 @@ class GenerativeEngine:
     text = "<p class='font-semibold'>Parece que no tenemos en nuestra base de datos la información que buscas, pero no te preocupes, hemos encontrado algo que quizá te sirva:</p><br>"
     return  text+res.content
 
-  def classify_query_type(self, query):
+  # Sustitución al SVC que indica si es keyword o query (actualmente no se usa.)
+def classify_query_type(self, query):
     prompt_template = PromptTemplate(
         input_variables=["query"],
         template="""
-Dada la siguiente consulta de un usuario, determina si se trata de una búsqueda directa de información (tipo 'keyword') o si el usuario está expresando una intención más general o abstracta (tipo 'intent').
+        Dada la siguiente consulta de un usuario, determina si se trata de una búsqueda directa de información (tipo 'keyword') o si el usuario está expresando una intención más general o abstracta (tipo 'intent').
 
-- Si el usuario menciona una acción, un objetivo o una necesidad, responde con: intent.
-- Si el usuario menciona directamente un concepto, entidad, evento o término específico a buscar, responde con: keyword.
+        - Si el usuario menciona una acción, un objetivo o una necesidad, responde con: intent.
+        - Si el usuario menciona directamente un concepto, entidad, evento o término específico a buscar, responde con: keyword.
 
-Devuelve solo una de estas dos palabras: intent o keyword.
+        Devuelve solo una de estas dos palabras: intent o keyword.
 
-Consulta: "{query}"
-Respuesta:
-""".strip()
-    )
+        Consulta: "{query}"
+        Respuesta:
+        """.strip()
+            )
     print(f"[CLASSIFY] Prompt de clasificación:\n{query}")
     chain = prompt_template | self.llm
     res = chain.invoke({"query": query})
